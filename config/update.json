@@ -1,0 +1,5 @@
+{
+    "updateUrl":  "https://downloads.privbot.dev/updates/manifest.json",
+    "channel":  "stable",
+    "autoCheck":  true
+}

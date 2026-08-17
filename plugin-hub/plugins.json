@@ -1,0 +1,1060 @@
+[
+    {
+        "internalName":  "shared-lib",
+        "hash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "size":  2437759,
+        "plugins":  [
+
+                    ],
+        "displayName":  "shared-lib",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot shared library (dependency for external plugins)",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "library"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "shared-lib.jar",
+                                          "hash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+                                          "size":  2437759
+                                      },
+                          "orion":  {
+                                        "file":  "shared-lib-orion.jar",
+                                        "hash":  "sha256:e8f9c94004c712034761c315c77a8a05873d84d3d9d3503e918711547aba28b9",
+                                        "size":  2438047
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "masterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb"
+    },
+    {
+        "internalName":  "auto-combat-pro",
+        "hash":  "sha256:85f7693ed2c6acd453fe5df24f9a098f5abd3f6b600971d67d8ceca3ca7b8997",
+        "size":  1897158,
+        "plugins":  [
+                        "aucopra.AutoCombatProPlugin"
+                    ],
+        "displayName":  "auto-combat-pro",
+        "provider":  "PluginOSRS",
+        "description":  "PrivBot plugin: auto-combat-pro",
+        "author":  "adrian",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "auto-combat-pro.jar",
+                                          "hash":  "sha256:85f7693ed2c6acd453fe5df24f9a098f5abd3f6b600971d67d8ceca3ca7b8997",
+                                          "size":  1897158
+                                      },
+                          "orion":  {
+                                        "file":  "auto-combat-pro-orion.jar",
+                                        "hash":  "sha256:7bf890fbd3a4ca5593d42d3b0faa129632cfbe0992142f6cf53d1c447152075d",
+                                        "size":  1897733
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "icon":  "icons/auto-combat-pro.png",
+        "supportedServers":  [
+                                 "Impact",
+                                 "Roat Pkz",
+                                 "Orion"
+                             ]
+    },
+    {
+        "internalName":  "vetion-killer",
+        "hash":  "sha256:62117e4b47580bb2576baf0ad9206e8f9953514ebda86cc74e2629d91cf80b6a",
+        "size":  1930371,
+        "plugins":  [
+                        "vekia.VetionKillerPlugin"
+                    ],
+        "displayName":  "vetion-killer",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: vetion-killer",
+        "author":  "adrian",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "vetion-killer.jar",
+                                          "hash":  "sha256:62117e4b47580bb2576baf0ad9206e8f9953514ebda86cc74e2629d91cf80b6a",
+                                          "size":  1930371
+                                      },
+                          "orion":  {
+                                        "file":  "vetion-killer-orion.jar",
+                                        "hash":  "sha256:5655c2c44c9573597d9d29c159c54e46c79171d7e6442cf4f08876df6890061e",
+                                        "size":  1930454
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "icon":  "icons/vetion-killer.png",
+        "supportedServers":  [
+                                 "Roat Pkz"
+                             ]
+    },
+    {
+        "internalName":  "vetion-impact",
+        "hash":  "sha256:ba459c5e9c4b63e9ff2849a6c431d5edae684427ea1dadd146d4661cd6ec6463",
+        "size":  1940812,
+        "plugins":  [
+                        "veima.veima.VetionImpactPlugin"
+                    ],
+        "displayName":  "vetion-impact",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: vetion-impact",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "vetion-impact.jar",
+                                          "hash":  "sha256:ba459c5e9c4b63e9ff2849a6c431d5edae684427ea1dadd146d4661cd6ec6463",
+                                          "size":  1940812
+                                      },
+                          "orion":  {
+                                        "file":  "vetion-impact-orion.jar",
+                                        "hash":  "sha256:26cafab91e287516e732ce2785a61c8289304652bffe043552b3563c4ba6fc30",
+                                        "size":  1940834
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "icon":  "icons/vetion-impact.png",
+        "supportedServers":  [
+                                 "Impact"
+                             ]
+    },
+    {
+        "internalName":  "antiban-handler",
+        "hash":  "sha256:dc38952cf59f690da1421d0992cfb7933210334ec4364adc7a484bcf57298e97",
+        "size":  335264,
+        "plugins":  [
+                        "anhaa.AntiBanHandlerPlugin"
+                    ],
+        "displayName":  "antiban-handler",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: antiban-handler",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "antiban-handler.jar",
+                                          "hash":  "sha256:dc38952cf59f690da1421d0992cfb7933210334ec4364adc7a484bcf57298e97",
+                                          "size":  335264
+                                      },
+                          "orion":  {
+                                        "file":  "antiban-handler-orion.jar",
+                                        "hash":  "sha256:17274167c8120228688c53e34087f904c95402ec3f628d050a83cfb0b0b0d291",
+                                        "size":  335308
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "icon":  "icons/antiban-handler.png",
+        "supportedServers":  [
+                                 "Impact",
+                                 "Roat Pkz",
+                                 "Orion"
+                             ]
+    },
+    {
+        "internalName":  "privbot-tools",
+        "hash":  "sha256:375942977e8502b0987417285e44c1c7d7aeab773711c357c51cc66ab6cad36e",
+        "size":  2383223,
+        "plugins":  [
+                        "prtoa.PrivBotToolsPlugin"
+                    ],
+        "displayName":  "privbot-tools",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: privbot-tools",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "privbot-tools.jar",
+                                          "hash":  "sha256:375942977e8502b0987417285e44c1c7d7aeab773711c357c51cc66ab6cad36e",
+                                          "size":  2383223
+                                      },
+                          "orion":  {
+                                        "file":  "privbot-tools-orion.jar",
+                                        "hash":  "sha256:5e74d7a50d42002cda960fd5aade4bab06e2f6eafe1e7a6107d8d0233b27970e",
+                                        "size":  2383762
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "icon":  "icons/privbot-tools.png",
+        "supportedServers":  [
+                                 "Impact",
+                                 "Roat Pkz",
+                                 "Orion"
+                             ]
+    },
+    {
+        "internalName":  "autopvp",
+        "hash":  "sha256:2288f87038d240d3fe11830dfa2c5f62ec8ff2ad739360ab87bb3068f8efe738",
+        "size":  3582358,
+        "plugins":  [
+                        "aua.AutoPvPPlugin"
+                    ],
+        "displayName":  "autopvp",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: autopvp",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "autopvp.jar",
+                                          "hash":  "sha256:2288f87038d240d3fe11830dfa2c5f62ec8ff2ad739360ab87bb3068f8efe738",
+                                          "size":  3582358
+                                      },
+                          "orion":  {
+                                        "file":  "autopvp-orion.jar",
+                                        "hash":  "sha256:8ec83f151eaac0c2a60797f9f943fcb110fde59c93d8d04065680cecc8624e7a",
+                                        "size":  3582338
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "icon":  "icons/autopvp.png",
+        "supportedServers":  [
+                                 "Roat Pkz",
+                                 "Orion"
+                             ]
+    },
+    {
+        "internalName":  "npc-tracker",
+        "hash":  "sha256:bb820c60cafd2116c7e67629bdc0e20864de2716cfc181083c76d7698193be1a",
+        "size":  3532139,
+        "plugins":  [
+                        "nptra.nptra.NpcTrackerPlugin"
+                    ],
+        "displayName":  "npc-tracker",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: npc-tracker",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "npc-tracker.jar",
+                                          "hash":  "sha256:bb820c60cafd2116c7e67629bdc0e20864de2716cfc181083c76d7698193be1a",
+                                          "size":  3532139
+                                      },
+                          "orion":  {
+                                        "file":  "npc-tracker-orion.jar",
+                                        "hash":  "sha256:6773f88b6bb4187e132b1cabc244e58e9fa6b86b3b32f240e7cb9b6574dfd61f",
+                                        "size":  3532198
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "icon":  "icons/npc-tracker.png",
+        "supportedServers":  [
+                                 "Impact",
+                                 "Roat Pkz",
+                                 "Orion"
+                             ]
+    },
+    {
+        "internalName":  "verzik",
+        "hash":  "sha256:7755d0110ac46585fc8c1c2479cd0324065a7f8756e7ce4a0015c30a103eceae",
+        "size":  1729962,
+        "plugins":  [
+                        "vea.vea.VerzikPlugin"
+                    ],
+        "displayName":  "verzik",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: verzik",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "verzik.jar",
+                                          "hash":  "sha256:7755d0110ac46585fc8c1c2479cd0324065a7f8756e7ce4a0015c30a103eceae",
+                                          "size":  1729962
+                                      },
+                          "orion":  {
+                                        "file":  "verzik-orion.jar",
+                                        "hash":  "sha256:31cc22439e57d0236fc8835f92730331fe64d2f71a5545c2017d1d14169d1594",
+                                        "size":  1729917
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "icon":  "icons/verzik.png",
+        "supportedServers":  [
+                                 "Orion"
+                             ]
+    },
+    {
+        "internalName":  "gauntlet",
+        "hash":  "sha256:8af2fa559b5498358ca4a2182371cc72f155c4b20a3d0915d5a7d164a60d3477",
+        "size":  1725657,
+        "plugins":  [
+                        "gaa.gaa.GauntletPlugin"
+                    ],
+        "displayName":  "gauntlet",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: gauntlet",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "gauntlet.jar",
+                                          "hash":  "sha256:8af2fa559b5498358ca4a2182371cc72f155c4b20a3d0915d5a7d164a60d3477",
+                                          "size":  1725657
+                                      },
+                          "orion":  {
+                                        "file":  "gauntlet-orion.jar",
+                                        "hash":  "sha256:98027fd8c806f6e94d12bf2b22ba3037bacc47e068863b30dcde7fe8ba0dd847",
+                                        "size":  1725819
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "icon":  "icons/gauntlet.png",
+        "supportedServers":  [
+                                 "Orion"
+                             ]
+    },
+    {
+        "internalName":  "warden",
+        "hash":  "sha256:7eabeef3c0e03c51e6aaf3a41aaabad02416d412842394ac06313e8f86085730",
+        "size":  391196,
+        "plugins":  [
+                        "waa.waa.WardenPlugin"
+                    ],
+        "displayName":  "warden",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: warden",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "warden.jar",
+                                          "hash":  "sha256:7eabeef3c0e03c51e6aaf3a41aaabad02416d412842394ac06313e8f86085730",
+                                          "size":  391196
+                                      },
+                          "orion":  {
+                                        "file":  "warden-orion.jar",
+                                        "hash":  "sha256:fff49c41ed1dd6ccf4b8a2fe69b70d64ffe06428b3dd740fb7d2d31d59a280d2",
+                                        "size":  391278
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "icon":  "icons/warden.png",
+        "supportedServers":  [
+                                 "Orion"
+                             ]
+    },
+    {
+        "internalName":  "warden-impact",
+        "hash":  "sha256:0cc9297c79274b090fd02255154344925ac37e0e25cca6650d8944d755a0d01a",
+        "size":  402694,
+        "plugins":  [
+                        "waima.waima.WardenImpactPlugin"
+                    ],
+        "displayName":  "warden-impact",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: warden-impact",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "warden-impact.jar",
+                                          "hash":  "sha256:0cc9297c79274b090fd02255154344925ac37e0e25cca6650d8944d755a0d01a",
+                                          "size":  402694
+                                      },
+                          "orion":  {
+                                        "file":  "warden-impact-orion.jar",
+                                        "hash":  "sha256:34ea936477dcc918b8a29f9805e1c560323deb44d30b0995a1cdd24684f6359c",
+                                        "size":  402622
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "icon":  "icons/warden-impact.png",
+        "supportedServers":  [
+                                 "Impact"
+                             ]
+    },
+    {
+        "internalName":  "cox",
+        "hash":  "sha256:38b96af223fee7c6ec6d719dec05548a7b1621ad6406d9f15ac30a4588b72157",
+        "size":  1346280,
+        "plugins":  [
+                        "coa.coa.CoxPlugin"
+                    ],
+        "displayName":  "cox",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: cox",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "cox.jar",
+                                          "hash":  "sha256:38b96af223fee7c6ec6d719dec05548a7b1621ad6406d9f15ac30a4588b72157",
+                                          "size":  1346280
+                                      },
+                          "orion":  {
+                                        "file":  "cox-orion.jar",
+                                        "hash":  "sha256:e197f01bbdf6a18ba7249834415492590b617eb33ce47633546b2e0f83947be5",
+                                        "size":  1346276
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "icon":  "icons/cox.png",
+        "supportedServers":  [
+                                 "Orion"
+                             ]
+    },
+    {
+        "internalName":  "auto-slayer",
+        "hash":  "sha256:9083a5bf70d963ca4419f57a6b1e6ed491aa5e44c6108e988f9d0dd0fcaedabc",
+        "size":  1510393,
+        "plugins":  [
+                        "ausla.ausla.AutoSlayerPlugin"
+                    ],
+        "displayName":  "auto-slayer",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: auto-slayer",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "auto-slayer.jar",
+                                          "hash":  "sha256:9083a5bf70d963ca4419f57a6b1e6ed491aa5e44c6108e988f9d0dd0fcaedabc",
+                                          "size":  1510393
+                                      },
+                          "orion":  {
+                                        "file":  "auto-slayer-orion.jar",
+                                        "hash":  "sha256:78061fce5f96328cee806246282572549c532929a3a417c89142ccb65c389420",
+                                        "size":  1510355
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "icon":  "icons/auto-slayer.png",
+        "supportedServers":  [
+                                 "Orion"
+                             ]
+    },
+    {
+        "internalName":  "impact-slayer",
+        "hash":  "sha256:7bc793df32c386ee36480da5bca92b305c177f9ee51cfa75f2795069520d287a",
+        "size":  1526537,
+        "plugins":  [
+                        "imsla.imsla.ImpactSlayerPlugin"
+                    ],
+        "displayName":  "impact-slayer",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: impact-slayer",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "impact-slayer.jar",
+                                          "hash":  "sha256:7bc793df32c386ee36480da5bca92b305c177f9ee51cfa75f2795069520d287a",
+                                          "size":  1526537
+                                      },
+                          "orion":  {
+                                        "file":  "impact-slayer-orion.jar",
+                                        "hash":  "sha256:5a788ee4b4dfa2798bc681ca23c319c6708bf090be68d0a0212adc9f96f20695",
+                                        "size":  1526576
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "icon":  "icons/impact-slayer.png",
+        "supportedServers":  [
+                                 "Impact"
+                             ]
+    },
+    {
+        "internalName":  "tormented-demons",
+        "hash":  "sha256:8b3eb66792064c612a166e57186ba44041d870e39e1fcd5bde0ba9c2c4c19433",
+        "size":  1425002,
+        "plugins":  [
+                        "todea.todea.TormentedDemonsPlugin"
+                    ],
+        "displayName":  "tormented-demons",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: tormented-demons",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "tormented-demons.jar",
+                                          "hash":  "sha256:8b3eb66792064c612a166e57186ba44041d870e39e1fcd5bde0ba9c2c4c19433",
+                                          "size":  1425002
+                                      },
+                          "orion":  {
+                                        "file":  "tormented-demons-orion.jar",
+                                        "hash":  "sha256:6faf2c47f8cc4a5bae22aa54fd05542fe908363006a814abcdf45686bb53f7d3",
+                                        "size":  1425025
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "icon":  "icons/tormented-demons.png",
+        "supportedServers":  [
+                                 "Impact"
+                             ]
+    },
+    {
+        "internalName":  "demonic-gorillas",
+        "hash":  "sha256:dbee697805f2b38440e8e213f9d2f42bc92ae44c244581187fbea5918583d648",
+        "size":  1430573,
+        "plugins":  [
+                        "degoa.degoa.DemonicGorillasPlugin"
+                    ],
+        "displayName":  "demonic-gorillas",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: demonic-gorillas",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "demonic-gorillas.jar",
+                                          "hash":  "sha256:dbee697805f2b38440e8e213f9d2f42bc92ae44c244581187fbea5918583d648",
+                                          "size":  1430573
+                                      },
+                          "orion":  {
+                                        "file":  "demonic-gorillas-orion.jar",
+                                        "hash":  "sha256:172e59c70e826b71bd463e6001b33bf2c2ba65297bfec5b962e7930c60e75c7e",
+                                        "size":  1430597
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "icon":  "icons/demonic-gorillas.png",
+        "supportedServers":  [
+                                 "Impact"
+                             ]
+    },
+    {
+        "internalName":  "inferno",
+        "hash":  "sha256:bd6609ae3305d00eac7f6165879f61481587b60dd2d20790e8b5cd615b41f81a",
+        "size":  58001,
+        "plugins":  [
+                        "ina.ina.InfernoPlugin"
+                    ],
+        "displayName":  "inferno",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: inferno",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "inferno.jar",
+                                          "hash":  "sha256:bd6609ae3305d00eac7f6165879f61481587b60dd2d20790e8b5cd615b41f81a",
+                                          "size":  58001
+                                      },
+                          "orion":  {
+                                        "file":  "inferno-orion.jar",
+                                        "hash":  "sha256:f87e2df1f5cc8d02f11e870909f9dfcf7edac1a5b9700ac744dd7ae23805351b",
+                                        "size":  58079
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "supportedServers":  [
+                                 ""
+                             ]
+    },
+    {
+        "internalName":  "auto-godwars",
+        "hash":  "sha256:ae480d94424a793f6aeb1e71c746adcf8d681019e34bd090452379fdf44fa5ce",
+        "size":  2207792,
+        "plugins":  [
+                        "augoa.augoa.AutoGodwarsPlugin"
+                    ],
+        "displayName":  "auto-godwars",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: auto-godwars",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "auto-godwars.jar",
+                                          "hash":  "sha256:ae480d94424a793f6aeb1e71c746adcf8d681019e34bd090452379fdf44fa5ce",
+                                          "size":  2207792
+                                      },
+                          "orion":  {
+                                        "file":  "auto-godwars-orion.jar",
+                                        "hash":  "sha256:49cd6e81a881ec7f1d1f6a64824dabef8a6a5e415941c8c00435b1b0c4b6751e",
+                                        "size":  2207821
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "icon":  "icons/auto-godwars.png",
+        "supportedServers":  [
+                                 "Orion"
+                             ]
+    },
+    {
+        "internalName":  "scurrius",
+        "hash":  "sha256:20b2d7a26cd016aea66793c3bfb717620b228f574e0c83c3868809ed7e5a4bf4",
+        "size":  75126,
+        "plugins":  [
+                        "sca.sca.ScurriusPlugin"
+                    ],
+        "displayName":  "scurrius",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: scurrius",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "scurrius.jar",
+                                          "hash":  "sha256:20b2d7a26cd016aea66793c3bfb717620b228f574e0c83c3868809ed7e5a4bf4",
+                                          "size":  75126
+                                      },
+                          "orion":  {
+                                        "file":  "scurrius-orion.jar",
+                                        "hash":  "sha256:3aab141cdde0e8883c3849915c373768a8f889c3bcb4e861aa20490e913ba4cb",
+                                        "size":  75245
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "supportedServers":  [
+                                 "Impact"
+                             ]
+    },
+    {
+        "internalName":  "xamphur",
+        "hash":  "sha256:6308aaed77a65d6cf2e848646607ecdc95d056de3e83e9f649c6dda5a256a11f",
+        "size":  72214,
+        "plugins":  [
+                        "xaa.xaa.XamphurPlugin"
+                    ],
+        "displayName":  "xamphur",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: xamphur",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "xamphur.jar",
+                                          "hash":  "sha256:6308aaed77a65d6cf2e848646607ecdc95d056de3e83e9f649c6dda5a256a11f",
+                                          "size":  72214
+                                      },
+                          "orion":  {
+                                        "file":  "xamphur-orion.jar",
+                                        "hash":  "sha256:77a7ed825e5eedef568ecbf5e8c402a313d1f6514cb3e8666a4dc5195c741982",
+                                        "size":  72172
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "supportedServers":  [
+                                 "Impact"
+                             ]
+    },
+    {
+        "internalName":  "afk-trainer",
+        "hash":  "sha256:369f348fa7ab0d678872e6b2457a97753bc06a562f8565214d36203a0b1c8b7c",
+        "size":  3075775,
+        "plugins":  [
+                        "aftra.aftra.AFKTrainerPlugin"
+                    ],
+        "displayName":  "afk-trainer",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: afk-trainer",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "afk-trainer.jar",
+                                          "hash":  "sha256:369f348fa7ab0d678872e6b2457a97753bc06a562f8565214d36203a0b1c8b7c",
+                                          "size":  3075775
+                                      },
+                          "orion":  {
+                                        "file":  "afk-trainer-orion.jar",
+                                        "hash":  "sha256:ebf0ed6e5fe8913ab028fd844631991d8b64ee77d639f9152e4fec25d1167b09",
+                                        "size":  3075728
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "icon":  "icons/afk-trainer.png",
+        "supportedServers":  [
+                                 "Orion"
+                             ]
+    },
+    {
+        "internalName":  "easter-event",
+        "hash":  "sha256:71da2d5c7353fa4b55197e54ee2a36526326e7bf3e54e18926afd7657cd6e3b6",
+        "size":  1672900,
+        "plugins":  [
+                        "eaeva.eaeva.EasterEventPlugin"
+                    ],
+        "displayName":  "easter-event",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: easter-event",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "easter-event.jar",
+                                          "hash":  "sha256:71da2d5c7353fa4b55197e54ee2a36526326e7bf3e54e18926afd7657cd6e3b6",
+                                          "size":  1672900
+                                      },
+                          "orion":  {
+                                        "file":  "easter-event-orion.jar",
+                                        "hash":  "sha256:90b9593a6e416c2a9fbd888f3fe5823bf2f80f934e5dc025acd21174d0849825",
+                                        "size":  1672853
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "icon":  "icons/easter-event.png",
+        "supportedServers":  [
+                                 ""
+                             ]
+    },
+    {
+        "internalName":  "gloughkiller",
+        "hash":  "sha256:388e409cb6feb9d4598f79d4a4eefc8f67618ad80d84309fc59a83232ab7773d",
+        "size":  1733462,
+        "plugins":  [
+                        "gla.gla.GloughKillerPlugin"
+                    ],
+        "displayName":  "gloughkiller",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: gloughkiller",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "gloughkiller.jar",
+                                          "hash":  "sha256:388e409cb6feb9d4598f79d4a4eefc8f67618ad80d84309fc59a83232ab7773d",
+                                          "size":  1733462
+                                      },
+                          "orion":  {
+                                        "file":  "gloughkiller-orion.jar",
+                                        "hash":  "sha256:029f7c519c5ec253311da5ea120c86c8b3cddbf8a5a1708a70d70040ceb50856",
+                                        "size":  1733511
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "icon":  "icons/gloughkiller.png",
+        "supportedServers":  [
+                                 "Orion"
+                             ]
+    },
+    {
+        "internalName":  "duke",
+        "hash":  "sha256:71a8283f580efa328dc876aaeaa8c7b2a20fd2564f3abb12a368a4ee1a940f29",
+        "size":  134434,
+        "plugins":  [
+                        "dua.dua.DukeKillerPlugin"
+                    ],
+        "displayName":  "duke",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: duke",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "duke.jar",
+                                          "hash":  "sha256:71a8283f580efa328dc876aaeaa8c7b2a20fd2564f3abb12a368a4ee1a940f29",
+                                          "size":  134434
+                                      },
+                          "orion":  {
+                                        "file":  "duke-orion.jar",
+                                        "hash":  "sha256:069bac9815f8e6db2956b1abb42182b5e4577d6239caf129a50d4681e685df4c",
+                                        "size":  134430
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "supportedServers":  [
+                                 "Impact"
+                             ]
+    },
+    {
+        "internalName":  "event-farmer",
+        "hash":  "sha256:8b72a5eea231fdf48b4e0c81caef43f509af0777922e8d030e616b9d1e84236f",
+        "size":  138939,
+        "plugins":  [
+                        "evfaa.evfaa.EventFarmerPlugin"
+                    ],
+        "displayName":  "event-farmer",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: event-farmer",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "event-farmer.jar",
+                                          "hash":  "sha256:8b72a5eea231fdf48b4e0c81caef43f509af0777922e8d030e616b9d1e84236f",
+                                          "size":  138939
+                                      },
+                          "orion":  {
+                                        "file":  "event-farmer-orion.jar",
+                                        "hash":  "sha256:9c7fcf93c025cf3b401a7b02d66d639813aa0cfad543bea22cf2914d1c9a1d77",
+                                        "size":  138985
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "supportedServers":  [
+                                 ""
+                             ]
+    },
+    {
+        "internalName":  "doom-plugin",
+        "hash":  "sha256:ca48efb82b1b44d458ccd78d518e5faade5b21911ac4d0fc95e9730d14392935",
+        "size":  96006,
+        "plugins":  [
+                        "dopla.dopla.DoomPlugin"
+                    ],
+        "displayName":  "doom-plugin",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: doom-plugin",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "doom-plugin.jar",
+                                          "hash":  "sha256:ca48efb82b1b44d458ccd78d518e5faade5b21911ac4d0fc95e9730d14392935",
+                                          "size":  96006
+                                      },
+                          "orion":  {
+                                        "file":  "doom-plugin-orion.jar",
+                                        "hash":  "sha256:02caddb4a4af6c91d521e7c2edb9e2c75d42bbe8cfc094d7bcf2b1f7b355902d",
+                                        "size":  95904
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "supportedServers":  [
+                                 ""
+                             ]
+    },
+    {
+        "internalName":  "shadow",
+        "hash":  "sha256:41e7e04d0d7c0361b21d07ab446438e797869175f7e62664ff7f283507f190c2",
+        "size":  36516,
+        "plugins":  [
+                        "sha.sha.ShadowPlugin"
+                    ],
+        "displayName":  "shadow",
+        "provider":  "https://downloads.privbot.dev/plugin-hub",
+        "description":  "PrivBot plugin: shadow",
+        "author":  "PrivBot",
+        "version":  "1.0.0",
+        "tags":  [
+                     "external",
+                     "plugin",
+                     "automation"
+                 ],
+        "artifacts":  {
+                          "default":  {
+                                          "file":  "shadow.jar",
+                                          "hash":  "sha256:41e7e04d0d7c0361b21d07ab446438e797869175f7e62664ff7f283507f190c2",
+                                          "size":  36516
+                                      },
+                          "orion":  {
+                                        "file":  "shadow-orion.jar",
+                                        "hash":  "sha256:1c40390ec5b568197ddaea8594f4b2d1f2bb8e90e4d4344ffb4f9ac0cdbb2664",
+                                        "size":  36527
+                                    }
+                      },
+        "buildFlavor":  "customer",
+        "sharedLibVersion":  "1.0.0",
+        "sharedLibMasterDataHash":  "sha256:db7eead17bbee03fa8f5f67052530357730b93d236f7d6af8d952e8ca60ff1eb",
+        "buildId":  "1.0.0",
+        "supportedServers":  [
+                                 "Impact"
+                             ]
+    }
+]

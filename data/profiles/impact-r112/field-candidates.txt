@@ -1,0 +1,259 @@
+# Cross-server field finder
+# Source fingerprints: C:\Users\Jake\Desktop\Agent_IDE\PrivBot-refactor\data\profiles\spawnpk\fingerprints.json
+# Target jar:          C:\Users\Jake\AppData\Roaming\Impact AppData\codebase112.dat
+# Anchor map:          SpawnPK -> Impact-r112
+
+# Format: per SpawnPK class, list each tracked field with the top-3
+# candidate fields on the anchored Impact class, scored by shape similarity.
+# Pick the candidate whose role you can verify (in-game testing or javap inspection).
+
+====================================================================
+SpawnPK rs/Client        ->  Impact a/W
+====================================================================
+  E:                     desc=D                                (no candidates with this descriptor on a/W)
+  ae:                    desc=I                                [OU s=27]  [Oe s=24]  [UU s=24]  [U9 s=22]  [O s=20]  (+29 more, 34 unmapped total)
+  af:                    desc=I                                [OU s=27]  [Oe s=24]  [UU s=24]  [U9 s=22]  [US s=22]  (+29 more, 34 unmapped total)
+  ag:                    desc=I                                [Oe s=37]  [UU s=37]  [U9 s=35]  [OU s=34]  [UW s=33]  (+29 more, 34 unmapped total)
+  bn:                    desc=I                                [Oz s=45]  [OL s=45]  [O9 s=45]  [OD s=45]  [OR s=45]  (+174 more, 179 unmapped total)
+  cH:                    desc=I                                [OE s=43]  [ON s=41]  [O1 s=41]  [O6 s=41]  [O3 s=40]  (+174 more, 179 unmapped total)
+  cI:                    desc=I                                [O1 s=45]  [OI s=44]  [C s=41]  [Oc s=41]  [ON s=40]  (+174 more, 179 unmapped total)
+  cY:                    desc=I                                [g s=48]  [s s=48]  [O s=45]  [U s=43]  [U4 s=43]  (+29 more, 34 unmapped total)
+  cg:                    desc=Z                                [a s=42]  [P s=38]  [n s=32]  [X s=32]  [N s=30]  (+31 more, 36 unmapped total)
+  cr:                    desc=[Lrs/a/j;→[La/wc;              [O s=47]  
+  cy:                    desc=I                                [g s=47]  [s s=47]  [O s=46]  [U4 s=46]  [U s=44]  (+29 more, 34 unmapped total)
+  dG:                    desc=[I                               [C s=63]  [a s=61]  [X s=61]  [Q s=59]  [N s=58]  (+42 more, 47 unmapped total)
+  dR:                    desc=Lrs/h;→La/P;                   [U s=46]  [O s=13]  [F s=1]  
+  dY:                    desc=I                                [US s=36]  [UW s=28]  [UX s=28]  [T s=27]  [U9 s=26]  (+29 more, 34 unmapped total)
+  dZ:                    desc=I                                [US s=37]  [UW s=28]  [UX s=28]  [T s=27]  [U9 s=26]  (+29 more, 34 unmapped total)
+  de:                    desc=[Lrs/a/k;→[La/wT;              (no candidates with this descriptor on a/W)
+  dm:                    desc=I                                [Oe s=27]  [UU s=27]  [UW s=26]  [US s=26]  [U9 s=25]  (+29 more, 34 unmapped total)
+  dp:                    desc=[I                               [x s=61]  [a s=59]  [X s=59]  [Q s=59]  [N s=58]  (+42 more, 47 unmapped total)
+  dr:                    desc=[Ljava/lang/String;              [c s=19]  [y s=18]  [g s=16]  [U s=15]  [Z s=13]  (+3 more, 8 unmapped total)
+  ds:                    desc=[Ljava/lang/String;              [y s=21]  [c s=18]  [g s=18]  [Z s=16]  [d s=14]  (+3 more, 8 unmapped total)
+  du:                    desc=I                                [UF s=44]  [UB s=44]  [UG s=44]  [Uf s=44]  [Ow s=42]  (+174 more, 179 unmapped total)
+  dv:                    desc=Lrs/V;→La/Hm;                  (no candidates with this descriptor on a/W)
+  eA:                    desc=[I                               [C s=64]  [OU s=61]  [Oc s=61]  [OF s=59]  [Or s=58]  (+42 more, 47 unmapped total)
+  eI:                    desc=Lrs/a/k;→La/wT;                [O s=48]  
+  eK:                    desc=[I                               [OO s=32]  [OG s=29]  [OB s=26]  [l s=25]  [A s=17]  (+11 more, 16 unmapped total)
+  eN:                    desc=I                                [FF s=44]  [Fc s=44]  [Uu s=43]  [FB s=43]  [Fr s=42]  (+174 more, 179 unmapped total)
+  eP:                    desc=I                                [Fg s=44]  [UC s=43]  [FO s=43]  [FU s=43]  [F8 s=43]  (+174 more, 179 unmapped total)
+  eT:                    desc=Z                                [t s=69]  [e s=64]  [w s=64]  [I s=63]  [M s=61]  (+31 more, 36 unmapped total)
+  ef:                    desc=[I                               [b s=61]  [OF s=61]  [Or s=60]  [C s=59]  [a s=58]  (+42 more, 47 unmapped total)
+  ej:                    desc=I                                [UI s=43]  [Ut s=43]  [Uj s=42]  [UV s=41]  [Uq s=41]  (+174 more, 179 unmapped total)
+  ek:                    desc=Lrs/h;→La/P;                   [O s=48]  [U s=11]  [F s=11]  
+  ew:                    desc=[I                               [Q s=62]  [t s=61]  [i s=61]  [C s=60]  [N s=59]  (+42 more, 47 unmapped total)
+  ex:                    desc=[I                               [Q s=62]  [i s=61]  [t s=60]  [C s=60]  [N s=59]  (+42 more, 47 unmapped total)
+  ey:                    desc=[I                               [C s=66]  [OF s=64]  [Or s=64]  [Oc s=63]  [a s=60]  (+42 more, 47 unmapped total)
+  ez:                    desc=[I                               [i s=64]  [w s=56]  [v s=55]  [I s=55]  [Q s=54]  (+42 more, 47 unmapped total)
+  fC:                    desc=I                                [V s=48]  [k s=36]  [A s=35]  [F3 s=31]  [Fs s=31]  (+29 more, 34 unmapped total)
+  fE:                    desc=I                                [J s=44]  [FD s=40]  [FR s=40]  [Ff s=38]  [Um s=37]  (+174 more, 179 unmapped total)
+  fG:                    desc=[Lrs/f;→[La/ys;                (no candidates with this descriptor on a/W)
+  fI:                    desc=[I                               [Oc s=43]  [OF s=42]  [Or s=42]  [C s=40]  [Oy s=37]  (+42 more, 47 unmapped total)
+  fT:                    desc=[[[B                             (no candidates with this descriptor on a/W)
+  fU:                    desc=I                                [Fk s=41]  [UJ s=39]  [FL s=38]  [FN s=38]  [FT s=37]  (+174 more, 179 unmapped total)
+  fb:                    desc=Ljava/lang/String;               [D s=46]  [c s=45]  [L s=45]  [z s=44]  [r s=42]  (+12 more, 17 unmapped total)
+  fc:                    desc=Ljava/lang/String;               [D s=46]  [L s=45]  [c s=44]  [z s=44]  [r s=42]  (+12 more, 17 unmapped total)
+  fo:                    desc=[Ljava/lang/String;              [O s=23]  [B s=18]  [d s=16]  [Z s=13]  [g s=11]  (+3 more, 8 unmapped total)
+  ft:                    desc=[[[I                             [O s=0]  
+  gg:                    desc=I                                [Ux s=47]  [OO s=43]  [OE s=43]  [UL s=43]  [Fz s=43]  (+174 more, 179 unmapped total)
+  jF:                    desc=I                                [ON s=47]  [OI s=45]  [O1 s=44]  [O3 s=43]  [Ow s=43]  (+174 more, 179 unmapped total)
+  jG:                    desc=[I                               [a s=64]  [X s=58]  [b s=58]  [OF s=58]  [Or s=58]  (+42 more, 47 unmapped total)
+  jU:                    desc=I                                [Ot s=46]  [Uy s=46]  [OP s=45]  [Ox s=45]  [Om s=45]  (+174 more, 179 unmapped total)
+  jn:                    desc=[[[Lrs/h;→[[[La/P;             (no candidates with this descriptor on a/W)
+  kB:                    desc=I                                [Ul s=47]  [OM s=46]  [Ur s=46]  [Uc s=46]  [UB s=45]  (+174 more, 179 unmapped total)
+  kt:                    desc=[I                               [a s=64]  [X s=59]  [b s=59]  [OF s=59]  [Or s=58]  (+42 more, 47 unmapped total)
+  nN:                    desc=I                                [Fl s=46]  [Fj s=46]  [Ub s=45]  [FZ s=44]  [UX s=43]  (+29 more, 34 unmapped total)
+  oe:                    desc=I                                [F7 s=46]  [Fa s=46]  [Fh s=45]  [Fv s=45]  [F8 s=44]  (+174 more, 179 unmapped total)
+  og:                    desc=Lrs/m/p;                         (no candidates with this descriptor on a/W)
+  t:                     desc=Ljava/util/List;                 (no candidates with this descriptor on a/W)
+  ("*" = already mapped in field-mapping.properties)
+
+====================================================================
+SpawnPK rs/H             ->  Impact a/Hz
+====================================================================
+  j:                     desc=Lrs/U;                           (no candidates with this descriptor on a/Hz)
+  k:                     desc=Lrs/T;                           (no candidates with this descriptor on a/Hz)
+  l:                     desc=Lrs/m;                           (no candidates with this descriptor on a/Hz)
+  o:                     desc=[Lrs/l;→[La/Ul;                (no candidates with this descriptor on a/Hz)
+  ("*" = already mapped in field-mapping.properties)
+
+====================================================================
+SpawnPK rs/Q             ->  Impact (NO ANCHOR — skipped)
+====================================================================
+
+====================================================================
+SpawnPK rs/V             ->  Impact a/Hm
+====================================================================
+  i:                     desc=[[[Lrs/H;→[[[La/Hz;            [O* s=54]  
+  j:                     desc=I                                (no candidates with this descriptor on a/Hm)
+  k:                     desc=I                                (no candidates with this descriptor on a/Hm)
+  l:                     desc=I                                (no candidates with this descriptor on a/Hm)
+  ("*" = already mapped in field-mapping.properties)
+
+====================================================================
+SpawnPK rs/a/b           ->  Impact a/lJ
+====================================================================
+  h:                     desc=I                                [U* s=36]  [F* s=27]  [O* s=24]  [c* s=23]  [r* s=22]  
+  i:                     desc=I                                [U* s=39]  [F* s=30]  [c* s=26]  [r* s=25]  [O* s=21]  
+  j:                     desc=I                                [U* s=39]  [F* s=34]  [c* s=30]  [r* s=29]  [O* s=17]  
+  k:                     desc=I                                [F* s=37]  [U* s=36]  [c* s=33]  [r* s=32]  [O* s=14]  
+  l:                     desc=I                                [c* s=36]  [r* s=35]  [F* s=34]  [U* s=33]  [O* s=11]  
+  m:                     desc=Z                                [O* s=53]  
+  n:                     desc=Lrs/e/x;                         (no candidates with this descriptor on a/lJ)
+  o:                     desc=I                                [c* s=43]  [r* s=42]  [F* s=37]  [U* s=36]  [O* s=13]  
+  p:                     desc=I                                [c* s=48]  [r* s=37]  [F* s=32]  [U* s=31]  [O* s=8]  
+  ("*" = already mapped in field-mapping.properties)
+
+====================================================================
+SpawnPK rs/a/c           ->  Impact a/n
+====================================================================
+  E:                     desc=I                                [i s=42]  [r* s=39]  [c* s=39]  [y* s=39]  [F* s=38]  (+45 more, 31 unmapped total)
+  F:                     desc=I                                [F* s=63]  [r* s=63]  [R* s=62]  [s* s=61]  [B* s=60]  (+45 more, 31 unmapped total)
+  L:                     desc=I                                [i s=65]  [k s=45]  [p s=44]  [f s=43]  [A s=43]  (+45 more, 31 unmapped total)
+  M:                     desc=I                                [A s=45]  [V s=45]  [q s=45]  [o s=44]  [f s=44]  (+45 more, 31 unmapped total)
+  N:                     desc=I                                [V s=46]  [q s=45]  [J s=45]  [f s=44]  [A s=44]  (+45 more, 31 unmapped total)
+  S:                     desc=I                                [p s=69]  [a s=68]  [k s=42]  [I* s=42]  [V s=41]  (+45 more, 31 unmapped total)
+  ac:                    desc=I                                [I* s=45]  [e* s=45]  [X s=42]  [x s=42]  [S s=42]  (+45 more, 31 unmapped total)
+  ad:                    desc=I                                [I* s=46]  [e* s=45]  [Q* s=43]  [x s=42]  [S s=42]  (+45 more, 31 unmapped total)
+  i:                     desc=Z                                [O* s=48]  [U* s=3]  
+  k:                     desc=[I                               [F* s=57]  [U* s=53]  [r* s=53]  [c* s=51]  [O* s=48]  (+1 more, 0 unmapped total)
+  l:                     desc=[I                               [y* s=67]  [c* s=63]  [r* s=57]  [F* s=53]  [U* s=41]  (+1 more, 0 unmapped total)
+  m:                     desc=I                                [F* s=67]  [r* s=66]  [g s=63]  [Z* s=63]  [B* s=62]  (+45 more, 31 unmapped total)
+  q:                     desc=Ljava/lang/String;               [O* s=48]  
+  r:                     desc=I                                [g s=45]  [Z* s=45]  [d s=45]  [B* s=44]  [G* s=44]  (+45 more, 31 unmapped total)
+  z:                     desc=I                                [s* s=71]  [B* s=70]  [G* s=70]  [g s=69]  [Z* s=69]  (+45 more, 31 unmapped total)
+  ("*" = already mapped in field-mapping.properties)
+
+====================================================================
+SpawnPK rs/a/g           ->  Impact a/AY
+====================================================================
+  h:                     desc=I                                [O* s=46]  [U* s=36]  [F* s=26]  
+  k:                     desc=I                                [F* s=46]  [U* s=36]  [O* s=26]  
+  ("*" = already mapped in field-mapping.properties)
+
+====================================================================
+SpawnPK rs/a/h           ->  Impact (NO ANCHOR — skipped)
+====================================================================
+
+====================================================================
+SpawnPK rs/a/j           ->  Impact a/wc
+====================================================================
+  aG:                    desc=Lrs/e/d;→La/Zl;                (no candidates with this descriptor on a/wc)
+  ("*" = already mapped in field-mapping.properties)
+
+====================================================================
+SpawnPK rs/a/k           ->  Impact a/wT
+====================================================================
+  aT:                    desc=Lrs/e/d;→La/Zl;                (no candidates with this descriptor on a/wT)
+  aY:                    desc=I                                [OU s=42]  [OF s=41]  [Oc s=41]  [Or s=40]  [Oy* s=40]  (+16 more, 19 unmapped total)
+  aZ:                    desc=Ljava/lang/String;               [U* s=38]  
+  bc:                    desc=I                                [Oc s=48]  [Oy* s=47]  [OF s=46]  [Or s=45]  [Og s=44]  (+16 more, 19 unmapped total)
+  bd:                    desc=I                                [Oy* s=46]  [Oc s=45]  [OZ s=44]  [OF s=43]  [Og s=43]  (+16 more, 19 unmapped total)
+  bf:                    desc=I                                [Oy* s=45]  [OZ s=45]  [Oc s=44]  [Og s=44]  [OF s=42]  (+16 more, 19 unmapped total)
+  bm:                    desc=Z                                [F s=51]  
+  br:                    desc=[I                               [Z s=65]  [g* s=49]  
+  ("*" = already mapped in field-mapping.properties)
+
+====================================================================
+SpawnPK rs/a/l           ->  Impact a/AC
+====================================================================
+  B:                     desc=Lrs/e/x;                         (no candidates with this descriptor on a/AC)
+  h:                     desc=I                                [l* s=44]  [U* s=37]  [s* s=37]  [c* s=37]  [F* s=35]  (+10 more, 4 unmapped total)
+  i:                     desc=I                                [l* s=44]  [U* s=41]  [s* s=40]  [F* s=38]  [z* s=38]  (+10 more, 4 unmapped total)
+  k:                     desc=D                                [y* s=71]  [g s=43]  [c* s=39]  [r* s=38]  [Z s=38]  (+3 more, 2 unmapped total)
+  l:                     desc=D                                [g s=71]  [y* s=43]  [Z s=41]  [c* s=36]  [r* s=35]  (+3 more, 2 unmapped total)
+  n:                     desc=I                                [y* s=43]  [c* s=42]  [z* s=42]  [L* s=41]  [Z s=40]  (+10 more, 4 unmapped total)
+  p:                     desc=I                                [G* s=48]  [d s=42]  [B s=40]  [Z s=39]  [y* s=37]  (+10 more, 4 unmapped total)
+  w:                     desc=I                                [l* s=45]  [s* s=44]  [z* s=41]  [U* s=40]  [F* s=38]  (+10 more, 4 unmapped total)
+  x:                     desc=I                                [s* s=45]  [l* s=43]  [z* s=43]  [F* s=39]  [L* s=39]  (+10 more, 4 unmapped total)
+  ("*" = already mapped in field-mapping.properties)
+
+====================================================================
+SpawnPK rs/e/d           ->  Impact a/Zl
+====================================================================
+  n:                     desc=I                                [F* s=43]  [U* s=40]  [r* s=39]  [c s=36]  [O* s=33]  (+3 more, 4 unmapped total)
+  o:                     desc=Ljava/lang/String;               [F* s=39]  [O* s=21]  [U* s=21]  
+  p:                     desc=[Ljava/lang/String;              [O* s=60]  
+  u:                     desc=I                                [F* s=41]  [r* s=40]  [U* s=38]  [c s=37]  [y s=32]  (+3 more, 4 unmapped total)
+  x:                     desc=J                                (no candidates with this descriptor on a/Zl)
+  z:                     desc=[Lrs/e/d;→[La/Zl;              [O* s=58]  
+  ("*" = already mapped in field-mapping.properties)
+
+====================================================================
+SpawnPK rs/e/k           ->  Impact (NO ANCHOR — skipped)
+====================================================================
+
+====================================================================
+SpawnPK rs/e/r           ->  Impact a/fj
+====================================================================
+  P:                     desc=Ljava/lang/String;               [O* s=4]  
+  Y:                     desc=I                                [G s=64]  [s s=64]  [R s=63]  [d s=60]  [g s=59]  (+13 more, 15 unmapped total)
+  aH:                    desc=[Lrs/e/r;→[La/fj;              (no candidates with this descriptor on a/fj)
+  aw:                    desc=[Ljava/lang/String;              [O* s=49]  
+  ("*" = already mapped in field-mapping.properties)
+
+====================================================================
+SpawnPK rs/e/x           ->  Impact (NO ANCHOR — skipped)
+====================================================================
+
+====================================================================
+SpawnPK rs/f             ->  Impact a/ys
+====================================================================
+  a:                     desc=[[I                              [O* s=58]  
+  ("*" = already mapped in field-mapping.properties)
+
+====================================================================
+SpawnPK rs/h             ->  Impact a/P
+====================================================================
+  a:                     desc=Lrs/t;→La/wa;                  [O* s=56]  [U* s=4]  
+  b:                     desc=Lrs/t;→La/wa;                  [U* s=69]  [O* s=4]  
+  ("*" = already mapped in field-mapping.properties)
+
+====================================================================
+SpawnPK rs/l             ->  Impact a/Ul
+====================================================================
+  a:                     desc=I                                [F s=36]  [U s=35]  [r s=34]  [c s=31]  [y* s=24]  (+4 more, 7 unmapped total)
+  f:                     desc=I                                [r s=40]  [c s=40]  [F s=37]  [g s=33]  [y* s=32]  (+4 more, 7 unmapped total)
+  h:                     desc=I                                [c s=38]  [g s=37]  [Z s=37]  [r s=35]  [y* s=35]  (+4 more, 7 unmapped total)
+  ("*" = already mapped in field-mapping.properties)
+
+====================================================================
+SpawnPK rs/m/e/q         ->  Impact (NO ANCHOR — skipped)
+====================================================================
+
+====================================================================
+SpawnPK rs/m/m           ->  Impact (NO ANCHOR — skipped)
+====================================================================
+
+====================================================================
+SpawnPK rs/n/e           ->  Impact a/Ks
+====================================================================
+  F:                     desc=[Lrs/n/e;→[La/Ks;              [O* s=48]  
+  N:                     desc=I                                [l* s=36]  [D s=36]  [G s=35]  [z s=35]  [Z s=34]  (+27 more, 18 unmapped total)
+  Z:                     desc=I                                [Z s=43]  [d* s=41]  [D s=41]  [j* s=40]  [s* s=38]  (+27 more, 18 unmapped total)
+  aM:                    desc=Z                                [Z s=37]  [d* s=37]  [G s=35]  [l* s=33]  [g* s=32]  (+11 more, 7 unmapped total)
+  aN:                    desc=I                                [p s=37]  [W s=36]  [A s=35]  [k* s=35]  [V s=35]  (+27 more, 18 unmapped total)
+  ae:                    desc=I                                [D s=38]  [z s=35]  [R* s=35]  [h* s=35]  [l* s=34]  (+27 more, 18 unmapped total)
+  ai:                    desc=[I                               [F* s=22]  [c s=22]  [U* s=21]  [O* s=18]  [r s=18]  (+2 more, 2 unmapped total)
+  aq:                    desc=Ljava/lang/String;               [F* s=20]  [U* s=16]  [O* s=6]  
+  as:                    desc=I                                [T* s=38]  [h* s=37]  [z s=35]  [j* s=35]  [k* s=35]  (+27 more, 18 unmapped total)
+  at:                    desc=[I                               [g* s=27]  [c s=22]  [r s=20]  [y* s=19]  [F* s=17]  (+2 more, 2 unmapped total)
+  av:                    desc=[I                               [g* s=31]  [c s=23]  [y* s=21]  [r s=18]  [F* s=15]  (+2 more, 2 unmapped total)
+  bb:                    desc=I                                [a s=44]  [p s=43]  [N s=43]  [J s=42]  [V s=41]  (+27 more, 18 unmapped total)
+  ("*" = already mapped in field-mapping.properties)
+
+====================================================================
+SpawnPK rs/t             ->  Impact a/wa
+====================================================================
+  c:                     desc=J                                [O* s=65]  
+  d:                     desc=Lrs/t;→La/wa;                  [O* s=69]  [U* s=22]  
+  e:                     desc=Lrs/t;→La/wa;                  [U* s=67]  [O* s=24]  
+  ("*" = already mapped in field-mapping.properties)
+
+====================================================================
+SUMMARY
+====================================================================
+  total SpawnPK fields:           139
+  scored (had candidate pool):    118
+  no candidate (descriptor miss): 21
+  unanchored (no class map):      24

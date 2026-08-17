@@ -1,0 +1,23 @@
+a/DA net/runelite/api/Client
+a/W a/W
+	B ()Z menuDispatch
+a/n net/runelite/api/Actor
+a/wT net/runelite/api/Player
+a/wc net/runelite/api/NPC
+a/Uy net/runelite/api/Renderable
+a/ON net/runelite/api/widgets/Widget
+a/Ul net/runelite/api/GameObject
+a/AY net/runelite/api/TileItem
+a/AC net/runelite/api/Projectile
+a/lJ a/lJ
+a/Ks net/runelite/api/ItemComposition
+a/Zl net/runelite/api/NPCComposition
+a/fj net/runelite/api/ObjectComposition
+a/Hm net/runelite/api/Scene
+a/ys net/runelite/api/CollisionData
+a/Hz net/runelite/api/Tile
+a/BK net/runelite/api/VarbitComposition
+a/UB a/UB
+a/Uz a/Uz
+a/wa a/wa
+a/P a/P

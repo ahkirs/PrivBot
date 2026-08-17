@@ -1,0 +1,26 @@
+{
+  "server": "impact",
+  "green": 0,
+  "total": 1,
+  "capabilities": [
+    {
+      "id": "harness.liveness",
+      "label": "Game-thread dispatch",
+      "status": "BLOCKED",
+      "reason": "GameThread.ensure timed out — harness cannot read game state on this build",
+      "resolutionAttempted": false,
+      "unresolvedLogicals": [],
+      "committedMappings": [],
+      "revertedMappings": []
+    }
+  ],
+  "digestTotal": -1,
+  "digestUnresolved": [],
+  "digestCandidatesOnly": [],
+  "sweep": {
+    "ran": false,
+    "attempted": 0,
+    "timedOut": false,
+    "committed": []
+  }
+}

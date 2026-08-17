@@ -1,0 +1,353 @@
+{
+  "inputJar": "C:\\Users\\Jake\\.reason\\betaclient.jar",
+  "totalClasses": 11695,
+  "scanDate": "Wed Apr 01 17:16:22 CDT 2026",
+  "classes": {
+    "Client": {
+      "obfuscated": "net/runelite/client/plugins/toa/features/het/solver/HetSolution",
+      "confidence": "HIGH",
+      "description": "Main game client class (menu handler, game loop)"
+    },
+    "MainLoop": {
+      "obfuscated": "rs117/hd/data/materials/Material",
+      "confidence": "MEDIUM",
+      "description": "Event hub / MinimalHooks (highest single-Object-param method density)"
+    },
+    "Actor": {
+      "obfuscated": null,
+      "confidence": null,
+      "description": "Base entity class â€” parent of Player and NPC. Score: 0"
+    },
+    "Player": {
+      "obfuscated": null,
+      "confidence": null,
+      "description": "Player entity â€” has int[] equipment array"
+    },
+    "NPC": {
+      "obfuscated": null,
+      "confidence": null,
+      "description": "NPC entity â€” has NpcDefinition reference, no equipment array"
+    },
+    "Renderable": {
+      "obfuscated": null,
+      "confidence": null,
+      "description": "Base renderable â€” Actor's superclass"
+    },
+    "Widget": {
+      "obfuscated": "rs117/hd/scene/model_overrides/ModelOverride",
+      "confidence": "CONFIRMED",
+      "description": "Widget class â€” self-referencing children array. Score: 1080"
+    },
+    "GameObject": {
+      "obfuscated": "com/sun/jna/platform/win32/Ddeml$MONCBSTRUCT",
+      "confidence": "MEDIUM",
+      "description": "Tile-based game object. Score: 115"
+    },
+    "GroundItem": {
+      "obfuscated": "net/runelite/client/ui/components/ThinProgressBar",
+      "confidence": "MEDIUM",
+      "description": "Ground item / TileItem. Score: 90"
+    },
+    "Projectile": {
+      "obfuscated": "net/runelite/client/plugins/gpu/GpuPlugin",
+      "confidence": "MEDIUM",
+      "description": "Projectile â€” 4+ double fields (coords) + cycle ints. Score: 154"
+    },
+    "ItemComposition": {
+      "obfuscated": null,
+      "confidence": null,
+      "description": "Item definition â€” highest String field density. Score: 0"
+    },
+    "NPCComposition": {
+      "obfuscated": null,
+      "confidence": null,
+      "description": "NPC definition â€” second highest String density. Score: 0"
+    },
+    "ObjectComposition": {
+      "obfuscated": "com/google/gson/stream/JsonReader",
+      "confidence": "MEDIUM",
+      "description": "Object definition â€” int+boolean+int[]+String[] pattern. Score: 55"
+    },
+    "Scene": {
+      "obfuscated": "net/runelite/client/ui/overlay/outline/ModelOutlineRenderer",
+      "confidence": "MEDIUM",
+      "description": "Scene/Region â€” 3D tile arrays. Score: 137"
+    },
+    "CollisionMap": {
+      "obfuscated": null,
+      "confidence": null,
+      "description": "CollisionData â€” small class with int[][] flags. Score: 0"
+    },
+    "Tile": {
+      "obfuscated": "net/runelite/client/ui/overlay/outline/ModelOutlineRenderer$PixelDistanceDelta",
+      "confidence": "LOW",
+      "description": "SceneTile â€” element of Scene 3D array. Score: 0"
+    },
+    "VarbitComposition": {
+      "obfuscated": "net/runelite/client/plugins/itemstats/RangeStatChange",
+      "confidence": "MEDIUM",
+      "description": "Varbit definition â€” 3 int fields (varpIndex, lsb, msb). Score: 106"
+    },
+    "InventoryManager": {
+      "obfuscated": "okhttp3/internal/http2/Huffman",
+      "confidence": "MEDIUM",
+      "description": "Class with array size 28 (inventory slots)"
+    },
+    "RegionManager": {
+      "obfuscated": null,
+      "confidence": null,
+      "description": "Class with 104/10816 constants (region tiles)"
+    },
+    "ClientPacket": {
+      "obfuscated": "net/runelite/client/plugins/chatcommands/ChatCommandsPlugin",
+      "confidence": "MEDIUM",
+      "description": "Packet writer â€” largest switch statement"
+    },
+    "PacketFields": {
+      "obfuscated": "net/runelite/client/game/AgilityShortcut",
+      "confidence": "LOW",
+      "description": "Packet field constants (known opcode values)"
+    },
+    "SkillDataStore": {
+      "obfuscated": "net/runelite/api/Experience",
+      "confidence": "HIGH",
+      "description": "Static skill data store (XP table fingerprint). Score: 60"
+    },
+    "MenuArrays": {
+      "obfuscated": "rs117/hd/HdPlugin",
+      "confidence": "MEDIUM",
+      "description": "Class with parallel int[]/long[]/String[] arrays (menu system). Score: 55"
+    }
+  },
+  "methods": {
+    "menuDispatch": {
+      "owner": "rs117/hd/HdPlugin",
+      "obfuscatedName": "lambda$processPendingConfigChanges$13",
+      "descriptor": "()V",
+      "confidence": "MEDIUM",
+      "description": "Menu dispatch â€” largest switch in menu array class. Cases: 94"
+    }
+  },
+  "fields": {
+    "Widget": [
+      { "name": "description", "descriptor": "Ljava/lang/String;" },
+      { "name": "seasonalTheme", "descriptor": "Lrs117/hd/config/SeasonalTheme;" },
+      { "name": "areas", "descriptor": "[Lrs117/hd/scene/areas/AABB;" },
+      { "name": "npcIds", "descriptor": "Ljava/util/Set;" },
+      { "name": "objectIds", "descriptor": "Ljava/util/Set;" },
+      { "name": "projectileIds", "descriptor": "Ljava/util/Set;" },
+      { "name": "graphicsObjectIds", "descriptor": "Ljava/util/Set;" },
+      { "name": "baseMaterial", "descriptor": "Lrs117/hd/data/materials/Material;" },
+      { "name": "textureMaterial", "descriptor": "Lrs117/hd/data/materials/Material;" },
+      { "name": "uvType", "descriptor": "Lrs117/hd/data/materials/UvType;" },
+      { "name": "uvScale", "descriptor": "F" },
+      { "name": "uvOrientation", "descriptor": "I" },
+      { "name": "uvOrientationX", "descriptor": "I" },
+      { "name": "uvOrientationY", "descriptor": "I" },
+      { "name": "uvOrientationZ", "descriptor": "I" },
+      { "name": "rotate", "descriptor": "I" },
+      { "name": "hide", "descriptor": "Z" },
+      { "name": "retainVanillaUvs", "descriptor": "Z" },
+      { "name": "forceMaterialChanges", "descriptor": "Z" },
+      { "name": "flatNormals", "descriptor": "Z" },
+      { "name": "upwardsNormals", "descriptor": "Z" },
+      { "name": "hideVanillaShadows", "descriptor": "Z" },
+      { "name": "retainVanillaShadowsInPvm", "descriptor": "Z" },
+      { "name": "hideHdShadowsInPvm", "descriptor": "Z" },
+      { "name": "castShadows", "descriptor": "Z" },
+      { "name": "receiveShadows", "descriptor": "Z" },
+      { "name": "terrainVertexSnap", "descriptor": "Z" },
+      { "name": "shadowOpacityThreshold", "descriptor": "F" },
+      { "name": "tzHaarRecolorType", "descriptor": "Lrs117/hd/scene/model_overrides/TzHaarRecolorType;" },
+      { "name": "inheritTileColorType", "descriptor": "Lrs117/hd/scene/model_overrides/InheritTileColorType;" },
+      { "name": "windDisplacementMode", "descriptor": "Lrs117/hd/scene/model_overrides/WindDisplacement;" },
+      { "name": "hideInAreas", "descriptor": "[Lrs117/hd/scene/areas/AABB;" },
+      { "name": "materialOverrides", "descriptor": "Ljava/util/Map;" },
+      { "name": "colorOverrides", "descriptor": "[Lrs117/hd/scene/model_overrides/ModelOverride;" },
+      { "name": "colors", "descriptor": "Lcom/google/gson/JsonElement;" },
+      { "name": "isDummy", "descriptor": "Z" },
+      { "name": "areaOverrides", "descriptor": "Ljava/util/Map;" },
+      { "name": "ahslCondition", "descriptor": "Lrs117/hd/scene/model_overrides/ModelOverride$AhslPredicate;" }
+    ],
+    "Projectile": [
+      { "name": "client", "descriptor": "Lnet/runelite/api/Client;" },
+      { "name": "clientUI", "descriptor": "Lnet/runelite/client/ui/ClientUI;" },
+      { "name": "openCLManager", "descriptor": "Lnet/runelite/client/plugins/gpu/OpenCLManager;" },
+      { "name": "clientThread", "descriptor": "Lnet/runelite/client/callback/ClientThread;" },
+      { "name": "config", "descriptor": "Lnet/runelite/client/plugins/gpu/GpuPluginConfig;" },
+      { "name": "textureManager", "descriptor": "Lnet/runelite/client/plugins/gpu/TextureManager;" },
+      { "name": "sceneUploader", "descriptor": "Lnet/runelite/client/plugins/gpu/SceneUploader;" },
+      { "name": "drawManager", "descriptor": "Lnet/runelite/client/ui/DrawManager;" },
+      { "name": "pluginManager", "descriptor": "Lnet/runelite/client/plugins/PluginManager;" },
+      { "name": "computeMode", "descriptor": "Lnet/runelite/client/plugins/gpu/GpuPlugin$ComputeMode;" },
+      { "name": "canvas", "descriptor": "Ljava/awt/Canvas;" },
+      { "name": "awtContext", "descriptor": "Lnet/runelite/rlawt/AWTContext;" },
+      { "name": "debugCallback", "descriptor": "Lorg/lwjgl/system/Callback;" },
+      { "name": "glCapabilities", "descriptor": "Lorg/lwjgl/opengl/GLCapabilities;" },
+      { "name": "glProgram", "descriptor": "I" },
+      { "name": "glComputeProgram", "descriptor": "I" },
+      { "name": "glSmallComputeProgram", "descriptor": "I" },
+      { "name": "glUnorderedComputeProgram", "descriptor": "I" },
+      { "name": "glUiProgram", "descriptor": "I" },
+      { "name": "vaoCompute", "descriptor": "I" },
+      { "name": "vaoTemp", "descriptor": "I" },
+      { "name": "interfaceTexture", "descriptor": "I" },
+      { "name": "interfacePbo", "descriptor": "I" },
+      { "name": "vaoUiHandle", "descriptor": "I" },
+      { "name": "vboUiHandle", "descriptor": "I" },
+      { "name": "fboScene", "descriptor": "I" },
+      { "name": "rboColorBuffer", "descriptor": "I" },
+      { "name": "sceneVertexBuffer", "descriptor": "Lnet/runelite/client/plugins/gpu/GLBuffer;" },
+      { "name": "sceneUvBuffer", "descriptor": "Lnet/runelite/client/plugins/gpu/GLBuffer;" },
+      { "name": "tmpVertexBuffer", "descriptor": "Lnet/runelite/client/plugins/gpu/GLBuffer;" },
+      { "name": "tmpUvBuffer", "descriptor": "Lnet/runelite/client/plugins/gpu/GLBuffer;" },
+      { "name": "tmpModelBufferLarge", "descriptor": "Lnet/runelite/client/plugins/gpu/GLBuffer;" },
+      { "name": "tmpModelBufferSmall", "descriptor": "Lnet/runelite/client/plugins/gpu/GLBuffer;" },
+      { "name": "tmpModelBufferUnordered", "descriptor": "Lnet/runelite/client/plugins/gpu/GLBuffer;" },
+      { "name": "tmpOutBuffer", "descriptor": "Lnet/runelite/client/plugins/gpu/GLBuffer;" },
+      { "name": "tmpOutUvBuffer", "descriptor": "Lnet/runelite/client/plugins/gpu/GLBuffer;" },
+      { "name": "textureArrayId", "descriptor": "I" },
+      { "name": "tileHeightTex", "descriptor": "I" },
+      { "name": "uniformBuffer", "descriptor": "Lnet/runelite/client/plugins/gpu/GLBuffer;" },
+      { "name": "vertexBuffer", "descriptor": "Lnet/runelite/client/plugins/gpu/GpuIntBuffer;" },
+      { "name": "uvBuffer", "descriptor": "Lnet/runelite/client/plugins/gpu/GpuFloatBuffer;" },
+      { "name": "modelBufferUnordered", "descriptor": "Lnet/runelite/client/plugins/gpu/GpuIntBuffer;" },
+      { "name": "modelBufferSmall", "descriptor": "Lnet/runelite/client/plugins/gpu/GpuIntBuffer;" },
+      { "name": "modelBuffer", "descriptor": "Lnet/runelite/client/plugins/gpu/GpuIntBuffer;" },
+      { "name": "unorderedModels", "descriptor": "I" },
+      { "name": "smallModels", "descriptor": "I" },
+      { "name": "largeModels", "descriptor": "I" },
+      { "name": "targetBufferOffset", "descriptor": "I" },
+      { "name": "tempOffset", "descriptor": "I" },
+      { "name": "tempUvOffset", "descriptor": "I" },
+      { "name": "lastCanvasWidth", "descriptor": "I" },
+      { "name": "lastCanvasHeight", "descriptor": "I" },
+      { "name": "lastStretchedCanvasWidth", "descriptor": "I" },
+      { "name": "lastStretchedCanvasHeight", "descriptor": "I" },
+      { "name": "lastAntiAliasingMode", "descriptor": "Lnet/runelite/client/plugins/gpu/config/AntiAliasingMode;" },
+      { "name": "lastAnisotropicFilteringLevel", "descriptor": "I" },
+      { "name": "cameraX", "descriptor": "D" },
+      { "name": "cameraY", "descriptor": "D" },
+      { "name": "cameraZ", "descriptor": "D" },
+      { "name": "cameraYaw", "descriptor": "D" },
+      { "name": "cameraPitch", "descriptor": "D" },
+      { "name": "viewportOffsetX", "descriptor": "I" },
+      { "name": "viewportOffsetY", "descriptor": "I" },
+      { "name": "viewportWidth", "descriptor": "I" },
+      { "name": "viewportHeight", "descriptor": "I" },
+      { "name": "uniColorBlindMode", "descriptor": "I" },
+      { "name": "uniUiColorBlindMode", "descriptor": "I" },
+      { "name": "uniUseFog", "descriptor": "I" },
+      { "name": "uniFogColor", "descriptor": "I" },
+      { "name": "uniFogDepth", "descriptor": "I" },
+      { "name": "uniDrawDistance", "descriptor": "I" },
+      { "name": "uniExpandedMapLoadingChunks", "descriptor": "I" },
+      { "name": "uniProjectionMatrix", "descriptor": "I" },
+      { "name": "uniBrightness", "descriptor": "I" },
+      { "name": "uniTex", "descriptor": "I" },
+      { "name": "uniTexSamplingMode", "descriptor": "I" },
+      { "name": "uniTexSourceDimensions", "descriptor": "I" },
+      { "name": "uniTexTargetDimensions", "descriptor": "I" },
+      { "name": "uniUiAlphaOverlay", "descriptor": "I" },
+      { "name": "uniTextures", "descriptor": "I" },
+      { "name": "uniTextureAnimations", "descriptor": "I" },
+      { "name": "uniBlockSmall", "descriptor": "I" },
+      { "name": "uniBlockLarge", "descriptor": "I" },
+      { "name": "uniBlockMain", "descriptor": "I" },
+      { "name": "uniSmoothBanding", "descriptor": "I" },
+      { "name": "uniTextureLightMode", "descriptor": "I" },
+      { "name": "uniTick", "descriptor": "I" },
+      { "name": "lwjglInitted", "descriptor": "Z" },
+      { "name": "sceneId", "descriptor": "I" },
+      { "name": "nextSceneId", "descriptor": "I" },
+      { "name": "nextSceneVertexBuffer", "descriptor": "Lnet/runelite/client/plugins/gpu/GpuIntBuffer;" },
+      { "name": "nextSceneTexBuffer", "descriptor": "Lnet/runelite/client/plugins/gpu/GpuFloatBuffer;" }
+    ],
+    "GameObject": [
+      { "name": "cb", "descriptor": "I" },
+      { "name": "dwTime", "descriptor": "I" },
+      { "name": "hTask", "descriptor": "Lcom/sun/jna/platform/win32/WinNT$HANDLE;" },
+      { "name": "dwRet", "descriptor": "Lcom/sun/jna/platform/win32/WinDef$DWORD;" },
+      { "name": "wType", "descriptor": "I" },
+      { "name": "wFmt", "descriptor": "I" },
+      { "name": "hConv", "descriptor": "Lcom/sun/jna/platform/win32/Ddeml$HCONV;" },
+      { "name": "hsz1", "descriptor": "Lcom/sun/jna/platform/win32/Ddeml$HSZ;" },
+      { "name": "hsz2", "descriptor": "Lcom/sun/jna/platform/win32/Ddeml$HSZ;" },
+      { "name": "hData", "descriptor": "Lcom/sun/jna/platform/win32/Ddeml$HDDEDATA;" },
+      { "name": "dwData1", "descriptor": "Lcom/sun/jna/platform/win32/BaseTSD$ULONG_PTR;" },
+      { "name": "dwData2", "descriptor": "Lcom/sun/jna/platform/win32/BaseTSD$ULONG_PTR;" },
+      { "name": "cc", "descriptor": "Lcom/sun/jna/platform/win32/Ddeml$CONVCONTEXT;" },
+      { "name": "cbData", "descriptor": "I" },
+      { "name": "Data", "descriptor": "[B" }
+    ],
+    "GroundItem": [
+      { "name": "maximumValue", "descriptor": "I" },
+      { "name": "value", "descriptor": "I" }
+    ],
+    "ObjectComposition": [
+      { "name": "in", "descriptor": "Ljava/io/Reader;" },
+      { "name": "lenient", "descriptor": "Z" },
+      { "name": "buffer", "descriptor": "[C" },
+      { "name": "pos", "descriptor": "I" },
+      { "name": "limit", "descriptor": "I" },
+      { "name": "lineNumber", "descriptor": "I" },
+      { "name": "lineStart", "descriptor": "I" },
+      { "name": "peeked", "descriptor": "I" },
+      { "name": "peekedLong", "descriptor": "J" },
+      { "name": "peekedNumberLength", "descriptor": "I" },
+      { "name": "peekedString", "descriptor": "Ljava/lang/String;" },
+      { "name": "stack", "descriptor": "[I" },
+      { "name": "stackSize", "descriptor": "I" },
+      { "name": "pathNames", "descriptor": "[Ljava/lang/String;" },
+      { "name": "pathIndices", "descriptor": "[I" }
+    ],
+    "Scene": [
+      { "name": "client", "descriptor": "Lnet/runelite/api/Client;" },
+      { "name": "projectedVerticesX", "descriptor": "[I" },
+      { "name": "projectedVerticesY", "descriptor": "[I" },
+      { "name": "clipX1", "descriptor": "I" },
+      { "name": "clipY1", "descriptor": "I" },
+      { "name": "clipX2", "descriptor": "I" },
+      { "name": "clipY2", "descriptor": "I" },
+      { "name": "croppedX1", "descriptor": "I" },
+      { "name": "croppedY1", "descriptor": "I" },
+      { "name": "croppedX2", "descriptor": "I" },
+      { "name": "croppedY2", "descriptor": "I" },
+      { "name": "croppedWidth", "descriptor": "I" },
+      { "name": "croppedHeight", "descriptor": "I" },
+      { "name": "visited", "descriptor": "[I" },
+      { "name": "outlinePixelsBlockBuffer", "descriptor": "Lnet/runelite/client/ui/overlay/outline/IntBlockBuffer;" },
+      { "name": "outlinePixelsBlockIndices", "descriptor": "[[I" },
+      { "name": "outlinePixelsBlockIndicesLengths", "descriptor": "[I" },
+      { "name": "outlinePixelsLastBlockLength", "descriptor": "[I" },
+      { "name": "outlineArrayWidth", "descriptor": "I" },
+      { "name": "precomputedGroupIndices", "descriptor": "[[[Lnet/runelite/client/ui/overlay/outline/ModelOutlineRenderer$PixelDistanceGroupIndex;" },
+      { "name": "precomputedDistanceDeltas", "descriptor": "[[[Lnet/runelite/client/ui/overlay/outline/ModelOutlineRenderer$PixelDistanceDelta;" }
+    ],
+    "VarbitComposition": [
+      { "name": "minRelative", "descriptor": "I" },
+      { "name": "minTheoretical", "descriptor": "I" },
+      { "name": "minAbsolute", "descriptor": "I" }
+    ]
+  },
+  "fieldCandidates": {
+    "Widget": [
+      { "obfuscated": "colorOverrides", "suggested": "children", "confidence": "CONFIRMED", "reason": "Self-referencing Widget[] array" },
+      { "obfuscated": "(5 int fields)", "suggested": "itemId/quantity/spriteId/x/y/width/height/...", "confidence": "NEEDS_VERIFICATION", "reason": "Int fields include item properties, position, dimensions" },
+      { "obfuscated": "(1 String fields)", "suggested": "text/name/...", "confidence": "NEEDS_VERIFICATION", "reason": "String fields include display text, action text" }
+    ],
+    "MenuArrays": [
+      { "obfuscated": "eightIntWrite", "suggested": "int[] (static)", "confidence": "NEEDS_VERIFICATION", "reason": "Parallel menu array field" },
+      { "obfuscated": "RENDERBUFFER_FORMATS_SRGB", "suggested": "int[] (static)", "confidence": "NEEDS_VERIFICATION", "reason": "Parallel menu array field" },
+      { "obfuscated": "RENDERBUFFER_FORMATS_SRGB_WITH_ALPHA", "suggested": "int[] (static)", "confidence": "NEEDS_VERIFICATION", "reason": "Parallel menu array field" },
+      { "obfuscated": "RENDERBUFFER_FORMATS_LINEAR", "suggested": "int[] (static)", "confidence": "NEEDS_VERIFICATION", "reason": "Parallel menu array field" },
+      { "obfuscated": "RENDERBUFFER_FORMATS_LINEAR_WITH_ALPHA", "suggested": "int[] (static)", "confidence": "NEEDS_VERIFICATION", "reason": "Parallel menu array field" },
+      { "obfuscated": "glModelSortingComputePrograms", "suggested": "int[]", "confidence": "NEEDS_VERIFICATION", "reason": "Parallel menu array field" },
+      { "obfuscated": "modelSortingBinFaceCounts", "suggested": "int[]", "confidence": "NEEDS_VERIFICATION", "reason": "Parallel menu array field" },
+      { "obfuscated": "modelSortingBinThreadCounts", "suggested": "int[]", "confidence": "NEEDS_VERIFICATION", "reason": "Parallel menu array field" },
+      { "obfuscated": "numModelsToSort", "suggested": "int[]", "confidence": "NEEDS_VERIFICATION", "reason": "Parallel menu array field" },
+      { "obfuscated": "cameraFocalPoint", "suggested": "int[]", "confidence": "NEEDS_VERIFICATION", "reason": "Parallel menu array field" },
+      { "obfuscated": "cameraShift", "suggested": "int[]", "confidence": "NEEDS_VERIFICATION", "reason": "Parallel menu array field" }
+    ]
+  }
+}

@@ -1,0 +1,1858 @@
+# Triangulator report — Impact gaps
+# Generated: Sun Apr 26 12:08:50 CDT 2026
+
+== Actor.getCurrentOrientation
+   Anchor:  a/n
+      1. F            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      2. O            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      3. U            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      4. r            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      5. c            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "rotation"
+   Injected: Actor.rotation : I (pos 2/57)
+   --> COPILOT-BRIEF (conflict: top candidate F already mapped to Actor.hitArray)
+
+== Actor.getGraphic
+   SpawnPK: rs/a/c.z : I
+   Anchor:  a/n
+      1. s            spk=48  sem=25  deob=50  inj=26  total=149 [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#1,s=48)]
+      2. G            spk=47  sem=25  deob=50  inj=24  total=146 [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#3,s=47)]
+      3. B            spk=47  sem=25  deob=50  inj=23  total=145 [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#2,s=47)]
+      4. g            spk=46  sem=25  deob=50  inj=21  total=142 [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#4,s=46)]
+      5. Z            spk=46  sem=25  deob=50  inj=21  total=142 [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#5,s=46)]
+   RL-Deob: "spotAnimation"
+   Injected: Actor.spotAnimation : I (pos 34/57)
+   --> COPILOT-BRIEF (conflict: top candidate s already mapped to Actor.currentAnimationId.candidates)
+
+== Actor.getGraphicHeight
+   Anchor:  a/n
+      1. E            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      2. Y            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      3. n            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      4. v            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      5. a            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "spotAnimationHeight"
+   Injected: Actor.spotAnimationHeight : I (pos 38/57)
+   --> COPILOT-BRIEF
+
+== Actor.getIdlePoseAnimation
+   Anchor:  a/n
+      1. c            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      2. r            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      3. y            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      4. g            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#4,s=46)]
+      5. F            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "idleSequence"
+   Injected: Actor.idleSequence : I (pos 5/57)
+   --> COPILOT-BRIEF (conflict: top candidate c already mapped to Actor.hitsLoopCycle)
+
+== Actor.getIdleRotateLeft
+   Anchor:  a/n
+      1. y            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      2. c            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      3. g            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#4,s=46)]
+      4. Z            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#5,s=46)]
+      5. r            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "turnLeftSequence"
+   Injected: Actor.turnLeftSequence : I (pos 6/57)
+   --> COPILOT-BRIEF (conflict: top candidate y already mapped to Actor.hitUpdateRequested)
+
+== Actor.getIdleRotateRight
+   Anchor:  a/n
+      1. g            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#4,s=46)]
+      2. y            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      3. Z            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#5,s=46)]
+      4. c            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+      5. d            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "turnRightSequence"
+   Injected: Actor.turnRightSequence : I (pos 7/57)
+   --> COPILOT-BRIEF
+
+== Actor.getLogicalHeight
+   Anchor:  a/n
+      1. e            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      2. I            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      3. Q            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      4. S            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+      5. t            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "defaultHeight"
+   Injected: Actor.defaultHeight : I (pos 47/57)
+   --> COPILOT-BRIEF (conflict: top candidate e already mapped to Actor.y)
+
+== Actor.getOrientation
+   Anchor:  a/n
+      1. w            spk=0   sem=25  deob=50  inj=40  total=115 [hint: int (anim/health/position/orientation)]
+      2. Q            spk=0   sem=25  deob=50  inj=39  total=114 [hint: int (anim/health/position/orientation)]
+      3. t            spk=0   sem=25  deob=50  inj=39  total=114 [hint: int (anim/health/position/orientation)]
+      4. u            spk=0   sem=25  deob=50  inj=39  total=114 [hint: int (anim/health/position/orientation)]
+      5. e            spk=0   sem=25  deob=50  inj=38  total=113 [hint: int (anim/health/position/orientation)]
+   RL-Deob: "orientation"
+   Injected: Actor.orientation : I (pos 50/57)
+   --> COPILOT-BRIEF (conflict: top candidate w already mapped to Actor.tickStart.candidates)
+
+== Actor.getOverheadCycle
+   Anchor:  a/n
+      1. h            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      2. o            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      3. R            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      4. T            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      5. D            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "overheadTextCyclesRemaining"
+   Injected: Actor.overheadTextCyclesRemaining : I (pos 20/57)
+   --> COPILOT-BRIEF (conflict: top candidate h already mapped to Actor.animationFrame.candidates)
+
+== Actor.getRunAnimation
+   Anchor:  a/n
+      1. G            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#3,s=47)]
+      2. l            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      3. B            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#2,s=47)]
+      4. s            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#1,s=48)]
+      5. d            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "runSequence"
+   Injected: Actor.runSequence : I (pos 12/57)
+   --> COPILOT-BRIEF (conflict: top candidate G already mapped to Actor.poseAnimationFrame.candidates)
+
+== Actor.getSpotAnimFrame
+   Anchor:  a/n
+      1. a            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      2. p            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      3. N            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      4. Y            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      5. J            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "spotAnimationFrame"
+   Injected: Actor.spotAnimationFrame : I (pos 35/57)
+   --> COPILOT-BRIEF
+
+== Actor.getWalkAnimation
+   Anchor:  a/n
+      1. Z            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#5,s=46)]
+      2. g            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#4,s=46)]
+      3. d            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      4. c            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+      5. y            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "walkSequence"
+   Injected: Actor.walkSequence : I (pos 8/57)
+   --> COPILOT-BRIEF (conflict: top candidate Z already mapped to Actor.graphic.candidates)
+
+== Actor.getWalkRotate180
+   Anchor:  a/n
+      1. d            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      2. Z            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#5,s=46)]
+      3. B            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#2,s=47)]
+      4. y            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+      5. g            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#4,s=46)]
+   RL-Deob: "walkBackSequence"
+   Injected: Actor.walkBackSequence : I (pos 9/57)
+   --> COPILOT-BRIEF (conflict: top candidate d already mapped to Actor.currentRotation.candidates)
+
+== Actor.getWalkRotateLeft
+   Anchor:  a/n
+      1. B            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#2,s=47)]
+      2. Z            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#5,s=46)]
+      3. d            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      4. G            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#3,s=47)]
+      5. g            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#4,s=46)]
+   RL-Deob: "walkLeftSequence"
+   Injected: Actor.walkLeftSequence : I (pos 10/57)
+   --> COPILOT-BRIEF (conflict: top candidate B already mapped to Actor.poseAnimation.candidates)
+
+== Actor.getWalkRotateRight
+   Anchor:  a/n
+      1. G            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#3,s=47)]
+      2. d            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      3. B            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#2,s=47)]
+      4. l            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      5. Z            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#5,s=46)]
+   RL-Deob: "walkRightSequence"
+   Injected: Actor.walkRightSequence : I (pos 11/57)
+   --> COPILOT-BRIEF (conflict: top candidate G already mapped to Actor.poseAnimationFrame.candidates)
+
+== Actor.isDead
+   SpawnPK: rs/a/c.i : Z
+   Anchor:  a/n
+      1. O            spk=46  sem=25  deob=50  inj=0   total=121 [hint: boolean [XSRV] Actor.isDead(#1,s=46)]
+      2. U            spk=5   sem=25  deob=50  inj=40  total=120 [hint: boolean [XSRV] Actor.isDead(#2,s=5)]
+   Injected: Actor.dead : Z (pos 5/6)
+   --> COPILOT-BRIEF (conflict: top candidate O already mapped to Actor.overheadText)
+
+== Actor.setActionFrame
+   Anchor:  a/n
+      1. V            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      2. k            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      3. q            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      4. J            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      5. j            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "sequenceFrame"
+   Injected: Actor.sequenceFrame : I (pos 30/57)
+   --> COPILOT-BRIEF
+
+== Actor.setAnimation
+   Anchor:  a/n
+      1. k            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      2. j            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      3. V            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      4. q            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      5. W            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "sequence"
+   Injected: Actor.sequence : I (pos 29/57)
+   --> COPILOT-BRIEF
+
+== Actor.setAnimationFrame
+   Anchor:  a/n
+      1. V            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      2. k            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      3. q            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      4. J            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      5. j            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "sequenceFrame"
+   Injected: Actor.sequenceFrame : I (pos 30/57)
+   --> COPILOT-BRIEF
+
+== Actor.setGraphic
+   Anchor:  a/n
+      1. s            spk=0   sem=0   deob=50  inj=26  total=76  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#1,s=48)]
+      2. G            spk=0   sem=0   deob=50  inj=24  total=74  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#3,s=47)]
+      3. B            spk=0   sem=0   deob=50  inj=23  total=73  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#2,s=47)]
+      4. g            spk=0   sem=0   deob=50  inj=21  total=71  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#4,s=46)]
+      5. Z            spk=0   sem=0   deob=50  inj=21  total=71  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#5,s=46)]
+   RL-Deob: "spotAnimation"
+   Injected: Actor.spotAnimation : I (pos 34/57)
+   --> COPILOT-BRIEF (conflict: top candidate s already mapped to Actor.currentAnimationId.candidates)
+
+== Actor.setGraphicHeight
+   Anchor:  a/n
+      1. E            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      2. Y            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      3. n            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      4. v            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      5. a            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "spotAnimationHeight"
+   Injected: Actor.spotAnimationHeight : I (pos 38/57)
+   --> COPILOT-BRIEF
+
+== Actor.setIdlePoseAnimation
+   Anchor:  a/n
+      1. c            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      2. r            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      3. y            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      4. g            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#4,s=46)]
+      5. F            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "idleSequence"
+   Injected: Actor.idleSequence : I (pos 5/57)
+   --> COPILOT-BRIEF (conflict: top candidate c already mapped to Actor.hitsLoopCycle)
+
+== Actor.setIdleRotateLeft
+   Anchor:  a/n
+      1. y            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      2. c            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      3. g            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#4,s=46)]
+      4. Z            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#5,s=46)]
+      5. r            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "turnLeftSequence"
+   Injected: Actor.turnLeftSequence : I (pos 6/57)
+   --> COPILOT-BRIEF (conflict: top candidate y already mapped to Actor.hitUpdateRequested)
+
+== Actor.setIdleRotateRight
+   Anchor:  a/n
+      1. g            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#4,s=46)]
+      2. y            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      3. Z            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#5,s=46)]
+      4. c            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+      5. d            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "turnRightSequence"
+   Injected: Actor.turnRightSequence : I (pos 7/57)
+   --> COPILOT-BRIEF
+
+== Actor.setOverheadCycle
+   Anchor:  a/n
+      1. h            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      2. o            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      3. R            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      4. T            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      5. D            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "overheadTextCyclesRemaining"
+   Injected: Actor.overheadTextCyclesRemaining : I (pos 20/57)
+   --> COPILOT-BRIEF (conflict: top candidate h already mapped to Actor.animationFrame.candidates)
+
+== Actor.setOverheadText
+   Anchor:  a/n
+      1. O            spk=0   sem=0   deob=50  inj=65  total=115 [hint: overheadText]
+   RL-Deob: "overheadText"
+   Injected: Actor.overheadText : Ljava/lang/String; (pos 0/1)
+   --> COPILOT-BRIEF (conflict: top candidate O already mapped to Actor.overheadText)
+
+== Actor.setPoseAnimation
+   Anchor:  a/n
+      1. i            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      2. A            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      3. W            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      4. T            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+      5. f            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "movementSequence"
+   Injected: Actor.movementSequence : I (pos 25/57)
+   --> COPILOT-BRIEF
+
+== Actor.setRunAnimation
+   Anchor:  a/n
+      1. G            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#3,s=47)]
+      2. l            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      3. B            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#2,s=47)]
+      4. s            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#1,s=48)]
+      5. d            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "runSequence"
+   Injected: Actor.runSequence : I (pos 12/57)
+   --> COPILOT-BRIEF (conflict: top candidate G already mapped to Actor.poseAnimationFrame.candidates)
+
+== Actor.setSpotAnimFrame
+   Anchor:  a/n
+      1. a            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      2. p            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      3. N            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      4. Y            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      5. J            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "spotAnimationFrame"
+   Injected: Actor.spotAnimationFrame : I (pos 35/57)
+   --> COPILOT-BRIEF
+
+== Actor.setWalkAnimation
+   Anchor:  a/n
+      1. Z            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#5,s=46)]
+      2. g            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#4,s=46)]
+      3. d            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      4. c            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+      5. y            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+   RL-Deob: "walkSequence"
+   Injected: Actor.walkSequence : I (pos 8/57)
+   --> COPILOT-BRIEF (conflict: top candidate Z already mapped to Actor.graphic.candidates)
+
+== Actor.setWalkRotate180
+   Anchor:  a/n
+      1. d            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation)]
+      2. Z            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#5,s=46)]
+      3. B            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#2,s=47)]
+      4. y            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation)]
+      5. g            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#4,s=46)]
+   RL-Deob: "walkBackSequence"
+   Injected: Actor.walkBackSequence : I (pos 9/57)
+   --> COPILOT-BRIEF (conflict: top candidate d already mapped to Actor.currentRotation.candidates)
+
+== Actor.setWalkRotateLeft
+   Anchor:  a/n
+      1. B            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#2,s=47)]
+      2. Z            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#5,s=46)]
+      3. d            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      4. G            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#3,s=47)]
+      5. g            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#4,s=46)]
+   RL-Deob: "walkLeftSequence"
+   Injected: Actor.walkLeftSequence : I (pos 10/57)
+   --> COPILOT-BRIEF (conflict: top candidate B already mapped to Actor.poseAnimation.candidates)
+
+== Actor.setWalkRotateRight
+   Anchor:  a/n
+      1. G            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#3,s=47)]
+      2. d            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      3. B            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#2,s=47)]
+      4. l            spk=0   sem=0   deob=0   inj=39  total=39  [hint: int (anim/health/position/orientation)]
+      5. Z            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (anim/health/position/orientation) [XSRV] Actor.getGraphic=spotAnimation(#5,s=46)]
+   RL-Deob: "walkRightSequence"
+   Injected: Actor.walkRightSequence : I (pos 11/57)
+   --> COPILOT-BRIEF (conflict: top candidate G already mapped to Actor.poseAnimationFrame.candidates)
+
+== Client.addChatMessage
+   Anchor:  a/W
+      1. g            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. Z            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. c            spk=0   sem=0   deob=0   inj=35  total=35  
+      4. d            spk=0   sem=0   deob=0   inj=34  total=34  
+      5. j            spk=0   sem=0   deob=0   inj=31  total=31  
+   Injected: Client.$assertionsDisabled : Z (pos 34/60)
+   --> COPILOT-BRIEF
+
+== Client.createItemSprite
+   Anchor:  a/W
+      1. g            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. Z            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. c            spk=0   sem=0   deob=0   inj=35  total=35  
+      4. d            spk=0   sem=0   deob=0   inj=34  total=34  
+      5. j            spk=0   sem=0   deob=0   inj=31  total=31  
+   Injected: Client.$assertionsDisabled : Z (pos 34/60)
+   --> COPILOT-BRIEF
+
+== Client.get3dZoom
+   Anchor:  a/W
+      1. r            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. F            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. U            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. Oe           spk=0   sem=0   deob=0   inj=38  total=38  
+      5. O            spk=0   sem=0   deob=0   inj=37  total=37  
+   RL-Deob: "Rasterizer3D_zoom"
+   Injected: Rasterizer3D.Rasterizer3D_zoom : I (pos 1/10)
+   --> COPILOT-BRIEF
+
+== Client.getBaseX
+   SpawnPK: rs/Client.dY : I
+   Anchor:  a/W
+      1. u            spk=23  sem=0   deob=0   inj=40  total=63  
+      2. OZ           spk=26  sem=0   deob=0   inj=37  total=63  
+      3. Od           spk=26  sem=0   deob=0   inj=37  total=63  
+      4. OQ           spk=35  sem=0   deob=0   inj=27  total=62  
+      5. i            spk=21  sem=0   deob=0   inj=39  total=60  
+   RL-Deob: "baseX"
+   Injected: ParamComposition.baseX : I (pos 0/2)
+   --> COPILOT-BRIEF
+
+== Client.getBaseY
+   SpawnPK: rs/Client.dZ : I
+   Anchor:  a/W
+      1. OQ           spk=35  sem=0   deob=0   inj=40  total=75  
+      2. OS           spk=30  sem=0   deob=0   inj=40  total=70  
+      3. Ud           spk=35  sem=0   deob=0   inj=34  total=69  
+      4. Ot           spk=26  sem=0   deob=0   inj=39  total=65  
+      5. OI           spk=24  sem=0   deob=0   inj=40  total=64  
+   RL-Deob: "baseY"
+   Injected: Client.baseY : I (pos 49/156)
+   --> COPILOT-BRIEF
+
+== Client.getBoostedSkillLevels
+   SpawnPK: rs/Client.kt : [I
+   Anchor:  a/W
+      1. P            spk=37  sem=0   deob=0   inj=32  total=69  
+      2. b            spk=33  sem=0   deob=0   inj=35  total=68  
+      3. C            spk=31  sem=0   deob=0   inj=34  total=65  
+      4. X            spk=31  sem=0   deob=0   inj=33  total=64  
+      5. a            spk=36  sem=0   deob=0   inj=27  total=63  
+   RL-Deob: "currentLevels"
+   Injected: Client.currentLevels : [I (pos 25/48)
+   --> COPILOT-BRIEF
+
+== Client.getCameraPitch
+   SpawnPK: rs/Client.cH : I
+   Anchor:  a/W
+      1. O3           spk=40  sem=0   deob=0   inj=36  total=76  
+      2. C            spk=37  sem=0   deob=0   inj=38  total=75  
+      3. Oc           spk=37  sem=0   deob=0   inj=38  total=75  
+      4. OE           spk=43  sem=0   deob=0   inj=30  total=73  
+      5. OF           spk=33  sem=0   deob=0   inj=38  total=71  
+   RL-Deob: "cameraPitch"
+   Injected: class103.cameraPitch : I (pos 0/3)
+   --> COPILOT-BRIEF
+
+== Client.getCameraPitchTarget
+   Anchor:  a/W
+      1. U9           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. U8           spk=0   sem=0   deob=0   inj=39  total=39  
+      3. UW           spk=0   sem=0   deob=0   inj=39  total=39  
+      4. U4           spk=0   sem=0   deob=0   inj=38  total=38  
+      5. D            spk=0   sem=0   deob=0   inj=38  total=38  
+   RL-Deob: "camAngleX"
+   Injected: Client.camAngleX : I (pos 61/156)
+   --> COPILOT-BRIEF
+
+== Client.getCameraX
+   Anchor:  a/W
+      1. OU           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. O            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. U            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. F            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. r            spk=0   sem=0   deob=0   inj=35  total=35  
+   RL-Deob: "cameraX"
+   Injected: ClanSettings.cameraX : I (pos 0/7)
+   --> COPILOT-BRIEF
+
+== Client.getCameraY
+   Anchor:  a/W
+      1. OU           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. O            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. U            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. F            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. r            spk=0   sem=0   deob=0   inj=35  total=35  
+   RL-Deob: "cameraZ"
+   Injected: class366.cameraZ : I (pos 0/2)
+   --> COPILOT-BRIEF
+
+== Client.getCameraYaw
+   SpawnPK: rs/Client.cI : I
+   Anchor:  a/W
+      1. C            spk=41  sem=0   deob=0   inj=38  total=79  
+      2. Oc           spk=41  sem=0   deob=0   inj=38  total=79  
+      3. OF           spk=37  sem=0   deob=0   inj=38  total=75  
+      4. Or           spk=37  sem=0   deob=0   inj=38  total=75  
+      5. OG           spk=38  sem=0   deob=0   inj=36  total=74  
+   RL-Deob: "cameraYaw"
+   Injected: class285.cameraYaw : I (pos 0/1)
+   --> COPILOT-BRIEF
+
+== Client.getCameraYawTarget
+   Anchor:  a/W
+      1. U9           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. U8           spk=0   sem=0   deob=0   inj=39  total=39  
+      3. UW           spk=0   sem=0   deob=0   inj=39  total=39  
+      4. D            spk=0   sem=0   deob=0   inj=38  total=38  
+      5. U4           spk=0   sem=0   deob=0   inj=37  total=37  
+   RL-Deob: "camAngleY"
+   Injected: Client.camAngleY : I (pos 62/156)
+   --> COPILOT-BRIEF
+
+== Client.getCameraZ
+   Anchor:  a/W
+      1. OU           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. O            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. U            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. F            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. r            spk=0   sem=0   deob=0   inj=35  total=35  
+   RL-Deob: "cameraY"
+   Injected: UserComparator10.cameraY : I (pos 0/2)
+   --> COPILOT-BRIEF
+
+== Client.getCanvasHeight
+   SpawnPK: rs/Client.ae : I
+   Anchor:  a/W
+      1. OZ           spk=44  sem=0   deob=0   inj=37  total=81  
+      2. Od           spk=44  sem=0   deob=0   inj=37  total=81  
+      3. u            spk=33  sem=0   deob=0   inj=40  total=73  
+      4. C            spk=31  sem=0   deob=0   inj=38  total=69  
+      5. OF           spk=31  sem=0   deob=0   inj=38  total=69  
+   RL-Deob: "canvasHeight"
+   Injected: class127.canvasHeight : I (pos 0/4)
+   --> COPILOT-BRIEF
+
+== Client.getCanvasWidth
+   SpawnPK: rs/Client.af : I
+   Anchor:  a/W
+      1. OQ           spk=39  sem=0   deob=0   inj=39  total=78  
+      2. OS           spk=35  sem=0   deob=0   inj=40  total=75  
+      3. OZ           spk=40  sem=0   deob=0   inj=31  total=71  
+      4. Od           spk=40  sem=0   deob=0   inj=31  total=71  
+      5. O1           spk=27  sem=0   deob=0   inj=39  total=66  
+   RL-Deob: "canvasWidth"
+   Injected: GameEngine.canvasWidth : I (pos 4/14)
+   --> COPILOT-BRIEF
+
+== Client.getCenterX
+   Anchor:  a/W
+      1. l            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. s            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. g            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. UU           spk=0   sem=0   deob=0   inj=38  total=38  
+      5. Oe           spk=0   sem=0   deob=0   inj=37  total=37  
+   RL-Deob: "Rasterizer3D_clipMidX"
+   Injected: Rasterizer3D.Rasterizer3D_clipMidX : I (pos 2/10)
+   --> COPILOT-BRIEF
+
+== Client.getCenterY
+   Anchor:  a/W
+      1. U4           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. L            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. U8           spk=0   sem=0   deob=0   inj=39  total=39  
+      4. UU           spk=0   sem=0   deob=0   inj=38  total=38  
+      5. U9           spk=0   sem=0   deob=0   inj=38  total=38  
+   RL-Deob: "Rasterizer3D_clipMidY"
+   Injected: Rasterizer3D.Rasterizer3D_clipMidY : I (pos 3/10)
+   --> COPILOT-BRIEF
+
+== Client.getCrossWorldMessageIdsIndex
+   Anchor:  a/W
+      1. V            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. k            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. Fj           spk=0   sem=0   deob=0   inj=39  total=39  
+      4. j            spk=0   sem=0   deob=0   inj=38  total=38  
+      5. p            spk=0   sem=0   deob=0   inj=38  total=38  
+   RL-Deob: "crossWorldMessageIdsIndex"
+   Injected: Client.crossWorldMessageIdsIndex : I (pos 141/156)
+   --> COPILOT-BRIEF
+
+== Client.getCurrentLoginField
+   Anchor:  a/W
+      1. Fl           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. FZ           spk=0   sem=0   deob=0   inj=39  total=39  
+      3. A            spk=0   sem=0   deob=0   inj=39  total=39  
+      4. F3           spk=0   sem=0   deob=0   inj=38  total=38  
+      5. Ub           spk=0   sem=0   deob=0   inj=37  total=37  
+   RL-Deob: "currentLoginField"
+   Injected: Login.currentLoginField : I (pos 7/11)
+   --> COPILOT-BRIEF
+
+== Client.getDragTime
+   Anchor:  a/W
+      1. OU           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. O            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. U            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. F            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. r            spk=0   sem=0   deob=0   inj=35  total=35  
+   RL-Deob: "widgetDragDuration"
+   Injected: class27.widgetDragDuration : I (pos 0/1)
+   --> COPILOT-BRIEF
+
+== Client.getEnergy
+   SpawnPK: rs/Client.eP : I
+   Anchor:  a/W
+      1. UC           spk=43  sem=0   deob=0   inj=40  total=83  
+      2. FO           spk=43  sem=0   deob=0   inj=40  total=83  
+      3. FU           spk=43  sem=0   deob=0   inj=40  total=83  
+      4. Fg           spk=44  sem=0   deob=0   inj=39  total=83  
+      5. Ut           spk=42  sem=0   deob=0   inj=38  total=80  
+   RL-Deob: "runEnergy"
+   Injected: Client.runEnergy : I (pos 112/156)
+   --> COPILOT-BRIEF
+
+== Client.getEnum
+   Anchor:  a/W
+      1. g            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. Z            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. c            spk=0   sem=0   deob=0   inj=35  total=35  
+      4. d            spk=0   sem=0   deob=0   inj=34  total=34  
+      5. j            spk=0   sem=0   deob=0   inj=31  total=31  
+   Injected: Client.$assertionsDisabled : Z (pos 34/60)
+   --> COPILOT-BRIEF
+
+== Client.getFPS
+   Anchor:  a/W
+      1. s            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. l            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. g            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. UU           spk=0   sem=0   deob=0   inj=38  total=38  
+      5. Oe           spk=0   sem=0   deob=0   inj=37  total=37  
+   RL-Deob: "fps"
+   Injected: GameEngine.fps : I (pos 3/14)
+   --> COPILOT-BRIEF
+
+== Client.getGraphicsObjects
+   SpawnPK: rs/Client.ek : Lrs/h;
+   Anchor:  a/W
+      1. O            spk=46  sem=0   deob=0   inj=0   total=46  
+      2. U            spk=11  sem=0   deob=0   inj=0   total=11  
+      3. F            spk=11  sem=0   deob=0   inj=0   total=11  
+   --> COPILOT-BRIEF
+
+== Client.getHintArrowNpc
+   SpawnPK: rs/Client.nN : I
+   Anchor:  a/W
+      1. O2           spk=29  sem=0   deob=0   inj=36  total=65  
+      2. O5           spk=33  sem=0   deob=0   inj=32  total=65  
+      3. Os           spk=29  sem=0   deob=0   inj=35  total=64  
+      4. Oy           spk=26  sem=0   deob=0   inj=37  total=63  
+      5. Ox           spk=35  sem=0   deob=0   inj=28  total=63  
+   Injected: Decimator.client : LClient; (pos 0/1)
+   --> COPILOT-BRIEF
+
+== Client.getHintArrowType
+   SpawnPK: rs/Client.jF : I
+   Anchor:  a/W
+      1. O3           spk=41  sem=0   deob=0   inj=36  total=77  
+      2. Oc           spk=38  sem=0   deob=0   inj=38  total=76  
+      3. C            spk=37  sem=0   deob=0   inj=38  total=75  
+      4. ON           spk=45  sem=0   deob=0   inj=30  total=75  
+      5. OF           spk=34  sem=0   deob=0   inj=38  total=72  
+   Injected: Decimator.client : LClient; (pos 0/1)
+   --> COPILOT-BRIEF
+
+== Client.getIdleTimeout
+   Anchor:  a/W
+      1. p            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. Fe           spk=0   sem=0   deob=0   inj=39  total=39  
+      3. Fj           spk=0   sem=0   deob=0   inj=38  total=38  
+      4. V            spk=0   sem=0   deob=0   inj=37  total=37  
+      5. k            spk=0   sem=0   deob=0   inj=36  total=36  
+   Injected: Client.idleTimeout : I (pos 152/156)
+   --> COPILOT-BRIEF
+
+== Client.getIntStack
+   Anchor:  a/W
+      1. OG           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. OB           spk=0   sem=0   deob=0   inj=37  total=37  
+      3. l            spk=0   sem=0   deob=0   inj=35  total=35  
+      4. OO           spk=0   sem=0   deob=0   inj=32  total=32  
+      5. W            spk=0   sem=0   deob=0   inj=29  total=29  
+   RL-Deob: "Interpreter_intStack"
+   Injected: Interpreter.Interpreter_intStack : [I (pos 2/3)
+   --> COPILOT-BRIEF
+
+== Client.getIntStackSize
+   Anchor:  a/W
+      1. OU           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. O            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. U            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. F            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. r            spk=0   sem=0   deob=0   inj=35  total=35  
+   RL-Deob: "Interpreter_intStackSize"
+   Injected: class302.Interpreter_intStackSize : I (pos 0/4)
+   --> COPILOT-BRIEF
+
+== Client.getItemCount
+   Anchor:  a/W
+      1. OU           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. O            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. U            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. F            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. r            spk=0   sem=0   deob=0   inj=35  total=35  
+   RL-Deob: "ItemDefinition_fileCount"
+   Injected: ItemComposition.ItemDefinition_fileCount : I (pos 0/41)
+   --> COPILOT-BRIEF
+
+== Client.getLoginIndex
+   Anchor:  a/W
+      1. R            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. h            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. D            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. UX           spk=0   sem=0   deob=0   inj=38  total=38  
+      5. UW           spk=0   sem=0   deob=0   inj=37  total=37  
+   RL-Deob: "loginIndex"
+   Injected: Login.loginIndex : I (pos 5/11)
+   --> COPILOT-BRIEF
+
+== Client.getMapAngle
+   Anchor:  a/W
+      1. U9           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. U8           spk=0   sem=0   deob=0   inj=39  total=39  
+      3. UW           spk=0   sem=0   deob=0   inj=39  total=39  
+      4. D            spk=0   sem=0   deob=0   inj=38  total=38  
+      5. U4           spk=0   sem=0   deob=0   inj=37  total=37  
+   RL-Deob: "camAngleY"
+   Injected: Client.camAngleY : I (pos 62/156)
+   --> COPILOT-BRIEF
+
+== Client.getMapRegions
+   SpawnPK: rs/Client.fI : [I
+   Anchor:  a/W
+      1. a            spk=34  sem=0   deob=0   inj=31  total=65  
+      2. P            spk=36  sem=0   deob=0   inj=27  total=63  
+      3. n            spk=27  sem=0   deob=0   inj=29  total=56  
+      4. X            spk=30  sem=0   deob=0   inj=26  total=56  
+      5. N            spk=23  sem=0   deob=0   inj=32  total=55  
+   RL-Deob: "regions"
+   Injected: MusicPatch.regions : [I (pos 0/2)
+   --> COPILOT-BRIEF
+
+== Client.getMenuHeight
+   Anchor:  a/W
+      1. OU           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. O            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. U            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. F            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. r            spk=0   sem=0   deob=0   inj=35  total=35  
+   RL-Deob: "menuHeight"
+   Injected: PlayerType.menuHeight : I (pos 0/3)
+   --> COPILOT-BRIEF
+
+== Client.getMenuWidth
+   Anchor:  a/W
+      1. OU           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. O            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. U            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. F            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. r            spk=0   sem=0   deob=0   inj=35  total=35  
+   RL-Deob: "menuWidth"
+   Injected: class7.menuWidth : I (pos 0/1)
+   --> COPILOT-BRIEF
+
+== Client.getMenuX
+   Anchor:  a/W
+      1. OU           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. O            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. U            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. F            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. r            spk=0   sem=0   deob=0   inj=35  total=35  
+   RL-Deob: "menuX"
+   Injected: class130.menuX : I (pos 0/1)
+   --> COPILOT-BRIEF
+
+== Client.getMenuY
+   Anchor:  a/W
+      1. R            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. h            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. D            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. UX           spk=0   sem=0   deob=0   inj=38  total=38  
+      5. UW           spk=0   sem=0   deob=0   inj=37  total=37  
+   RL-Deob: "menuY"
+   Injected: ModeWhere.menuY : I (pos 1/3)
+   --> COPILOT-BRIEF
+
+== Client.getMessages
+   SpawnPK: rs/Client.ds : [Ljava/lang/String;
+   Anchor:  a/W
+      1. y            spk=20  sem=0   deob=0   inj=0   total=20  
+      2. c            spk=19  sem=0   deob=0   inj=0   total=19  
+      3. g            spk=17  sem=0   deob=0   inj=0   total=17  
+      4. Z            spk=15  sem=0   deob=0   inj=0   total=15  
+      5. d            spk=13  sem=0   deob=0   inj=0   total=13  
+   RL-Deob: "Messages_hashTable"
+   --> COPILOT-BRIEF
+
+== Client.getMouseCurrentButton
+   Anchor:  a/W
+      1. U9           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. U8           spk=0   sem=0   deob=0   inj=39  total=39  
+      3. U4           spk=0   sem=0   deob=0   inj=38  total=38  
+      4. UW           spk=0   sem=0   deob=0   inj=38  total=38  
+      5. L            spk=0   sem=0   deob=0   inj=37  total=37  
+   RL-Deob: "MouseHandler_currentButton"
+   Injected: MouseHandler.MouseHandler_currentButton : I (pos 5/14)
+   --> COPILOT-BRIEF
+
+== Client.getMouseIdleTicks
+   Anchor:  a/W
+      1. OU           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. O            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. U            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. F            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. r            spk=0   sem=0   deob=0   inj=35  total=35  
+   RL-Deob: "MouseHandler_idleCycles"
+   Injected: MouseHandler.MouseHandler_idleCycles : I (pos 0/14)
+   --> COPILOT-BRIEF
+
+== Client.getMouseLastPressedMillis
+   Anchor:  a/W
+      1. U            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. O            spk=0   sem=0   deob=0   inj=20  total=20  
+      3. z            spk=0   sem=0   deob=0   inj=0   total=0   
+   RL-Deob: "MouseHandler_lastPressedTimeMillis"
+   Injected: MouseHandler.MouseHandler_lastPressedTimeMillis : J (pos 3/4)
+   --> COPILOT-BRIEF
+
+== Client.getNpcDefinition
+   Anchor:  a/W
+      1. g            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. Z            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. c            spk=0   sem=0   deob=0   inj=35  total=35  
+      4. d            spk=0   sem=0   deob=0   inj=34  total=34  
+      5. j            spk=0   sem=0   deob=0   inj=31  total=31  
+   Injected: Client.$assertionsDisabled : Z (pos 34/60)
+   --> COPILOT-BRIEF
+
+== Client.getObjectDefinition
+   Anchor:  a/W
+      1. g            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. Z            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. c            spk=0   sem=0   deob=0   inj=35  total=35  
+      4. d            spk=0   sem=0   deob=0   inj=34  total=34  
+      5. j            spk=0   sem=0   deob=0   inj=31  total=31  
+   Injected: Client.$assertionsDisabled : Z (pos 34/60)
+   --> COPILOT-BRIEF
+
+== Client.getOculusOrbFocalPointX
+   Anchor:  a/W
+      1. OU           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. O            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. U            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. F            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. r            spk=0   sem=0   deob=0   inj=35  total=35  
+   RL-Deob: "oculusOrbFocalPointX"
+   Injected: class245.oculusOrbFocalPointX : I (pos 0/11)
+   --> COPILOT-BRIEF
+
+== Client.getOculusOrbFocalPointY
+   Anchor:  a/W
+      1. Fe           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. p            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. Fj           spk=0   sem=0   deob=0   inj=38  total=38  
+      4. V            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. k            spk=0   sem=0   deob=0   inj=35  total=35  
+   RL-Deob: "oculusOrbFocalPointY"
+   Injected: UserComparator10.oculusOrbFocalPointY : I (pos 1/2)
+   --> COPILOT-BRIEF
+
+== Client.getOculusOrbState
+   Anchor:  a/W
+      1. UW           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. D            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. U9           spk=0   sem=0   deob=0   inj=38  total=38  
+      4. R            spk=0   sem=0   deob=0   inj=38  total=38  
+      5. U8           spk=0   sem=0   deob=0   inj=37  total=37  
+   RL-Deob: "oculusOrbState"
+   Injected: Client.oculusOrbState : I (pos 67/156)
+   --> COPILOT-BRIEF
+
+== Client.getPlane
+   SpawnPK: rs/Client.dm : I
+   Anchor:  a/W
+      1. UG           spk=30  sem=0   deob=0   inj=39  total=69  
+      2. Ul           spk=30  sem=0   deob=0   inj=39  total=69  
+      3. U2           spk=30  sem=0   deob=0   inj=39  total=69  
+      4. UR           spk=29  sem=0   deob=0   inj=40  total=69  
+      5. UF           spk=31  sem=0   deob=0   inj=37  total=68  
+   RL-Deob: "Client_plane"
+   Injected: class103.Client_plane : I (pos 1/3)
+   --> COPILOT-BRIEF
+
+== Client.getPlayerMenuTypes
+   Anchor:  a/W
+      1. O            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. U            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. T            spk=0   sem=0   deob=0   inj=36  total=36  
+      4. f            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. o            spk=0   sem=0   deob=0   inj=34  total=34  
+   RL-Deob: "playerMenuOpcodes"
+   Injected: Client.playerMenuOpcodes : [I (pos 23/48)
+   --> COPILOT-BRIEF
+
+== Client.getPlayerOptions
+   Anchor:  a/W
+      1. F            spk=0   sem=0   deob=0   inj=27  total=27  
+      2. r            spk=0   sem=0   deob=0   inj=13  total=13  
+   RL-Deob: "playerMenuActions"
+   Injected: Client.playerMenuActions : [Ljava/lang/String; (pos 1/4)
+   --> COPILOT-BRIEF
+
+== Client.getProjectiles
+   SpawnPK: rs/Client.dR : Lrs/h;
+   Anchor:  a/W
+      1. U            spk=46  sem=0   deob=0   inj=0   total=46  
+      2. O            spk=11  sem=0   deob=0   inj=0   total=11  
+      3. F            spk=1   sem=0   deob=0   inj=0   total=1   
+   --> COPILOT-BRIEF
+
+== Client.getRasterizer3D_clipMidX2
+   Anchor:  a/W
+      1. W            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. F3           spk=0   sem=0   deob=0   inj=39  total=39  
+      3. A            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. Fs           spk=0   sem=0   deob=0   inj=38  total=38  
+      5. Fl           spk=0   sem=0   deob=0   inj=37  total=37  
+   RL-Deob: "Rasterizer3D_clipMidX2"
+   Injected: Rasterizer3D.Rasterizer3D_clipMidX2 : I (pos 7/10)
+   --> COPILOT-BRIEF
+
+== Client.getRasterizer3D_clipMidY2
+   Anchor:  a/W
+      1. Fe           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. p            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. Fj           spk=0   sem=0   deob=0   inj=38  total=38  
+      4. V            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. k            spk=0   sem=0   deob=0   inj=35  total=35  
+   RL-Deob: "Rasterizer3D_clipMidY2"
+   Injected: Rasterizer3D.Rasterizer3D_clipMidY2 : I (pos 9/10)
+   --> COPILOT-BRIEF
+
+== Client.getRasterizer3D_clipNegativeMidX
+   Anchor:  a/W
+      1. FZ           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. Ub           spk=0   sem=0   deob=0   inj=39  total=39  
+      3. Fl           spk=0   sem=0   deob=0   inj=39  total=39  
+      4. T            spk=0   sem=0   deob=0   inj=38  total=38  
+      5. A            spk=0   sem=0   deob=0   inj=38  total=38  
+   RL-Deob: "Rasterizer3D_clipNegativeMidX"
+   Injected: Rasterizer3D.Rasterizer3D_clipNegativeMidX : I (pos 6/10)
+   --> COPILOT-BRIEF
+
+== Client.getRasterizer3D_clipNegativeMidY
+   Anchor:  a/W
+      1. k            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. V            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. j            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. Fj           spk=0   sem=0   deob=0   inj=38  total=38  
+      5. Fs           spk=0   sem=0   deob=0   inj=37  total=37  
+   RL-Deob: "Rasterizer3D_clipNegativeMidY"
+   Injected: Rasterizer3D.Rasterizer3D_clipNegativeMidY : I (pos 8/10)
+   --> COPILOT-BRIEF
+
+== Client.getRealSkillLevels
+   SpawnPK: rs/Client.ef : [I
+   Anchor:  a/W
+      1. b            spk=37  sem=0   deob=0   inj=36  total=73  
+      2. C            spk=35  sem=0   deob=0   inj=35  total=70  
+      3. P            spk=33  sem=0   deob=0   inj=31  total=64  
+      4. i            spk=27  sem=0   deob=0   inj=37  total=64  
+      5. OF           spk=35  sem=0   deob=0   inj=28  total=63  
+   RL-Deob: "levels"
+   Injected: Client.levels : [I (pos 26/48)
+   --> COPILOT-BRIEF
+
+== Client.getRevision
+   Anchor:  a/W
+      1. OU           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. O            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. U            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. F            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. r            spk=0   sem=0   deob=0   inj=35  total=35  
+   RL-Deob: "RunException_revision"
+   Injected: RunException.RunException_revision : I (pos 0/3)
+   --> COPILOT-BRIEF
+
+== Client.getScale
+   Anchor:  a/W
+      1. U            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. F            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. O            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. r            spk=0   sem=0   deob=0   inj=38  total=38  
+      5. OU           spk=0   sem=0   deob=0   inj=37  total=37  
+   RL-Deob: "viewportZoom"
+   Injected: Client.viewportZoom : I (pos 11/156)
+   --> COPILOT-BRIEF
+
+== Client.getServerVarps
+   Anchor:  a/W
+      1. O            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. U            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. T            spk=0   sem=0   deob=0   inj=36  total=36  
+      4. f            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. o            spk=0   sem=0   deob=0   inj=33  total=33  
+   RL-Deob: "Varps_temp"
+   Injected: Varps.Varps_temp : [I (pos 1/3)
+   --> COPILOT-BRIEF
+
+== Client.getSkillExperiences
+   SpawnPK: rs/Client.jG : [I
+   Anchor:  a/W
+      1. b            spk=32  sem=0   deob=0   inj=37  total=69  
+      2. P            spk=36  sem=0   deob=0   inj=30  total=66  
+      3. C            spk=30  sem=0   deob=0   inj=36  total=66  
+      4. a            spk=36  sem=0   deob=0   inj=26  total=62  
+      5. X            spk=30  sem=0   deob=0   inj=31  total=61  
+   RL-Deob: "experience"
+   Injected: Client.experience : [I (pos 27/48)
+   --> COPILOT-BRIEF
+
+== Client.getSkyboxColor
+   Anchor:  a/W
+      1. p            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. Fj           spk=0   sem=0   deob=0   inj=39  total=39  
+      3. V            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. Fe           spk=0   sem=0   deob=0   inj=38  total=38  
+      5. k            spk=0   sem=0   deob=0   inj=37  total=37  
+   Injected: Client.skyboxColor : I (pos 149/156)
+   --> COPILOT-BRIEF
+
+== Client.getStructComposition
+   Anchor:  a/W
+      1. g            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. Z            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. c            spk=0   sem=0   deob=0   inj=35  total=35  
+      4. d            spk=0   sem=0   deob=0   inj=34  total=34  
+      5. j            spk=0   sem=0   deob=0   inj=31  total=31  
+   Injected: Client.$assertionsDisabled : Z (pos 34/60)
+   --> COPILOT-BRIEF
+
+== Client.getStructCompositionCache
+   Anchor:  a/W
+      1. g            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. Z            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. c            spk=0   sem=0   deob=0   inj=35  total=35  
+      4. d            spk=0   sem=0   deob=0   inj=34  total=34  
+      5. j            spk=0   sem=0   deob=0   inj=31  total=31  
+   Injected: Client.$assertionsDisabled : Z (pos 34/60)
+   --> COPILOT-BRIEF
+
+== Client.getTickCount
+   Anchor:  a/W
+      1. Fj           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. V            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. p            spk=0   sem=0   deob=0   inj=39  total=39  
+      4. k            spk=0   sem=0   deob=0   inj=38  total=38  
+      5. j            spk=0   sem=0   deob=0   inj=37  total=37  
+   Injected: Client.tickCount : I (pos 145/156)
+   --> COPILOT-BRIEF
+
+== Client.getTopLevelInterfaceId
+   Anchor:  a/W
+      1. Fl           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. FZ           spk=0   sem=0   deob=0   inj=39  total=39  
+      3. A            spk=0   sem=0   deob=0   inj=39  total=39  
+      4. Ub           spk=0   sem=0   deob=0   inj=38  total=38  
+      5. T            spk=0   sem=0   deob=0   inj=37  total=37  
+   RL-Deob: "rootInterface"
+   Injected: Client.rootInterface : I (pos 107/156)
+   --> COPILOT-BRIEF
+
+== Client.getUsername
+   SpawnPK: rs/Client.fb : Ljava/lang/String;
+   Anchor:  a/W
+      1. z            spk=19  sem=0   deob=0   inj=39  total=58  
+      2. c            spk=18  sem=0   deob=0   inj=39  total=57  
+      3. L            spk=20  sem=0   deob=0   inj=36  total=56  
+      4. D            spk=21  sem=0   deob=0   inj=34  total=55  
+      5. s            spk=16  sem=0   deob=0   inj=36  total=52  
+   RL-Deob: "Login_username"
+   Injected: Login.Login_username : Ljava/lang/String; (pos 5/8)
+   --> COPILOT-BRIEF
+
+== Client.getVarbitValue
+   Anchor:  a/W
+      1. g            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. Z            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. c            spk=0   sem=0   deob=0   inj=35  total=35  
+      4. d            spk=0   sem=0   deob=0   inj=34  total=34  
+      5. j            spk=0   sem=0   deob=0   inj=31  total=31  
+   Injected: Client.$assertionsDisabled : Z (pos 34/60)
+   --> COPILOT-BRIEF
+
+== Client.getVarps
+   SpawnPK: rs/Client.dG : [I
+   Anchor:  a/W
+      1. Oc           spk=33  sem=0   deob=0   inj=37  total=70  
+      2. OU           spk=33  sem=0   deob=0   inj=33  total=66  
+      3. C            spk=38  sem=0   deob=0   inj=27  total=65  
+      4. Or           spk=30  sem=0   deob=0   inj=35  total=65  
+      5. OF           spk=30  sem=0   deob=0   inj=34  total=64  
+   RL-Deob: "Varps_main"
+   Injected: Varps.Varps_main : [I (pos 2/3)
+   --> COPILOT-BRIEF
+
+== Client.getViewportHeight
+   SpawnPK: rs/Client.ae : I
+   Anchor:  a/W
+      1. OZ           spk=44  sem=0   deob=0   inj=40  total=84  
+      2. Od           spk=44  sem=0   deob=0   inj=40  total=84  
+      3. Or           spk=31  sem=0   deob=0   inj=39  total=70  
+      4. Oc           spk=31  sem=0   deob=0   inj=39  total=70  
+      5. OG           spk=30  sem=0   deob=0   inj=40  total=70  
+   RL-Deob: "viewportHeight"
+   Injected: Client.viewportHeight : I (pos 14/156)
+   --> COPILOT-BRIEF
+
+== Client.getViewportWidth
+   SpawnPK: rs/Client.af : I
+   Anchor:  a/W
+      1. OZ           spk=40  sem=0   deob=0   inj=40  total=80  
+      2. Od           spk=40  sem=0   deob=0   inj=40  total=80  
+      3. u            spk=33  sem=0   deob=0   inj=37  total=70  
+      4. OF           spk=31  sem=0   deob=0   inj=39  total=70  
+      5. Or           spk=31  sem=0   deob=0   inj=39  total=70  
+   RL-Deob: "viewportWidth"
+   Injected: Client.viewportWidth : I (pos 12/156)
+   --> COPILOT-BRIEF
+
+== Client.getViewportXOffset
+   Anchor:  a/W
+      1. OU           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. O            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. U            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. F            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. r            spk=0   sem=0   deob=0   inj=35  total=35  
+   RL-Deob: "viewportOffsetX"
+   Injected: Client.viewportOffsetX : I (pos 0/156)
+   --> COPILOT-BRIEF
+
+== Client.getViewportYOffset
+   Anchor:  a/W
+      1. OU           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. O            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. U            spk=0   sem=0   deob=0   inj=38  total=38  
+      4. F            spk=0   sem=0   deob=0   inj=37  total=37  
+      5. r            spk=0   sem=0   deob=0   inj=35  total=35  
+   RL-Deob: "viewportOffsetY"
+   Injected: Client.viewportOffsetY : I (pos 1/156)
+   --> COPILOT-BRIEF
+
+== Client.getWeight
+   SpawnPK: rs/Client.jU : I
+   Anchor:  a/W
+      1. FO           spk=36  sem=0   deob=0   inj=40  total=76  
+      2. FU           spk=36  sem=0   deob=0   inj=40  total=76  
+      3. UC           spk=36  sem=0   deob=0   inj=39  total=75  
+      4. Fg           spk=36  sem=0   deob=0   inj=39  total=75  
+      5. Ut           spk=37  sem=0   deob=0   inj=37  total=74  
+   RL-Deob: "weight"
+   Injected: Client.weight : I (pos 113/156)
+   --> COPILOT-BRIEF
+
+== Client.getWidgetPositionsX
+   Anchor:  a/W
+      1. OO           spk=0   sem=0   deob=0   inj=39  total=39  
+      2. W            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. l            spk=0   sem=0   deob=0   inj=37  total=37  
+      4. A            spk=0   sem=0   deob=0   inj=35  total=35  
+      5. OB           spk=0   sem=0   deob=0   inj=34  total=34  
+   RL-Deob: "rootWidgetXs"
+   Injected: Client.rootWidgetXs : [I (pos 37/48)
+   --> COPILOT-BRIEF
+
+== Client.getWidgetPositionsY
+   Anchor:  a/W
+      1. OO           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. l            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. W            spk=0   sem=0   deob=0   inj=37  total=37  
+      4. OB           spk=0   sem=0   deob=0   inj=35  total=35  
+      5. A            spk=0   sem=0   deob=0   inj=34  total=34  
+   RL-Deob: "rootWidgetYs"
+   Injected: Client.rootWidgetYs : [I (pos 38/48)
+   --> COPILOT-BRIEF
+
+== Client.getWorld
+   Anchor:  a/W
+      1. r            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. F            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. Oe           spk=0   sem=0   deob=0   inj=39  total=39  
+      4. U            spk=0   sem=0   deob=0   inj=38  total=38  
+      5. O            spk=0   sem=0   deob=0   inj=37  total=37  
+   RL-Deob: "worldId"
+   Injected: Client.worldId : I (pos 18/156)
+   --> COPILOT-BRIEF
+
+== Client.getXteaKeys
+   Anchor:  a/W
+      1. r            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. c            spk=0   sem=0   deob=0   inj=27  total=27  
+      3. O            spk=0   sem=0   deob=0   inj=13  total=13  
+      4. U            spk=0   sem=0   deob=0   inj=0   total=0   
+   RL-Deob: "xteaKeys"
+   Injected: GrandExchangeOffer.xteaKeys : [[I (pos 0/1)
+   --> COPILOT-BRIEF
+
+== Client.isDraggingWidget
+   Anchor:  a/W
+      1. c            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. g            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. j            spk=0   sem=0   deob=0   inj=35  total=35  
+      4. Z            spk=0   sem=0   deob=0   inj=34  total=34  
+      5. W            spk=0   sem=0   deob=0   inj=31  total=31  
+   RL-Deob: "isDraggingWidget"
+   Injected: Client.isDraggingWidget : Z (pos 29/60)
+   --> COPILOT-BRIEF
+
+== Client.isGpu
+   Anchor:  a/W
+      1. S            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. x            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. I            spk=0   sem=0   deob=0   inj=39  total=39  
+      4. X            spk=0   sem=0   deob=0   inj=38  total=38  
+      5. e            spk=0   sem=0   deob=0   inj=38  total=38  
+   Injected: Client.gpu : Z (pos 42/60)
+   --> COPILOT-BRIEF
+
+== Client.isInInstancedRegion
+   Anchor:  a/W
+      1. F            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. W            spk=0   sem=0   deob=0   inj=37  total=37  
+      3. U            spk=0   sem=0   deob=0   inj=36  total=36  
+      4. O            spk=0   sem=0   deob=0   inj=33  total=33  
+      5. j            spk=0   sem=0   deob=0   inj=33  total=33  
+   RL-Deob: "isInInstance"
+   Injected: Client.isInInstance : Z (pos 11/60)
+   --> COPILOT-BRIEF
+
+== Client.isMenuOpen
+   Anchor:  a/W
+      1. j            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. W            spk=0   sem=0   deob=0   inj=37  total=37  
+      3. c            spk=0   sem=0   deob=0   inj=35  total=35  
+      4. F            spk=0   sem=0   deob=0   inj=34  total=34  
+      5. g            spk=0   sem=0   deob=0   inj=32  total=32  
+   RL-Deob: "isMenuOpen"
+   Injected: Client.isMenuOpen : Z (pos 20/60)
+   --> COPILOT-BRIEF
+
+== Client.isResized
+   Anchor:  a/W
+      1. g            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. c            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. Z            spk=0   sem=0   deob=0   inj=35  total=35  
+      4. j            spk=0   sem=0   deob=0   inj=34  total=34  
+      5. W            spk=0   sem=0   deob=0   inj=31  total=31  
+   RL-Deob: "isResizable"
+   Injected: Client.isResizable : Z (pos 30/60)
+   --> COPILOT-BRIEF
+
+== Client.isStretchedEnabled
+   Anchor:  a/W
+      1. B            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. G            spk=0   sem=0   deob=0   inj=37  total=37  
+      3. Q            spk=0   sem=0   deob=0   inj=35  total=35  
+      4. d            spk=0   sem=0   deob=0   inj=32  total=32  
+      5. Z            spk=0   sem=0   deob=0   inj=28  total=28  
+   Injected: Client.stretchedEnabled : Z (pos 55/60)
+   --> COPILOT-BRIEF
+
+== Client.isStretchedFast
+   Anchor:  a/W
+      1. B            spk=0   sem=0   deob=0   inj=38  total=38  
+      2. G            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. Q            spk=0   sem=0   deob=0   inj=35  total=35  
+      4. d            spk=0   sem=0   deob=0   inj=31  total=31  
+      5. Z            spk=0   sem=0   deob=0   inj=27  total=27  
+   Injected: Client.stretchedFast : Z (pos 56/60)
+   --> COPILOT-BRIEF
+
+== Client.playSoundEffect
+   Anchor:  a/W
+      1. g            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. Z            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. c            spk=0   sem=0   deob=0   inj=35  total=35  
+      4. d            spk=0   sem=0   deob=0   inj=34  total=34  
+      5. j            spk=0   sem=0   deob=0   inj=31  total=31  
+   Injected: Client.$assertionsDisabled : Z (pos 34/60)
+   --> COPILOT-BRIEF
+
+== Client.queueChangedVarp
+   Anchor:  a/W
+      1. g            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. Z            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. c            spk=0   sem=0   deob=0   inj=35  total=35  
+      4. d            spk=0   sem=0   deob=0   inj=34  total=34  
+      5. j            spk=0   sem=0   deob=0   inj=31  total=31  
+   Injected: Client.$assertionsDisabled : Z (pos 34/60)
+   --> COPILOT-BRIEF
+
+== Client.setCameraPitchRelaxerEnabled
+   Anchor:  a/W
+      1. g            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. c            spk=0   sem=0   deob=0   inj=36  total=36  
+      3. Z            spk=0   sem=0   deob=0   inj=36  total=36  
+      4. j            spk=0   sem=0   deob=0   inj=33  total=33  
+      5. d            spk=0   sem=0   deob=0   inj=33  total=33  
+   Injected: Client.pitchRelaxEnabled : Z (pos 32/60)
+   --> COPILOT-BRIEF
+
+== Client.setCameraPitchTarget
+   Anchor:  a/W
+      1. U9           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. U8           spk=0   sem=0   deob=0   inj=39  total=39  
+      3. UW           spk=0   sem=0   deob=0   inj=39  total=39  
+      4. U4           spk=0   sem=0   deob=0   inj=38  total=38  
+      5. D            spk=0   sem=0   deob=0   inj=38  total=38  
+   RL-Deob: "camAngleX"
+   Injected: Client.camAngleX : I (pos 61/156)
+   --> COPILOT-BRIEF
+
+== Client.setCameraYawTarget
+   Anchor:  a/W
+      1. U9           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. U8           spk=0   sem=0   deob=0   inj=39  total=39  
+      3. UW           spk=0   sem=0   deob=0   inj=39  total=39  
+      4. D            spk=0   sem=0   deob=0   inj=38  total=38  
+      5. U4           spk=0   sem=0   deob=0   inj=37  total=37  
+   RL-Deob: "camAngleY"
+   Injected: Client.camAngleY : I (pos 62/156)
+   --> COPILOT-BRIEF
+
+== Client.setGameState
+   Anchor:  a/W
+      1. g            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. Z            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. c            spk=0   sem=0   deob=0   inj=35  total=35  
+      4. d            spk=0   sem=0   deob=0   inj=34  total=34  
+      5. j            spk=0   sem=0   deob=0   inj=31  total=31  
+   Injected: Client.$assertionsDisabled : Z (pos 34/60)
+   --> COPILOT-BRIEF
+
+== Client.setIdleTimeout
+   Anchor:  a/W
+      1. p            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. Fe           spk=0   sem=0   deob=0   inj=39  total=39  
+      3. Fj           spk=0   sem=0   deob=0   inj=38  total=38  
+      4. V            spk=0   sem=0   deob=0   inj=37  total=37  
+      5. k            spk=0   sem=0   deob=0   inj=36  total=36  
+   Injected: Client.idleTimeout : I (pos 152/156)
+   --> COPILOT-BRIEF
+
+== Client.setLoginScreen
+   Anchor:  a/W
+      1. g            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. Z            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. c            spk=0   sem=0   deob=0   inj=35  total=35  
+      4. d            spk=0   sem=0   deob=0   inj=34  total=34  
+      5. j            spk=0   sem=0   deob=0   inj=31  total=31  
+   Injected: Client.$assertionsDisabled : Z (pos 34/60)
+   --> COPILOT-BRIEF
+
+== Client.setOculusOrbNormalSpeed
+   Anchor:  a/W
+      1. D            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. R            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. UW           spk=0   sem=0   deob=0   inj=38  total=38  
+      4. h            spk=0   sem=0   deob=0   inj=38  total=38  
+      5. U9           spk=0   sem=0   deob=0   inj=37  total=37  
+   RL-Deob: "oculusOrbNormalSpeed"
+   Injected: Client.oculusOrbNormalSpeed : I (pos 72/156)
+   --> COPILOT-BRIEF
+
+== Client.setOculusOrbState
+   Anchor:  a/W
+      1. UW           spk=0   sem=0   deob=0   inj=40  total=40  
+      2. D            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. U9           spk=0   sem=0   deob=0   inj=38  total=38  
+      4. R            spk=0   sem=0   deob=0   inj=38  total=38  
+      5. U8           spk=0   sem=0   deob=0   inj=37  total=37  
+   RL-Deob: "oculusOrbState"
+   Injected: Client.oculusOrbState : I (pos 67/156)
+   --> COPILOT-BRIEF
+
+== CollisionData.getFlags
+   SpawnPK: rs/f.a : [[I
+   Anchor:  a/ys
+      1. O            spk=61  sem=0   deob=0   inj=0   total=61  
+   --> COPILOT-BRIEF (conflict: top candidate O already mapped to CollisionMap.width)
+
+== GameObject.getConfig
+   Anchor:  a/Ul
+      1. Z            spk=0   sem=0   deob=0   inj=38  total=38  
+      2. d            spk=0   sem=0   deob=0   inj=37  total=37  
+      3. g            spk=0   sem=0   deob=0   inj=33  total=33  
+      4. y            spk=0   sem=0   deob=0   inj=28  total=28  
+      5. c            spk=0   sem=0   deob=0   inj=23  total=23  
+   RL-Deob: "flags"
+   Injected: GameObject.flags : I (pos 11/13)
+   --> COPILOT-BRIEF
+
+== GameObject.getModelOrientation
+   Anchor:  a/Ul
+      1. r            spk=0   sem=0   deob=0   inj=38  total=38  
+      2. F            spk=0   sem=0   deob=0   inj=37  total=37  
+      3. c            spk=0   sem=0   deob=0   inj=33  total=33  
+      4. U            spk=0   sem=0   deob=0   inj=32  total=32  
+      5. y            spk=0   sem=0   deob=0   inj=28  total=28  
+   RL-Deob: "orientation"
+   Injected: GameObject.orientation : I (pos 4/13)
+   --> COPILOT-BRIEF
+
+== GraphicsObject.getLevel
+   Anchor:  a/lJ
+      1. r            spk=0   sem=25  deob=50  inj=21  total=96  [hint: level/plane (int)]
+      2. U            spk=0   sem=0   deob=0   inj=39  total=39  [hint: x (int)]
+      3. F            spk=0   sem=0   deob=0   inj=31  total=31  [hint: y (int)]
+      4. O            spk=0   sem=0   deob=0   inj=29  total=29  [hint: id (int)]
+      5. c            spk=0   sem=0   deob=0   inj=11  total=11  [hint: startCycle (int)]
+   RL-Deob: "plane"
+   Injected: GraphicsObject.plane : I (pos 2/8)
+   --> COPILOT-BRIEF (conflict: top candidate r already mapped to GraphicsObject.plane)
+
+== GraphicsObject.getZ
+   Anchor:  a/lJ
+      1. F            spk=0   sem=0   deob=0   inj=37  total=37  [hint: y (int)]
+      2. r            spk=0   sem=0   deob=0   inj=33  total=33  [hint: level/plane (int)]
+      3. U            spk=0   sem=0   deob=0   inj=27  total=27  [hint: x (int)]
+      4. c            spk=0   sem=0   deob=0   inj=23  total=23  [hint: startCycle (int)]
+      5. O            spk=0   sem=0   deob=0   inj=17  total=17  [hint: id (int)]
+   RL-Deob: "z"
+   Injected: GraphicsObject.z : I (pos 4/8)
+   --> COPILOT-BRIEF (conflict: top candidate F already mapped to GraphicsObject.y)
+
+== GraphicsObject.setFinished
+   Anchor:  a/lJ
+      1. O            spk=0   sem=0   deob=0   inj=65  total=65  [hint: finished (boolean)]
+   RL-Deob: "isFinished"
+   Injected: GraphicsObject.isFinished : Z (pos 0/1)
+   --> COPILOT-BRIEF (conflict: top candidate O already mapped to GraphicsObject.id)
+
+== ItemContainer.getId
+   SpawnPK: rs/m/e/q.s : I
+   Anchor:  a/UB
+      1. N            spk=30  sem=0   deob=0   inj=0   total=30  
+      2. p            spk=29  sem=0   deob=0   inj=0   total=29  
+      3. r            spk=28  sem=0   deob=0   inj=0   total=28  
+      4. g            spk=26  sem=0   deob=0   inj=0   total=26  
+      5. y            spk=24  sem=0   deob=0   inj=0   total=24  
+   --> COPILOT-BRIEF
+
+== NPCComposition.getCombatLevel
+   SpawnPK: rs/e/d.n : I
+   Anchor:  a/Zl
+      1. c            spk=34  sem=25  deob=50  inj=36  total=145 [hint: int #4 [XSRV] NPCComposition.getCombatLevel=combatLevel(#4,s=34)]
+      2. r            spk=37  sem=25  deob=50  inj=30  total=142 [hint: int #3 [XSRV] NPCComposition.getCombatLevel=combatLevel(#3,s=37)]
+      3. F            spk=41  sem=25  deob=50  inj=24  total=140 [hint: int #2 [XSRV] NPCComposition.getCombatLevel=combatLevel(#2,s=41)]
+      4. U            spk=38  sem=25  deob=50  inj=19  total=132 [hint: int #1 (possibly size/combatLevel) [XSRV] NPCComposition.getCombatLevel=combatLevel(#1,s=113)]
+      5. O            spk=31  sem=25  deob=50  inj=13  total=119 [hint: id (int, first) [XSRV] NPCComposition.getCombatLevel=combatLevel(#5,s=31)]
+   RL-Deob: "combatLevel"
+   Injected: NPCComposition.combatLevel : I (pos 17/26)
+   --> COPILOT-BRIEF (conflict: top candidate c already mapped to NPCComposition.standingAnimation.candidates)
+
+== NPCComposition.getSize
+   Anchor:  a/Zl
+      1. U            spk=0   sem=25  deob=50  inj=36  total=111 [hint: int #1 (possibly size/combatLevel) [XSRV] NPCComposition.getCombatLevel=combatLevel(#1,s=113)]
+      2. O            spk=0   sem=0   deob=0   inj=38  total=38  [hint: id (int, first) [XSRV] NPCComposition.getCombatLevel=combatLevel(#5,s=31)]
+      3. F            spk=0   sem=0   deob=0   inj=30  total=30  [hint: int #2 [XSRV] NPCComposition.getCombatLevel=combatLevel(#2,s=41)]
+      4. r            spk=0   sem=0   deob=0   inj=24  total=24  [hint: int #3 [XSRV] NPCComposition.getCombatLevel=combatLevel(#3,s=37)]
+      5. c            spk=0   sem=0   deob=0   inj=19  total=19  [hint: int #4 [XSRV] NPCComposition.getCombatLevel=combatLevel(#4,s=34)]
+   RL-Deob: "size"
+   Injected: NPCComposition.size : I (pos 1/26)
+   --> COPILOT-BRIEF (conflict: top candidate U already mapped to NPCComposition.examine)
+
+== NPCComposition.isFollower
+   Anchor:  a/Zl
+      1. O            spk=0   sem=0   deob=0   inj=0   total=0   [hint: boolean (isMinimapVisible/isClickable)]
+   RL-Deob: "isFollower"
+   Injected: NPCComposition.isFollower : Z (pos 4/5)
+   --> COPILOT-BRIEF (conflict: top candidate O already mapped to NPCComposition.id)
+
+== NPCComposition.isInteractible
+   Anchor:  a/Zl
+      1. O            spk=0   sem=0   deob=0   inj=20  total=20  [hint: boolean (isMinimapVisible/isClickable)]
+   RL-Deob: "isInteractable"
+   Injected: NPCComposition.isInteractable : Z (pos 2/5)
+   --> COPILOT-BRIEF (conflict: top candidate O already mapped to NPCComposition.id)
+
+== NPCComposition.isMinimapVisible
+   Anchor:  a/Zl
+      1. O            spk=0   sem=25  deob=0   inj=40  total=65  [hint: boolean (isMinimapVisible/isClickable)]
+   RL-Deob: "drawMapDot"
+   Injected: NPCComposition.drawMapDot : Z (pos 0/5)
+   --> COPILOT-BRIEF (conflict: top candidate O already mapped to NPCComposition.id)
+
+== NPCComposition.isVisible
+   Anchor:  a/Zl
+      1. O            spk=0   sem=25  deob=0   inj=30  total=55  [hint: boolean (isMinimapVisible/isClickable)]
+   RL-Deob: "isVisible"
+   Injected: NPCComposition.isVisible : Z (pos 1/5)
+   --> COPILOT-BRIEF (conflict: top candidate O already mapped to NPCComposition.id)
+
+== Node.getHash
+   Anchor:  a/wa
+      1. O            spk=0   sem=0   deob=0   inj=65  total=65  
+   RL-Deob: "key"
+   Injected: Node.key : J (pos 0/1)
+   --> COPILOT-BRIEF (conflict: top candidate O already mapped to CacheableNode.id)
+
+== Node.getNext
+   SpawnPK: rs/t.e : Lrs/t;
+   Anchor:  a/wa
+      1. U            spk=65  sem=0   deob=0   inj=25  total=90  
+      2. O            spk=22  sem=0   deob=0   inj=65  total=87  
+   RL-Deob: "previous"
+   Injected: Node.previous : LNode; (pos 0/2)
+   --> COPILOT-BRIEF (conflict: top candidate U already mapped to CacheableNode.previous)
+
+== Node.getPrevious
+   SpawnPK: rs/t.d : Lrs/t;
+   Anchor:  a/wa
+      1. O            spk=67  sem=0   deob=0   inj=25  total=92  
+      2. U            spk=20  sem=0   deob=0   inj=65  total=85  
+   RL-Deob: "next"
+   Injected: Node.next : LNode; (pos 1/2)
+   --> COPILOT-BRIEF (conflict: top candidate O already mapped to CacheableNode.id)
+
+== ObjectComposition.getId
+   Anchor:  a/fj
+      1. O            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. U            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. F            spk=0   sem=0   deob=0   inj=35  total=35  
+      4. r            spk=0   sem=0   deob=0   inj=33  total=33  
+      5. c            spk=0   sem=0   deob=0   inj=31  total=31  
+   RL-Deob: "id"
+   Injected: ObjectComposition.id : I (pos 0/26)
+   --> COPILOT-BRIEF (conflict: top candidate O already mapped to ObjectComposition.objectId)
+
+== ObjectComposition.getImpostorIds
+   Anchor:  a/fj
+      1. U            spk=0   sem=0   deob=0   inj=33  total=33  
+      2. F            spk=0   sem=0   deob=0   inj=27  total=27  
+      3. O            spk=0   sem=0   deob=0   inj=13  total=13  
+   RL-Deob: "transforms"
+   Injected: ObjectComposition.transforms : [I (pos 2/4)
+   --> COPILOT-BRIEF (conflict: top candidate U already mapped to ObjectComposition.retextureToFind)
+
+== ObjectComposition.getMapIconId
+   Anchor:  a/fj
+      1. Z            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. g            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. d            spk=0   sem=0   deob=0   inj=37  total=37  
+      4. y            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. B            spk=0   sem=0   deob=0   inj=35  total=35  
+   RL-Deob: "mapIconId"
+   Injected: ObjectComposition.mapIconId : I (pos 10/26)
+   --> COPILOT-BRIEF
+
+== ObjectComposition.getMapSceneId
+   Anchor:  a/fj
+      1. Z            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. d            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. g            spk=0   sem=0   deob=0   inj=37  total=37  
+      4. B            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. y            spk=0   sem=0   deob=0   inj=34  total=34  
+   RL-Deob: "mapSceneId"
+   Injected: ObjectComposition.mapSceneId : I (pos 11/26)
+   --> COPILOT-BRIEF
+
+== ObjectComposition.getSizeX
+   Anchor:  a/fj
+      1. U            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. O            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. F            spk=0   sem=0   deob=0   inj=37  total=37  
+      4. r            spk=0   sem=0   deob=0   inj=35  total=35  
+      5. c            spk=0   sem=0   deob=0   inj=32  total=32  
+   RL-Deob: "sizeX"
+   Injected: ObjectComposition.sizeX : I (pos 1/26)
+   --> COPILOT-BRIEF (conflict: top candidate U already mapped to ObjectComposition.retextureToFind)
+
+== ObjectComposition.getSizeY
+   Anchor:  a/fj
+      1. U            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. F            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. O            spk=0   sem=0   deob=0   inj=37  total=37  
+      4. r            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. c            spk=0   sem=0   deob=0   inj=34  total=34  
+   RL-Deob: "sizeY"
+   Injected: ObjectComposition.sizeY : I (pos 2/26)
+   --> COPILOT-BRIEF (conflict: top candidate U already mapped to ObjectComposition.retextureToFind)
+
+== ObjectComposition.getVarPlayerId
+   Anchor:  a/fj
+      1. z            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. L            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. D            spk=0   sem=0   deob=0   inj=37  total=37  
+      4. s            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. l            spk=0   sem=0   deob=0   inj=34  total=34  
+   RL-Deob: "transformVarp"
+   Injected: ObjectComposition.transformVarp : I (pos 20/26)
+   --> COPILOT-BRIEF
+
+== ObjectComposition.getVarbitId
+   Anchor:  a/fj
+      1. z            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. s            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. L            spk=0   sem=0   deob=0   inj=37  total=37  
+      4. l            spk=0   sem=0   deob=0   inj=35  total=35  
+      5. D            spk=0   sem=0   deob=0   inj=35  total=35  
+   RL-Deob: "transformVarbit"
+   Injected: ObjectComposition.transformVarbit : I (pos 19/26)
+   --> COPILOT-BRIEF
+
+== ObjectComposition.setMapIconId
+   Anchor:  a/fj
+      1. Z            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. g            spk=0   sem=0   deob=0   inj=38  total=38  
+      3. d            spk=0   sem=0   deob=0   inj=37  total=37  
+      4. y            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. B            spk=0   sem=0   deob=0   inj=35  total=35  
+   RL-Deob: "mapIconId"
+   Injected: ObjectComposition.mapIconId : I (pos 10/26)
+   --> COPILOT-BRIEF
+
+== ObjectComposition.setMapSceneId
+   Anchor:  a/fj
+      1. Z            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. d            spk=0   sem=0   deob=0   inj=39  total=39  
+      3. g            spk=0   sem=0   deob=0   inj=37  total=37  
+      4. B            spk=0   sem=0   deob=0   inj=36  total=36  
+      5. y            spk=0   sem=0   deob=0   inj=34  total=34  
+   RL-Deob: "mapSceneId"
+   Injected: ObjectComposition.mapSceneId : I (pos 11/26)
+   --> COPILOT-BRIEF
+
+== Player.getCombatLevel
+   SpawnPK: rs/a/k.bc : I
+   Anchor:  a/wT
+      1. b            spk=40  sem=25  deob=50  inj=40  total=155 [hint: int (combatLevel/skullIcon/overheadIcon/team)]
+      2. C            spk=40  sem=25  deob=50  inj=38  total=153 [hint: int (combatLevel/skullIcon/overheadIcon/team)]
+      3. i            spk=39  sem=25  deob=50  inj=38  total=152 [hint: int (combatLevel/skullIcon/overheadIcon/team)]
+      4. OF           spk=44  sem=25  deob=50  inj=32  total=151 [hint: int (combatLevel/skullIcon/overheadIcon/team) [XSRV] Player.getCombatLevel=combatLevel(#3,s=119)]
+      5. OO           spk=38  sem=25  deob=50  inj=36  total=149 [hint: int (combatLevel/skullIcon/overheadIcon/team)]
+   RL-Deob: "combatLevel"
+   Injected: Player.combatLevel : I (pos 2/22)
+   --> COPILOT-BRIEF
+
+== Player.getId
+   Anchor:  a/wT
+      1. Ol           spk=0   sem=0   deob=0   inj=40  total=40  [hint: int (combatLevel/skullIcon/overheadIcon/team)]
+      2. OG           spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (combatLevel/skullIcon/overheadIcon/team)]
+      3. O2           spk=0   sem=0   deob=0   inj=38  total=38  [hint: int (combatLevel/skullIcon/overheadIcon/team)]
+      4. OB           spk=0   sem=0   deob=0   inj=36  total=36  [hint: int (combatLevel/skullIcon/overheadIcon/team)]
+      5. O3           spk=0   sem=0   deob=0   inj=36  total=36  [hint: int (combatLevel/skullIcon/overheadIcon/team)]
+   RL-Deob: "index"
+   Injected: Player.index : I (pos 16/22)
+   --> COPILOT-BRIEF
+
+== Player.getTeam
+   SpawnPK: rs/a/k.bf : I
+   Anchor:  a/wT
+      1. OB           spk=41  sem=25  deob=50  inj=39  total=155 [hint: int (combatLevel/skullIcon/overheadIcon/team)]
+      2. Od           spk=42  sem=25  deob=50  inj=37  total=154 [hint: int (combatLevel/skullIcon/overheadIcon/team) [XSRV] Player.getTeam=team(#5,s=117)]
+      3. OG           spk=40  sem=25  deob=50  inj=39  total=154 [hint: int (combatLevel/skullIcon/overheadIcon/team)]
+      4. OZ           spk=43  sem=25  deob=50  inj=35  total=153 [hint: int (combatLevel/skullIcon/overheadIcon/team) [XSRV] Player.getTeam=team(#2,s=118)]
+      5. Ol           spk=39  sem=25  deob=50  inj=37  total=151 [hint: int (combatLevel/skullIcon/overheadIcon/team)]
+   RL-Deob: "team"
+   Injected: Player.team : I (pos 14/22)
+   --> COPILOT-BRIEF
+
+== Projectile.getEndHeight
+   Anchor:  a/AC
+      1. s            spk=0   sem=25  deob=50  inj=38  total=113 [hint: endHeight (int)]
+      2. r            spk=0   sem=0   deob=0   inj=39  total=39  [hint: startHeight (int)]
+      3. F            spk=0   sem=0   deob=0   inj=36  total=36  [hint: targetIndex (int)]
+      4. c            spk=0   sem=0   deob=0   inj=35  total=35  [hint: slope (int)]
+      5. U            spk=0   sem=0   deob=0   inj=33  total=33  [hint: endCycle (int)]
+   RL-Deob: "endHeight"
+   Injected: Projectile.endHeight : I (pos 5/17)
+   --> COPILOT-BRIEF (conflict: top candidate s already mapped to Projectile.animationId)
+
+== Projectile.getFloor
+   Anchor:  a/AC
+      1. z            spk=0   sem=25  deob=0   inj=23  total=48  [hint: floor (int)]
+      2. O            spk=0   sem=0   deob=0   inj=40  total=40  [hint: startCycle (int)]
+      3. l            spk=0   sem=0   deob=0   inj=38  total=38  [hint: id (int)]
+      4. U            spk=0   sem=0   deob=0   inj=37  total=37  [hint: endCycle (int)]
+      5. F            spk=0   sem=0   deob=0   inj=34  total=34  [hint: targetIndex (int)]
+   RL-Deob: "plane"
+   Injected: Projectile.plane : I (pos 1/17)
+   --> COPILOT-BRIEF (conflict: top candidate z already mapped to Projectile.plane)
+
+== Projectile.getHeight
+   Anchor:  a/AC
+      1. r            spk=0   sem=25  deob=0   inj=39  total=64  [hint: startHeight (int)]
+      2. s            spk=0   sem=25  deob=0   inj=36  total=61  [hint: endHeight (int)]
+      3. F            spk=0   sem=0   deob=0   inj=39  total=39  [hint: targetIndex (int)]
+      4. U            spk=0   sem=0   deob=0   inj=36  total=36  [hint: endCycle (int)]
+      5. O            spk=0   sem=0   deob=0   inj=33  total=33  [hint: startCycle (int)]
+   RL-Deob: "sourceZ"
+   Injected: Projectile.sourceZ : I (pos 4/17)
+   --> COPILOT-BRIEF (conflict: top candidate r already mapped to Projectile.velocityX)
+
+== Projectile.getSlope
+   Anchor:  a/AC
+      1. c            spk=0   sem=25  deob=50  inj=37  total=112 [hint: slope (int)]
+      2. z            spk=0   sem=0   deob=0   inj=40  total=40  [hint: floor (int)]
+      3. L            spk=0   sem=0   deob=0   inj=37  total=37  [hint: int field]
+      4. s            spk=0   sem=0   deob=0   inj=34  total=34  [hint: endHeight (int)]
+      5. y            spk=0   sem=0   deob=0   inj=34  total=34  [hint: int field]
+   RL-Deob: "slope"
+   Injected: Projectile.slope : I (pos 8/17)
+   --> COPILOT-BRIEF (conflict: top candidate c already mapped to Projectile.velocityY)
+
+== Projectile.getTarget
+   Anchor:  a/AC
+      1. B            spk=0   sem=0   deob=0   inj=40  total=40  [hint: int field]
+      2. G            spk=0   sem=0   deob=0   inj=38  total=38  [hint: int field]
+      3. d            spk=0   sem=0   deob=0   inj=37  total=37  [hint: int field]
+      4. F            spk=0   sem=25  deob=0   inj=11  total=36  [hint: targetIndex (int)]
+      5. Z            spk=0   sem=0   deob=0   inj=34  total=34  [hint: int field]
+   Injected: Projectile.targetX : I (pos 15/17)
+   --> COPILOT-BRIEF
+
+== Projectile.getX
+   Anchor:  a/AC
+      1. O            spk=0   sem=25  deob=50  inj=65  total=140 [hint: x (double)]
+      2. r            spk=0   sem=25  deob=50  inj=48  total=123 [hint: velocityX (double)]
+      3. U            spk=0   sem=0   deob=0   inj=59  total=59  [hint: y (double)]
+      4. F            spk=0   sem=0   deob=0   inj=54  total=54  [hint: z/height (double)]
+      5. c            spk=0   sem=0   deob=0   inj=42  total=42  [hint: velocityY (double)]
+   RL-Deob: "x"
+   Injected: Projectile.x : D (pos 0/8)
+   --> COPILOT-BRIEF (conflict: top candidate O already mapped to Projectile.startCycle)
+
+== Projectile.getX1
+   Anchor:  a/AC
+      1. U            spk=0   sem=0   deob=0   inj=39  total=39  [hint: endCycle (int)]
+      2. O            spk=0   sem=0   deob=0   inj=38  total=38  [hint: startCycle (int)]
+      3. F            spk=0   sem=0   deob=0   inj=36  total=36  [hint: targetIndex (int)]
+      4. l            spk=0   sem=0   deob=0   inj=35  total=35  [hint: id (int)]
+      5. r            spk=0   sem=0   deob=0   inj=34  total=34  [hint: startHeight (int)]
+   RL-Deob: "sourceX"
+   Injected: Projectile.sourceX : I (pos 2/17)
+   --> COPILOT-BRIEF (conflict: top candidate U already mapped to Projectile.endCycle)
+
+== Projectile.getY
+   Anchor:  a/AC
+      1. U            spk=0   sem=25  deob=50  inj=65  total=140 [hint: y (double)]
+      2. r            spk=0   sem=25  deob=50  inj=54  total=129 [hint: velocityX (double)]
+      3. c            spk=0   sem=25  deob=50  inj=48  total=123 [hint: velocityY (double)]
+      4. y            spk=0   sem=25  deob=50  inj=42  total=117 [hint: velocityZ (double)]
+      5. O            spk=0   sem=0   deob=0   inj=59  total=59  [hint: x (double)]
+   RL-Deob: "y"
+   Injected: Projectile.y : D (pos 1/8)
+   --> COPILOT-BRIEF (conflict: top candidate U already mapped to Projectile.endCycle)
+
+== Projectile.getY1
+   Anchor:  a/AC
+      1. F            spk=0   sem=0   deob=0   inj=39  total=39  [hint: targetIndex (int)]
+      2. U            spk=0   sem=0   deob=0   inj=38  total=38  [hint: endCycle (int)]
+      3. r            spk=0   sem=0   deob=0   inj=36  total=36  [hint: startHeight (int)]
+      4. O            spk=0   sem=0   deob=0   inj=35  total=35  [hint: startCycle (int)]
+      5. l            spk=0   sem=0   deob=0   inj=33  total=33  [hint: id (int)]
+   RL-Deob: "sourceY"
+   Injected: Projectile.sourceY : I (pos 3/17)
+   --> COPILOT-BRIEF (conflict: top candidate F already mapped to Projectile.currentZ)
+
+== Projectile.getZ
+   Anchor:  a/AC
+      1. F            spk=0   sem=25  deob=50  inj=65  total=140 [hint: z/height (double)]
+      2. y            spk=0   sem=25  deob=50  inj=48  total=123 [hint: velocityZ (double)]
+      3. U            spk=0   sem=0   deob=0   inj=59  total=59  [hint: y (double)]
+      4. r            spk=0   sem=0   deob=0   inj=59  total=59  [hint: velocityX (double)]
+      5. O            spk=0   sem=0   deob=0   inj=54  total=54  [hint: x (double)]
+   RL-Deob: "z"
+   Injected: Projectile.z : D (pos 2/8)
+   --> COPILOT-BRIEF (conflict: top candidate F already mapped to Projectile.currentZ)
+
+== Projectile.setEndCycle
+   Anchor:  a/AC
+      1. c            spk=0   sem=0   deob=0   inj=40  total=40  [hint: slope (int)]
+      2. z            spk=0   sem=0   deob=0   inj=38  total=38  [hint: floor (int)]
+      3. s            spk=0   sem=0   deob=0   inj=37  total=37  [hint: endHeight (int)]
+      4. L            spk=0   sem=0   deob=0   inj=35  total=35  [hint: int field]
+      5. r            spk=0   sem=0   deob=0   inj=34  total=34  [hint: startHeight (int)]
+   RL-Deob: "cycleEnd"
+   Injected: Projectile.cycleEnd : I (pos 7/17)
+   --> COPILOT-BRIEF (conflict: top candidate c already mapped to Projectile.velocityY)
+
+== Renderable.getModelHeight
+   Anchor:  a/Uy
+      1. Oz           spk=0   sem=0   deob=0   inj=65  total=65  
+   RL-Deob: "height"
+   Injected: Renderable.height : I (pos 0/1)
+   --> COPILOT-BRIEF (conflict: top candidate Oz already mapped to Renderable.height)
+
+== Renderable.setModelHeight
+   Anchor:  a/Uy
+      1. Oz           spk=0   sem=0   deob=0   inj=65  total=65  
+   RL-Deob: "height"
+   Injected: Renderable.height : I (pos 0/1)
+   --> COPILOT-BRIEF (conflict: top candidate Oz already mapped to Renderable.height)
+
+== Scene.getMinLevel
+   Anchor:  a/Hm
+      1. B            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. d            spk=0   sem=0   deob=0   inj=37  total=37  
+      3. G            spk=0   sem=0   deob=0   inj=35  total=35  
+      4. Z            spk=0   sem=0   deob=0   inj=33  total=33  
+      5. g            spk=0   sem=0   deob=0   inj=29  total=29  
+   RL-Deob: "minPlane"
+   Injected: Scene.minPlane : I (pos 32/38)
+   --> COPILOT-BRIEF
+
+== Scene.getTiles
+   SpawnPK: rs/V.i : [[[Lrs/H;
+   Anchor:  a/Hm
+      1. O            spk=55  sem=0   deob=0   inj=65  total=120 
+   RL-Deob: "tiles"
+   Injected: Scene.tiles : [[[LTile; (pos 0/1)
+   --> COPILOT-BRIEF (conflict: top candidate O already mapped to Scene.tileHeights)
+
+== Scene.setMinLevel
+   Anchor:  a/Hm
+      1. B            spk=0   sem=0   deob=0   inj=39  total=39  
+      2. d            spk=0   sem=0   deob=0   inj=37  total=37  
+      3. G            spk=0   sem=0   deob=0   inj=35  total=35  
+      4. Z            spk=0   sem=0   deob=0   inj=33  total=33  
+      5. g            spk=0   sem=0   deob=0   inj=29  total=29  
+   RL-Deob: "minPlane"
+   Injected: Scene.minPlane : I (pos 32/38)
+   --> COPILOT-BRIEF
+
+== Tile.getPlane
+   Anchor:  a/Hz
+      1. O            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. U            spk=0   sem=0   deob=0   inj=0   total=0   
+   RL-Deob: "plane"
+   Injected: Tile.plane : I (pos 0/11)
+   --> COPILOT-BRIEF (conflict: top candidate O already mapped to Tile.x)
+
+== Tile.getRenderLevel
+   Anchor:  a/Hz
+      1. O            spk=0   sem=0   deob=0   inj=28  total=28  
+      2. U            spk=0   sem=0   deob=0   inj=12  total=12  
+   RL-Deob: "originalPlane"
+   Injected: Tile.originalPlane : I (pos 3/11)
+   --> COPILOT-BRIEF (conflict: top candidate O already mapped to Tile.x)
+
+== TileItem.getId
+   Anchor:  a/AY
+      1. O            spk=0   sem=0   deob=0   inj=40  total=40  
+      2. U            spk=0   sem=0   deob=0   inj=20  total=20  
+      3. F            spk=0   sem=0   deob=0   inj=0   total=0   
+   RL-Deob: "id"
+   Injected: TileItem.id : I (pos 0/5)
+   --> COPILOT-BRIEF (conflict: top candidate O already mapped to GroundItem.itemId)
+
+== TileItem.getQuantity
+   Anchor:  a/AY
+      1. O            spk=0   sem=0   deob=0   inj=30  total=30  
+      2. U            spk=0   sem=0   deob=0   inj=30  total=30  
+      3. F            spk=0   sem=0   deob=0   inj=10  total=10  
+   RL-Deob: "quantity"
+   Injected: TileItem.quantity : I (pos 1/5)
+   --> COPILOT-BRIEF (conflict: top candidate O already mapped to GroundItem.itemId)
+
+================ SUMMARY ================
+Total gaps with SpawnPK evidence: 300
+  auto-promoted (high confidence): 0
+  briefed for Copilot (ambiguous): 175
+  skipped (no Impact class anchor):  49
+  skipped (no candidates in jar):    76

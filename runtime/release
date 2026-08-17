@@ -1,0 +1,2 @@
+JAVA_VERSION="11.0.30"
+MODULES="java.base java.datatransfer java.xml java.prefs java.desktop java.instrument java.logging java.management java.security.sasl java.naming java.net.http java.scripting java.transaction.xa java.sql jdk.internal.jvmstat jdk.attach jdk.crypto.ec jdk.httpserver jdk.unsupported jdk.unsupported.desktop"

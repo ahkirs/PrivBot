@@ -1,0 +1,16 @@
+net/runelite/client/plugins/toa/features/het/solver/HetSolution net/runelite/api/Client
+rs117/hd/data/materials/Material rs117/hd/data/materials/Material
+rs117/hd/scene/model_overrides/ModelOverride net/runelite/api/widgets/Widget
+com/sun/jna/platform/win32/Ddeml$MONCBSTRUCT net/runelite/api/GameObject
+net/runelite/client/ui/components/ThinProgressBar net/runelite/api/TileItem
+net/runelite/client/plugins/gpu/GpuPlugin net/runelite/api/Projectile
+com/google/gson/stream/JsonReader net/runelite/api/ObjectComposition
+net/runelite/client/ui/overlay/outline/ModelOutlineRenderer net/runelite/api/Scene
+net/runelite/client/ui/overlay/outline/ModelOutlineRenderer$PixelDistanceDelta net/runelite/api/Tile
+net/runelite/client/plugins/itemstats/RangeStatChange net/runelite/api/VarbitComposition
+okhttp3/internal/http2/Huffman okhttp3/internal/http2/Huffman
+net/runelite/client/plugins/chatcommands/ChatCommandsPlugin net/runelite/api/packets/ClientPacket
+net/runelite/client/game/AgilityShortcut net/runelite/api/packets/PacketFields
+net/runelite/api/Experience net/runelite/api/Experience
+rs117/hd/HdPlugin rs117/hd/HdPlugin
+	lambda$processPendingConfigChanges$13 ()V menuDispatch

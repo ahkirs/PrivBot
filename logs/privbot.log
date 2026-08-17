@@ -1,0 +1,744 @@
+2026-08-14T01:15:12.371777300 - PrivBot starting...
+2026-08-14T01:15:12.407359 - Detected Direct JAR Launch mode.
+2026-08-14T01:15:12.408361800 - Launching net.runelite.client.RuneLite directly...
+2026-08-14T01:15:12.502083500 - Found ClassLoader via alternative method: jdk.internal.loader.ClassLoaders$AppClassLoader
+[Proxy] No PROXY configured (env or last-proxy.txt). Launching without proxy.
+[ClientHijack] Injection thread started SpawnPK=false Impact=false
+[2026-08-14 01:15:15.659] PrivBotPluginManager: INFO: PrivBotPluginManager codeSource=file:/C:/Users/adrian/AppData/Local/PrivBot/PrivBot.jar
+[2026-08-14 01:15:16.561] PrivBotPluginManager: INFO: Orion server detected via launcher property - enabling Orion plugin path
+[2026-08-14 01:15:16.562] PrivBotPluginManager: INFO: Downloading manifest from: https://downloads.privbot.dev/plugin-hub/
+2026-08-14T01:15:17.778760400 - Downloaded 28 plugins from https://downloads.privbot.dev/plugin-hub/
+[2026-08-14 01:15:17.783] PrivBotPluginManager: INFO: Downloaded 28 manifest(s) from hub
+[2026-08-14 01:15:17.785] PrivBotPluginManager: INFO: SDN opt-in migration: reset installed list to core plugins only: [privbot-tools, antiban-handler]
+[2026-08-14 01:15:17.786] PrivBotPluginManager: INFO: Installed plugin IDs: [privbot-tools, antiban-handler]
+[2026-08-14 01:15:17.786] PrivBotPluginManager: INFO: Found manifest for installed plugin: privbot-tools
+[2026-08-14 01:15:17.786] PrivBotPluginManager: INFO: Manifest for privbot-tools is not valid, will download
+[2026-08-14 01:15:17.786] PrivBotPluginManager: INFO: Found manifest for installed plugin: antiban-handler
+[2026-08-14 01:15:17.786] PrivBotPluginManager: INFO: Manifest for antiban-handler is not valid, will download
+[2026-08-14 01:15:17.791] PrivBotPluginManager: INFO: Total external plugins to process: 3, need download: 3
+[2026-08-14 01:15:17.793] PrivBotPluginManager: INFO: Downloading shared-lib from https://downloads.privbot.dev/plugin-hub/shared-lib-orion.jar
+[2026-08-14 01:15:19.801] PrivBotPluginManager: INFO: Downloaded shared-lib (hash: f6bf5187cef00f0ed0070d63c3379fb8d69634dfcc4069150d2ae2ba0013d006)
+[2026-08-14 01:15:19.801] PrivBotPluginManager: INFO: Downloading privbot-tools from https://downloads.privbot.dev/plugin-hub/privbot-tools-orion.jar
+[2026-08-14 01:15:21.801] PrivBotPluginManager: INFO: Downloaded privbot-tools (hash: 408a216b26de4acbc7d66402c9474bfff12c56a9d85501987a5e67d372dfcdde)
+[2026-08-14 01:15:21.802] PrivBotPluginManager: INFO: Downloading antiban-handler from https://downloads.privbot.dev/plugin-hub/antiban-handler-orion.jar
+[2026-08-14 01:15:22.126] PrivBotPluginManager: INFO: Downloaded antiban-handler (hash: 4e0f3f50b77d174754350c326443e79778950684b646c41a3936cbe0e245b751)
+[2026-08-14 01:15:22.126] PrivBotPluginManager: INFO: About to load and start 3 plugin manifest(s)
+[2026-08-14 01:15:22.127] PrivBotPluginManager: INFO: loadAndStartPlugins called with 3 external plugins, 0 already loaded
+[2026-08-14 01:15:22.311] PrivBotPluginManager: INFO: Primed embedded JavaFX toolkit before external plugin instantiation.
+[2026-08-14 01:15:22.314] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for shared-lib
+[2026-08-14 01:15:22.324] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for shared-lib lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@2e41de62
+[2026-08-14 01:15:22.325] PrivBotPluginManager: INFO: shared-lib loaded as parent ClassLoader: file:/C:/Users/adrian/.orion/privbot-plugins/shared-lib-orion.jar
+[2026-08-14 01:15:22.326] PrivBotPluginManager: INFO: Will add 3 new plugin manifest(s), will remove 0 plugin(s)
+[2026-08-14 01:15:22.326] PrivBotPluginManager: INFO: Processing manifest: shared-lib (display: shared-lib)
+[2026-08-14 01:15:22.326] PrivBotPluginManager: INFO: Skipping shared-lib plugin load (library-only).
+[2026-08-14 01:15:22.327] PrivBotPluginManager: INFO: Processing manifest: privbot-tools (display: privbot-tools)
+[2026-08-14 01:15:22.330] PrivBotPluginManager: INFO: Manifest validity check: true for privbot-tools
+[2026-08-14 01:15:22.330] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:15:22.336] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\privbot-tools-orion.jar (exists: true, size: 2383367)
+[2026-08-14 01:15:22.337] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/privbot-tools-orion.jar
+[2026-08-14 01:15:22.338] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:15:22.339] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:15:22.339] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:15:22.339] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:15:22.340] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:15:22.341] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:15:22.347] PrivBotPluginManager: INFO: Loading plugins from manifest: privbot-tools (found 1 plugin classes)
+[2026-08-14 01:15:22.348] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:15:22.353] PrivBotPluginManager: INFO: Class details: prtoa.PrivBotToolsPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:15:22.418] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:15:22.419] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:15:22.457] PrivBotPluginManager: INFO: Orion: Successfully instantiated: prtoa.PrivBotToolsPlugin
+[2026-08-14 01:15:22.463] PrivBotPluginManager: WARN: Orion: Recovered 1 plugin(s) from lastDirectInstantiatePlugins thread-local snapshot
+[2026-08-14 01:15:22.463] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:15:22.464] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from privbot-tools
+[2026-08-14 01:15:22.465] PrivBotPluginManager: INFO:   - Plugin class: prtoa.PrivBotToolsPlugin
+[2026-08-14 01:15:22.465] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for privbot-tools
+[2026-08-14 01:15:22.466] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for privbot-tools lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@4b060cb4
+[2026-08-14 01:15:22.468] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:15:22.474] PrivBotPluginManager: INFO: Started plugin: PrivBotToolsPlugin
+[2026-08-14 01:15:22.474] PrivBotPluginManager: INFO: Processing manifest: antiban-handler (display: antiban-handler)
+[2026-08-14 01:15:22.476] PrivBotPluginManager: INFO: Manifest validity check: true for antiban-handler
+[2026-08-14 01:15:22.476] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:15:22.477] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\antiban-handler-orion.jar (exists: true, size: 335212)
+[2026-08-14 01:15:22.477] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/antiban-handler-orion.jar
+[2026-08-14 01:15:22.478] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:15:22.478] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:15:22.478] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:15:22.479] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:15:22.479] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:15:22.480] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:15:22.482] PrivBotPluginManager: INFO: Loading plugins from manifest: antiban-handler (found 1 plugin classes)
+[2026-08-14 01:15:22.482] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:15:22.482] PrivBotPluginManager: INFO: Class details: anhaa.AntiBanHandlerPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:15:22.601] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:15:22.602] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:15:22.618] PrivBotPluginManager: INFO: Orion: Successfully instantiated: anhaa.AntiBanHandlerPlugin
+[2026-08-14 01:15:22.619] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:15:22.619] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from antiban-handler
+[2026-08-14 01:15:22.620] PrivBotPluginManager: INFO:   - Plugin class: anhaa.AntiBanHandlerPlugin
+[2026-08-14 01:15:22.620] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for antiban-handler
+[2026-08-14 01:15:22.621] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for antiban-handler lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@20a24f15
+[2026-08-14 01:15:22.623] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:15:22.649] PrivBotPluginManager: INFO: Started plugin: AntiBanHandlerPlugin
+2026-08-14T01:15:28.325301500 - Downloaded 28 plugins from https://downloads.privbot.dev/plugin-hub/
+[2026-08-14 01:15:33.663] PrivBotPluginManager: INFO: Downloading manifest from: https://downloads.privbot.dev/plugin-hub/
+2026-08-14T01:15:34.188956900 - Downloaded 28 plugins from https://downloads.privbot.dev/plugin-hub/
+[2026-08-14 01:15:34.189] PrivBotPluginManager: INFO: Downloaded 28 manifest(s) from hub
+[2026-08-14 01:15:34.189] PrivBotPluginManager: INFO: Installed plugin IDs: [privbot-tools, antiban-handler, gauntlet]
+[2026-08-14 01:15:34.193] PrivBotPluginManager: INFO: Found manifest for installed plugin: privbot-tools
+[2026-08-14 01:15:34.196] PrivBotPluginManager: INFO: Found manifest for installed plugin: antiban-handler
+[2026-08-14 01:15:34.197] PrivBotPluginManager: INFO: Found manifest for installed plugin: gauntlet
+[2026-08-14 01:15:34.197] PrivBotPluginManager: INFO: Manifest for gauntlet is not valid, will download
+[2026-08-14 01:15:34.197] PrivBotPluginManager: INFO: Total external plugins to process: 4, need download: 1
+[2026-08-14 01:15:34.198] PrivBotPluginManager: INFO: Downloading gauntlet from https://downloads.privbot.dev/plugin-hub/gauntlet-orion.jar
+[2026-08-14 01:15:35.732] PrivBotPluginManager: INFO: Downloaded gauntlet (hash: 11b24e05cc58e4cf7d9e8a83f146cd1f1fa3012e067ee34ddb1fbb2001dbee98)
+[2026-08-14 01:15:35.732] PrivBotPluginManager: INFO: About to load and start 4 plugin manifest(s)
+[2026-08-14 01:15:35.733] PrivBotPluginManager: INFO: loadAndStartPlugins called with 4 external plugins, 1 already loaded
+[2026-08-14 01:15:35.733] PrivBotPluginManager: INFO: Will add 3 new plugin manifest(s), will remove 0 plugin(s)
+[2026-08-14 01:15:35.733] PrivBotPluginManager: INFO: Processing manifest: gauntlet (display: gauntlet)
+[2026-08-14 01:15:35.735] PrivBotPluginManager: INFO: Manifest validity check: true for gauntlet
+[2026-08-14 01:15:35.735] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:15:35.736] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\gauntlet-orion.jar (exists: true, size: 1725849)
+[2026-08-14 01:15:35.736] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/gauntlet-orion.jar
+[2026-08-14 01:15:35.736] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:15:35.737] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:15:35.737] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:15:35.737] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:15:35.738] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:15:35.739] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:15:35.740] PrivBotPluginManager: INFO: Loading plugins from manifest: gauntlet (found 1 plugin classes)
+[2026-08-14 01:15:35.740] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:15:35.740] PrivBotPluginManager: INFO: Class details: gaa.gaa.GauntletPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:15:35.740] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:15:35.741] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:15:35.779] PrivBotPluginManager: INFO: Orion: Successfully instantiated: gaa.gaa.GauntletPlugin
+[2026-08-14 01:15:35.780] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:15:35.780] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from gauntlet
+[2026-08-14 01:15:35.781] PrivBotPluginManager: INFO:   - Plugin class: gaa.gaa.GauntletPlugin
+[2026-08-14 01:15:35.781] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for gauntlet
+[2026-08-14 01:15:35.782] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for gauntlet lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@1f0441d
+[2026-08-14 01:15:35.784] PrivBotPluginManager: INFO: Plugin GauntletPlugin set to disabled by default (shows in sidebar, user can enable)
+[2026-08-14 01:15:35.785] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:15:35.801] PrivBotPluginManager: INFO: Started plugin: GauntletPlugin
+[2026-08-14 01:15:35.802] PrivBotPluginManager: INFO: Processing manifest: shared-lib (display: shared-lib)
+[2026-08-14 01:15:35.802] PrivBotPluginManager: INFO: Skipping shared-lib plugin load (library-only).
+[2026-08-14 01:15:35.802] PrivBotPluginManager: INFO: Processing manifest: privbot-tools (display: privbot-tools)
+[2026-08-14 01:15:35.806] PrivBotPluginManager: INFO: Manifest validity check: true for privbot-tools
+[2026-08-14 01:15:35.806] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:15:35.807] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\privbot-tools-orion.jar (exists: true, size: 2383367)
+[2026-08-14 01:15:35.807] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/privbot-tools-orion.jar
+[2026-08-14 01:15:35.807] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:15:35.808] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:15:35.808] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:15:35.809] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:15:35.809] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:15:35.810] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:15:35.812] PrivBotPluginManager: INFO: Loading plugins from manifest: privbot-tools (found 1 plugin classes)
+[2026-08-14 01:15:35.812] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:15:35.813] PrivBotPluginManager: INFO: Class details: prtoa.PrivBotToolsPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:15:35.854] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:15:35.854] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:15:35.873] PrivBotPluginManager: INFO: Orion: Successfully instantiated: prtoa.PrivBotToolsPlugin
+[2026-08-14 01:15:35.873] PrivBotPluginManager: WARN: Orion: Recovered 1 plugin(s) from lastDirectInstantiatePlugins thread-local snapshot
+[2026-08-14 01:15:35.874] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:15:35.874] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from privbot-tools
+[2026-08-14 01:15:35.874] PrivBotPluginManager: INFO:   - Plugin class: prtoa.PrivBotToolsPlugin
+[2026-08-14 01:15:35.874] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for privbot-tools
+[2026-08-14 01:15:35.876] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for privbot-tools lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@11fad74c
+[2026-08-14 01:15:35.876] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:15:35.885] PrivBotPluginManager: INFO: Started plugin: PrivBotToolsPlugin
+[2026-08-14 01:15:35.984] PrivBotPluginManager: INFO: OFF_BY_DEFAULT final pass: GauntletPlugin -> false
+2026-08-14T01:16:15.182955300 - Downloaded 28 plugins from https://downloads.privbot.dev/plugin-hub/
+2026-08-14T01:16:55.104480200 - Downloaded 28 plugins from https://downloads.privbot.dev/plugin-hub/
+[2026-08-14 01:16:57.999] PrivBotPluginManager: INFO: Downloading manifest from: https://downloads.privbot.dev/plugin-hub/
+2026-08-14T01:16:58.516811400 - Downloaded 28 plugins from https://downloads.privbot.dev/plugin-hub/
+[2026-08-14 01:16:58.517] PrivBotPluginManager: INFO: Downloaded 28 manifest(s) from hub
+[2026-08-14 01:16:58.517] PrivBotPluginManager: INFO: Installed plugin IDs: [privbot-tools, antiban-handler]
+[2026-08-14 01:16:58.520] PrivBotPluginManager: INFO: Found manifest for installed plugin: privbot-tools
+[2026-08-14 01:16:58.522] PrivBotPluginManager: INFO: Found manifest for installed plugin: antiban-handler
+[2026-08-14 01:16:58.523] PrivBotPluginManager: INFO: Total external plugins to process: 3, need download: 0
+[2026-08-14 01:16:58.523] PrivBotPluginManager: INFO: About to load and start 3 plugin manifest(s)
+[2026-08-14 01:16:58.524] PrivBotPluginManager: INFO: loadAndStartPlugins called with 3 external plugins, 2 already loaded
+[2026-08-14 01:16:58.524] PrivBotPluginManager: INFO: Will add 2 new plugin manifest(s), will remove 1 plugin(s)
+[2026-08-14 01:16:58.524] PrivBotPluginManager: INFO: Stopping plugin "class gaa.gaa.GauntletPlugin"
+[2026-08-14 01:16:58.527] PrivBotPluginManager: INFO: Processing manifest: privbot-tools (display: privbot-tools)
+[2026-08-14 01:16:58.530] PrivBotPluginManager: INFO: Manifest validity check: true for privbot-tools
+[2026-08-14 01:16:58.530] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:16:58.530] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\privbot-tools-orion.jar (exists: true, size: 2383367)
+[2026-08-14 01:16:58.531] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/privbot-tools-orion.jar
+[2026-08-14 01:16:58.531] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:16:58.532] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:16:58.532] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:16:58.532] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:16:58.533] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:16:58.534] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:16:58.535] PrivBotPluginManager: INFO: Loading plugins from manifest: privbot-tools (found 1 plugin classes)
+[2026-08-14 01:16:58.535] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:16:58.536] PrivBotPluginManager: INFO: Class details: prtoa.PrivBotToolsPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:16:58.539] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:16:58.540] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:16:58.557] PrivBotPluginManager: INFO: Orion: Successfully instantiated: prtoa.PrivBotToolsPlugin
+[2026-08-14 01:16:58.557] PrivBotPluginManager: WARN: Orion: Recovered 1 plugin(s) from lastDirectInstantiatePlugins thread-local snapshot
+[2026-08-14 01:16:58.558] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:16:58.558] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from privbot-tools
+[2026-08-14 01:16:58.558] PrivBotPluginManager: INFO:   - Plugin class: prtoa.PrivBotToolsPlugin
+[2026-08-14 01:16:58.559] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for privbot-tools
+[2026-08-14 01:16:58.559] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for privbot-tools lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@73ca3a96
+[2026-08-14 01:16:58.560] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:16:58.564] PrivBotPluginManager: INFO: Started plugin: PrivBotToolsPlugin
+[2026-08-14 01:16:58.566] PrivBotPluginManager: INFO: Processing manifest: shared-lib (display: shared-lib)
+[2026-08-14 01:16:58.566] PrivBotPluginManager: INFO: Skipping shared-lib plugin load (library-only).
+[2026-08-14 01:16:59.193] PrivBotPluginManager: INFO: Downloading manifest from: https://downloads.privbot.dev/plugin-hub/
+2026-08-14T01:16:59.616799400 - Downloaded 28 plugins from https://downloads.privbot.dev/plugin-hub/
+[2026-08-14 01:16:59.617] PrivBotPluginManager: INFO: Downloaded 28 manifest(s) from hub
+[2026-08-14 01:16:59.617] PrivBotPluginManager: INFO: Installed plugin IDs: [privbot-tools, antiban-handler, gauntlet]
+[2026-08-14 01:16:59.620] PrivBotPluginManager: INFO: Found manifest for installed plugin: privbot-tools
+[2026-08-14 01:16:59.622] PrivBotPluginManager: INFO: Found manifest for installed plugin: antiban-handler
+[2026-08-14 01:16:59.623] PrivBotPluginManager: INFO: Found manifest for installed plugin: gauntlet
+[2026-08-14 01:16:59.625] PrivBotPluginManager: INFO: Total external plugins to process: 4, need download: 0
+[2026-08-14 01:16:59.625] PrivBotPluginManager: INFO: About to load and start 4 plugin manifest(s)
+[2026-08-14 01:16:59.625] PrivBotPluginManager: INFO: loadAndStartPlugins called with 4 external plugins, 1 already loaded
+[2026-08-14 01:16:59.626] PrivBotPluginManager: INFO: Will add 3 new plugin manifest(s), will remove 0 plugin(s)
+[2026-08-14 01:16:59.626] PrivBotPluginManager: INFO: Processing manifest: privbot-tools (display: privbot-tools)
+[2026-08-14 01:16:59.629] PrivBotPluginManager: INFO: Manifest validity check: true for privbot-tools
+[2026-08-14 01:16:59.629] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:16:59.629] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\privbot-tools-orion.jar (exists: true, size: 2383367)
+[2026-08-14 01:16:59.630] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/privbot-tools-orion.jar
+[2026-08-14 01:16:59.630] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:16:59.630] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:16:59.630] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:16:59.631] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:16:59.631] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:16:59.631] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:16:59.632] PrivBotPluginManager: INFO: Loading plugins from manifest: privbot-tools (found 1 plugin classes)
+[2026-08-14 01:16:59.633] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:16:59.633] PrivBotPluginManager: INFO: Class details: prtoa.PrivBotToolsPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:16:59.634] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:16:59.634] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:16:59.649] PrivBotPluginManager: INFO: Orion: Successfully instantiated: prtoa.PrivBotToolsPlugin
+[2026-08-14 01:16:59.649] PrivBotPluginManager: WARN: Orion: Recovered 1 plugin(s) from lastDirectInstantiatePlugins thread-local snapshot
+[2026-08-14 01:16:59.650] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:16:59.650] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from privbot-tools
+[2026-08-14 01:16:59.650] PrivBotPluginManager: INFO:   - Plugin class: prtoa.PrivBotToolsPlugin
+[2026-08-14 01:16:59.651] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for privbot-tools
+[2026-08-14 01:16:59.651] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for privbot-tools lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@338b66bd
+[2026-08-14 01:16:59.652] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:16:59.654] PrivBotPluginManager: INFO: Started plugin: PrivBotToolsPlugin
+[2026-08-14 01:16:59.655] PrivBotPluginManager: INFO: Processing manifest: gauntlet (display: gauntlet)
+[2026-08-14 01:16:59.656] PrivBotPluginManager: INFO: Manifest validity check: true for gauntlet
+[2026-08-14 01:16:59.656] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:16:59.656] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\gauntlet-orion.jar (exists: true, size: 1725849)
+[2026-08-14 01:16:59.657] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/gauntlet-orion.jar
+[2026-08-14 01:16:59.657] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:16:59.658] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:16:59.658] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:16:59.658] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:16:59.658] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:16:59.659] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:16:59.660] PrivBotPluginManager: INFO: Loading plugins from manifest: gauntlet (found 1 plugin classes)
+[2026-08-14 01:16:59.660] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:16:59.660] PrivBotPluginManager: INFO: Class details: gaa.gaa.GauntletPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:16:59.722] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:16:59.723] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:16:59.737] PrivBotPluginManager: INFO: Orion: Successfully instantiated: gaa.gaa.GauntletPlugin
+[2026-08-14 01:16:59.737] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:16:59.738] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from gauntlet
+[2026-08-14 01:16:59.738] PrivBotPluginManager: INFO:   - Plugin class: gaa.gaa.GauntletPlugin
+[2026-08-14 01:16:59.738] PrivBotPluginManager: INFO: Plugin GauntletPlugin set to disabled by default (shows in sidebar, user can enable)
+[2026-08-14 01:16:59.739] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:16:59.750] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for gauntlet
+[2026-08-14 01:16:59.751] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for gauntlet lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@4ae657c
+[2026-08-14 01:16:59.753] PrivBotPluginManager: INFO: Started plugin: GauntletPlugin
+[2026-08-14 01:16:59.753] PrivBotPluginManager: INFO: Processing manifest: shared-lib (display: shared-lib)
+[2026-08-14 01:16:59.754] PrivBotPluginManager: INFO: Skipping shared-lib plugin load (library-only).
+[2026-08-14 01:16:59.797] PrivBotPluginManager: INFO: OFF_BY_DEFAULT final pass: GauntletPlugin -> false
+[2026-08-14 01:17:19.032] PrivBotPluginManager: INFO: Stopping plugin "class anhaa.AntiBanHandlerPlugin"
+[2026-08-14 01:17:19.034] PrivBotPluginManager: INFO: Stopping plugin "class gaa.gaa.GauntletPlugin"
+[2026-08-14 01:17:19.041] PrivBotPluginManager: INFO: Clearing extended injector: shared-lib classloader closed
+2026-08-14T01:17:19.467313 - Downloaded 28 plugins from https://downloads.privbot.dev/plugin-hub/
+[2026-08-14 01:17:19.475] PrivBotPluginManager: INFO: Plugin runtime context: flavor=customer, appRoot=C:\Users\adrian\.privbot, server=Orion, sharedLibVersion=1.0.0, sharedLibHash=sha256:f6bf5187cef00f0ed0070d63c3379fb8d69634dfcc4069150d2ae2ba0013d006, buildId=unknown
+[2026-08-14 01:17:19.478] PrivBotPluginManager: INFO: Downloading manifest from: https://downloads.privbot.dev/plugin-hub/
+2026-08-14T01:17:19.625667700 - Downloaded 28 plugins from https://downloads.privbot.dev/plugin-hub/
+[2026-08-14 01:17:19.626] PrivBotPluginManager: INFO: Downloaded 28 manifest(s) from hub
+[2026-08-14 01:17:19.627] PrivBotPluginManager: INFO: Installed plugin IDs: [privbot-tools, antiban-handler, gauntlet]
+[2026-08-14 01:17:19.629] PrivBotPluginManager: INFO: Found manifest for installed plugin: privbot-tools
+[2026-08-14 01:17:19.632] PrivBotPluginManager: INFO: Found manifest for installed plugin: antiban-handler
+[2026-08-14 01:17:19.632] PrivBotPluginManager: INFO: Found manifest for installed plugin: gauntlet
+[2026-08-14 01:17:19.634] PrivBotPluginManager: INFO: Total external plugins to process: 4, need download: 0
+[2026-08-14 01:17:19.635] PrivBotPluginManager: INFO: About to load and start 4 plugin manifest(s)
+[2026-08-14 01:17:19.635] PrivBotPluginManager: INFO: loadAndStartPlugins called with 4 external plugins, 0 already loaded
+[2026-08-14 01:17:19.637] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for shared-lib
+[2026-08-14 01:17:19.638] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for shared-lib lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@6999118c
+[2026-08-14 01:17:19.638] PrivBotPluginManager: INFO: shared-lib loaded as parent ClassLoader: file:/C:/Users/adrian/.orion/privbot-plugins/shared-lib-orion.jar
+[2026-08-14 01:17:19.638] PrivBotPluginManager: INFO: Will add 4 new plugin manifest(s), will remove 0 plugin(s)
+[2026-08-14 01:17:19.638] PrivBotPluginManager: INFO: Processing manifest: privbot-tools (display: privbot-tools)
+[2026-08-14 01:17:19.641] PrivBotPluginManager: INFO: Manifest validity check: true for privbot-tools
+[2026-08-14 01:17:19.641] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:17:19.641] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\privbot-tools-orion.jar (exists: true, size: 2383367)
+[2026-08-14 01:17:19.642] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/privbot-tools-orion.jar
+[2026-08-14 01:17:19.642] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:17:19.642] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:17:19.643] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:17:19.643] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:17:19.643] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:17:19.644] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:17:19.645] PrivBotPluginManager: INFO: Loading plugins from manifest: privbot-tools (found 1 plugin classes)
+[2026-08-14 01:17:19.645] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:17:19.646] PrivBotPluginManager: INFO: Class details: prtoa.PrivBotToolsPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:17:19.683] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:17:19.684] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:17:19.711] PrivBotPluginManager: INFO: Orion: Successfully instantiated: prtoa.PrivBotToolsPlugin
+[2026-08-14 01:17:19.711] PrivBotPluginManager: WARN: Orion: Recovered 1 plugin(s) from lastDirectInstantiatePlugins thread-local snapshot
+[2026-08-14 01:17:19.711] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:17:19.712] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from privbot-tools
+[2026-08-14 01:17:19.712] PrivBotPluginManager: INFO:   - Plugin class: prtoa.PrivBotToolsPlugin
+[2026-08-14 01:17:19.713] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for privbot-tools
+[2026-08-14 01:17:19.713] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for privbot-tools lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@ded76df
+[2026-08-14 01:17:19.714] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:17:19.718] PrivBotPluginManager: INFO: Started plugin: PrivBotToolsPlugin
+[2026-08-14 01:17:19.718] PrivBotPluginManager: INFO: Processing manifest: antiban-handler (display: antiban-handler)
+[2026-08-14 01:17:19.719] PrivBotPluginManager: INFO: Manifest validity check: true for antiban-handler
+[2026-08-14 01:17:19.719] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:17:19.719] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\antiban-handler-orion.jar (exists: true, size: 335212)
+[2026-08-14 01:17:19.720] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/antiban-handler-orion.jar
+[2026-08-14 01:17:19.720] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:17:19.720] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:17:19.721] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:17:19.721] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:17:19.721] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:17:19.722] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:17:19.723] PrivBotPluginManager: INFO: Loading plugins from manifest: antiban-handler (found 1 plugin classes)
+[2026-08-14 01:17:19.723] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:17:19.723] PrivBotPluginManager: INFO: Class details: anhaa.AntiBanHandlerPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:17:19.796] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:17:19.797] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:17:19.809] PrivBotPluginManager: INFO: Orion: Successfully instantiated: anhaa.AntiBanHandlerPlugin
+[2026-08-14 01:17:19.810] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:17:19.810] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from antiban-handler
+[2026-08-14 01:17:19.811] PrivBotPluginManager: INFO:   - Plugin class: anhaa.AntiBanHandlerPlugin
+[2026-08-14 01:17:19.812] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:17:19.821] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for antiban-handler
+[2026-08-14 01:17:19.822] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for antiban-handler lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@33bdacb9
+[2026-08-14 01:17:19.824] PrivBotPluginManager: INFO: Started plugin: AntiBanHandlerPlugin
+[2026-08-14 01:17:19.824] PrivBotPluginManager: INFO: Processing manifest: gauntlet (display: gauntlet)
+[2026-08-14 01:17:19.825] PrivBotPluginManager: INFO: Manifest validity check: true for gauntlet
+[2026-08-14 01:17:19.826] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:17:19.826] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\gauntlet-orion.jar (exists: true, size: 1725849)
+[2026-08-14 01:17:19.826] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/gauntlet-orion.jar
+[2026-08-14 01:17:19.827] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:17:19.827] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:17:19.828] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:17:19.828] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:17:19.828] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:17:19.829] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:17:19.830] PrivBotPluginManager: INFO: Loading plugins from manifest: gauntlet (found 1 plugin classes)
+[2026-08-14 01:17:19.830] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:17:19.830] PrivBotPluginManager: INFO: Class details: gaa.gaa.GauntletPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:17:19.842] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:17:19.842] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:17:19.859] PrivBotPluginManager: INFO: Orion: Successfully instantiated: gaa.gaa.GauntletPlugin
+[2026-08-14 01:17:19.860] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:17:19.860] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from gauntlet
+[2026-08-14 01:17:19.861] PrivBotPluginManager: INFO:   - Plugin class: gaa.gaa.GauntletPlugin
+[2026-08-14 01:17:19.861] PrivBotPluginManager: INFO: Plugin GauntletPlugin set to disabled by default (shows in sidebar, user can enable)
+[2026-08-14 01:17:19.862] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:17:19.875] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for gauntlet
+[2026-08-14 01:17:19.875] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for gauntlet lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@293e975d
+[2026-08-14 01:17:19.877] PrivBotPluginManager: INFO: Started plugin: GauntletPlugin
+[2026-08-14 01:17:19.877] PrivBotPluginManager: INFO: Processing manifest: shared-lib (display: shared-lib)
+[2026-08-14 01:17:19.878] PrivBotPluginManager: INFO: Skipping shared-lib plugin load (library-only).
+[2026-08-14 01:17:19.917] PrivBotPluginManager: INFO: OFF_BY_DEFAULT final pass: GauntletPlugin -> false
+2026-08-14T01:17:30.413167900 - Downloaded 28 plugins from https://downloads.privbot.dev/plugin-hub/
+[2026-08-14 01:17:33.228] PrivBotPluginManager: INFO: Downloading manifest from: https://downloads.privbot.dev/plugin-hub/
+2026-08-14T01:17:33.648166800 - Downloaded 28 plugins from https://downloads.privbot.dev/plugin-hub/
+[2026-08-14 01:17:33.648] PrivBotPluginManager: INFO: Downloaded 28 manifest(s) from hub
+[2026-08-14 01:17:33.648] PrivBotPluginManager: INFO: Installed plugin IDs: [privbot-tools, antiban-handler, gauntlet, vetion-killer]
+[2026-08-14 01:17:33.651] PrivBotPluginManager: INFO: Found manifest for installed plugin: privbot-tools
+[2026-08-14 01:17:33.653] PrivBotPluginManager: INFO: Found manifest for installed plugin: antiban-handler
+[2026-08-14 01:17:33.654] PrivBotPluginManager: INFO: Found manifest for installed plugin: gauntlet
+[2026-08-14 01:17:33.655] PrivBotPluginManager: INFO: Found manifest for installed plugin: vetion-killer
+[2026-08-14 01:17:33.655] PrivBotPluginManager: INFO: Manifest for vetion-killer is not valid, will download
+[2026-08-14 01:17:33.655] PrivBotPluginManager: INFO: Total external plugins to process: 5, need download: 1
+[2026-08-14 01:17:33.656] PrivBotPluginManager: INFO: Downloading vetion-killer from https://downloads.privbot.dev/plugin-hub/vetion-killer-orion.jar
+[2026-08-14 01:17:35.265] PrivBotPluginManager: INFO: Downloaded vetion-killer (hash: 86f2efe1c9d233da1ed287fb220516a7d01e3001087f14114e144642ca3ccbe5)
+[2026-08-14 01:17:35.265] PrivBotPluginManager: INFO: About to load and start 5 plugin manifest(s)
+[2026-08-14 01:17:35.265] PrivBotPluginManager: INFO: loadAndStartPlugins called with 5 external plugins, 2 already loaded
+[2026-08-14 01:17:35.266] PrivBotPluginManager: INFO: Will add 3 new plugin manifest(s), will remove 0 plugin(s)
+[2026-08-14 01:17:35.266] PrivBotPluginManager: INFO: Processing manifest: vetion-killer (display: vetion-killer)
+[2026-08-14 01:17:35.269] PrivBotPluginManager: INFO: Manifest validity check: true for vetion-killer
+[2026-08-14 01:17:35.269] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:17:35.269] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\vetion-killer-orion.jar (exists: true, size: 1930412)
+[2026-08-14 01:17:35.270] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/vetion-killer-orion.jar
+[2026-08-14 01:17:35.270] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:17:35.270] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:17:35.271] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:17:35.271] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:17:35.271] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:17:35.272] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:17:35.274] PrivBotPluginManager: INFO: Loading plugins from manifest: vetion-killer (found 1 plugin classes)
+[2026-08-14 01:17:35.275] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:17:35.275] PrivBotPluginManager: INFO: Class details: vekia.VetionKillerPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:17:35.277] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:17:35.278] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:17:35.290] PrivBotPluginManager: INFO: Orion: Successfully instantiated: vekia.VetionKillerPlugin
+[2026-08-14 01:17:35.291] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:17:35.291] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from vetion-killer
+[2026-08-14 01:17:35.291] PrivBotPluginManager: INFO:   - Plugin class: vekia.VetionKillerPlugin
+[2026-08-14 01:17:35.292] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for vetion-killer
+[2026-08-14 01:17:35.293] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for vetion-killer lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@6474fe73
+[2026-08-14 01:17:35.296] PrivBotPluginManager: INFO: Plugin VetionKillerPlugin set to disabled by default (shows in sidebar, user can enable)
+[2026-08-14 01:17:35.297] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:17:35.308] PrivBotPluginManager: INFO: Started plugin: VetionKillerPlugin
+[2026-08-14 01:17:35.309] PrivBotPluginManager: INFO: Processing manifest: privbot-tools (display: privbot-tools)
+[2026-08-14 01:17:35.311] PrivBotPluginManager: INFO: Manifest validity check: true for privbot-tools
+[2026-08-14 01:17:35.312] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:17:35.312] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\privbot-tools-orion.jar (exists: true, size: 2383367)
+[2026-08-14 01:17:35.313] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/privbot-tools-orion.jar
+[2026-08-14 01:17:35.313] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:17:35.313] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:17:35.313] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:17:35.314] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:17:35.314] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:17:35.315] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:17:35.317] PrivBotPluginManager: INFO: Loading plugins from manifest: privbot-tools (found 1 plugin classes)
+[2026-08-14 01:17:35.317] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:17:35.317] PrivBotPluginManager: INFO: Class details: prtoa.PrivBotToolsPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:17:35.377] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:17:35.377] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:17:35.395] PrivBotPluginManager: INFO: Orion: Successfully instantiated: prtoa.PrivBotToolsPlugin
+[2026-08-14 01:17:35.395] PrivBotPluginManager: WARN: Orion: Recovered 1 plugin(s) from lastDirectInstantiatePlugins thread-local snapshot
+[2026-08-14 01:17:35.395] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:17:35.396] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from privbot-tools
+[2026-08-14 01:17:35.396] PrivBotPluginManager: INFO:   - Plugin class: prtoa.PrivBotToolsPlugin
+[2026-08-14 01:17:35.397] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for privbot-tools
+[2026-08-14 01:17:35.397] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for privbot-tools lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@1b4d8029
+[2026-08-14 01:17:35.398] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:17:35.411] PrivBotPluginManager: INFO: Started plugin: PrivBotToolsPlugin
+[2026-08-14 01:17:35.411] PrivBotPluginManager: INFO: Processing manifest: shared-lib (display: shared-lib)
+[2026-08-14 01:17:35.411] PrivBotPluginManager: INFO: Skipping shared-lib plugin load (library-only).
+[2026-08-14 01:17:35.476] PrivBotPluginManager: INFO: OFF_BY_DEFAULT final pass: VetionKillerPlugin -> false
+[2026-08-14 01:17:35.476] PrivBotPluginManager: INFO: OFF_BY_DEFAULT final pass: GauntletPlugin -> false
+[2026-08-14 01:18:52.537] PrivBotPluginManager: INFO: Stopping plugin "class vekia.VetionKillerPlugin"
+[2026-08-14 01:18:52.539] PrivBotPluginManager: INFO: Stopping plugin "class anhaa.AntiBanHandlerPlugin"
+[2026-08-14 01:18:52.544] PrivBotPluginManager: INFO: Stopping plugin "class gaa.gaa.GauntletPlugin"
+[2026-08-14 01:18:52.551] PrivBotPluginManager: INFO: Clearing extended injector: shared-lib classloader closed
+2026-08-14T01:18:52.982355300 - Downloaded 28 plugins from https://downloads.privbot.dev/plugin-hub/
+[2026-08-14 01:18:52.982] PrivBotPluginManager: INFO: Plugin runtime context: flavor=customer, appRoot=C:\Users\adrian\.privbot, server=Orion, sharedLibVersion=1.0.0, sharedLibHash=sha256:f6bf5187cef00f0ed0070d63c3379fb8d69634dfcc4069150d2ae2ba0013d006, buildId=unknown
+[2026-08-14 01:18:52.984] PrivBotPluginManager: INFO: Downloading manifest from: https://downloads.privbot.dev/plugin-hub/
+2026-08-14T01:18:53.543688200 - Downloaded 28 plugins from https://downloads.privbot.dev/plugin-hub/
+[2026-08-14 01:18:53.543] PrivBotPluginManager: INFO: Downloaded 28 manifest(s) from hub
+[2026-08-14 01:18:53.543] PrivBotPluginManager: INFO: Installed plugin IDs: [privbot-tools, antiban-handler, gauntlet, vetion-killer]
+[2026-08-14 01:18:53.545] PrivBotPluginManager: INFO: Found manifest for installed plugin: privbot-tools
+[2026-08-14 01:18:53.549] PrivBotPluginManager: INFO: Found manifest for installed plugin: antiban-handler
+[2026-08-14 01:18:53.549] PrivBotPluginManager: INFO: Found manifest for installed plugin: gauntlet
+[2026-08-14 01:18:53.551] PrivBotPluginManager: INFO: Found manifest for installed plugin: vetion-killer
+[2026-08-14 01:18:53.553] PrivBotPluginManager: INFO: Total external plugins to process: 5, need download: 0
+[2026-08-14 01:18:53.553] PrivBotPluginManager: INFO: About to load and start 5 plugin manifest(s)
+[2026-08-14 01:18:53.554] PrivBotPluginManager: INFO: loadAndStartPlugins called with 5 external plugins, 0 already loaded
+[2026-08-14 01:18:53.556] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for shared-lib
+[2026-08-14 01:18:53.557] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for shared-lib lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@150290fa
+[2026-08-14 01:18:53.557] PrivBotPluginManager: INFO: shared-lib loaded as parent ClassLoader: file:/C:/Users/adrian/.orion/privbot-plugins/shared-lib-orion.jar
+[2026-08-14 01:18:53.557] PrivBotPluginManager: INFO: Will add 5 new plugin manifest(s), will remove 0 plugin(s)
+[2026-08-14 01:18:53.557] PrivBotPluginManager: INFO: Processing manifest: gauntlet (display: gauntlet)
+[2026-08-14 01:18:53.559] PrivBotPluginManager: INFO: Manifest validity check: true for gauntlet
+[2026-08-14 01:18:53.559] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:18:53.559] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\gauntlet-orion.jar (exists: true, size: 1725849)
+[2026-08-14 01:18:53.560] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/gauntlet-orion.jar
+[2026-08-14 01:18:53.560] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:18:53.560] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:18:53.560] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:18:53.561] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:18:53.561] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:18:53.562] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:18:53.563] PrivBotPluginManager: INFO: Loading plugins from manifest: gauntlet (found 1 plugin classes)
+[2026-08-14 01:18:53.564] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:18:53.564] PrivBotPluginManager: INFO: Class details: gaa.gaa.GauntletPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:18:53.602] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:18:53.602] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:18:53.629] PrivBotPluginManager: INFO: Orion: Successfully instantiated: gaa.gaa.GauntletPlugin
+[2026-08-14 01:18:53.629] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:18:53.630] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from gauntlet
+[2026-08-14 01:18:53.630] PrivBotPluginManager: INFO:   - Plugin class: gaa.gaa.GauntletPlugin
+[2026-08-14 01:18:53.630] PrivBotPluginManager: INFO: Plugin GauntletPlugin set to disabled by default (shows in sidebar, user can enable)
+[2026-08-14 01:18:53.631] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:18:53.640] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for gauntlet
+[2026-08-14 01:18:53.641] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for gauntlet lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@1ed3b368
+[2026-08-14 01:18:53.643] PrivBotPluginManager: INFO: Started plugin: GauntletPlugin
+[2026-08-14 01:18:53.643] PrivBotPluginManager: INFO: Processing manifest: vetion-killer (display: vetion-killer)
+[2026-08-14 01:18:53.645] PrivBotPluginManager: INFO: Manifest validity check: true for vetion-killer
+[2026-08-14 01:18:53.645] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:18:53.646] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\vetion-killer-orion.jar (exists: true, size: 1930412)
+[2026-08-14 01:18:53.646] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/vetion-killer-orion.jar
+[2026-08-14 01:18:53.647] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:18:53.647] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:18:53.647] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:18:53.648] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:18:53.648] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:18:53.648] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:18:53.650] PrivBotPluginManager: INFO: Loading plugins from manifest: vetion-killer (found 1 plugin classes)
+[2026-08-14 01:18:53.651] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:18:53.651] PrivBotPluginManager: INFO: Class details: vekia.VetionKillerPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:18:53.693] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:18:53.694] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:18:53.703] PrivBotPluginManager: INFO: Orion: Successfully instantiated: vekia.VetionKillerPlugin
+[2026-08-14 01:18:53.704] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:18:53.704] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from vetion-killer
+[2026-08-14 01:18:53.704] PrivBotPluginManager: INFO:   - Plugin class: vekia.VetionKillerPlugin
+[2026-08-14 01:18:53.705] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for vetion-killer
+[2026-08-14 01:18:53.714] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for vetion-killer lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@3969eb8e
+[2026-08-14 01:18:53.714] PrivBotPluginManager: INFO: Plugin VetionKillerPlugin set to disabled by default (shows in sidebar, user can enable)
+[2026-08-14 01:18:53.715] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:18:53.721] PrivBotPluginManager: INFO: Started plugin: VetionKillerPlugin
+[2026-08-14 01:18:53.721] PrivBotPluginManager: INFO: Processing manifest: shared-lib (display: shared-lib)
+[2026-08-14 01:18:53.721] PrivBotPluginManager: INFO: Skipping shared-lib plugin load (library-only).
+[2026-08-14 01:18:53.722] PrivBotPluginManager: INFO: Processing manifest: privbot-tools (display: privbot-tools)
+[2026-08-14 01:18:53.725] PrivBotPluginManager: INFO: Manifest validity check: true for privbot-tools
+[2026-08-14 01:18:53.725] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:18:53.726] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\privbot-tools-orion.jar (exists: true, size: 2383367)
+[2026-08-14 01:18:53.726] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/privbot-tools-orion.jar
+[2026-08-14 01:18:53.727] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:18:53.727] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:18:53.727] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:18:53.727] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:18:53.727] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:18:53.728] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:18:53.730] PrivBotPluginManager: INFO: Loading plugins from manifest: privbot-tools (found 1 plugin classes)
+[2026-08-14 01:18:53.730] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:18:53.730] PrivBotPluginManager: INFO: Class details: prtoa.PrivBotToolsPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:18:53.769] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:18:53.770] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:18:53.788] PrivBotPluginManager: INFO: Orion: Successfully instantiated: prtoa.PrivBotToolsPlugin
+[2026-08-14 01:18:53.788] PrivBotPluginManager: WARN: Orion: Recovered 1 plugin(s) from lastDirectInstantiatePlugins thread-local snapshot
+[2026-08-14 01:18:53.788] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:18:53.789] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from privbot-tools
+[2026-08-14 01:18:53.789] PrivBotPluginManager: INFO:   - Plugin class: prtoa.PrivBotToolsPlugin
+[2026-08-14 01:18:53.790] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for privbot-tools
+[2026-08-14 01:18:53.791] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for privbot-tools lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@140ce66a
+[2026-08-14 01:18:53.791] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:18:53.794] PrivBotPluginManager: INFO: Started plugin: PrivBotToolsPlugin
+[2026-08-14 01:18:53.795] PrivBotPluginManager: INFO: Processing manifest: antiban-handler (display: antiban-handler)
+[2026-08-14 01:18:53.795] PrivBotPluginManager: INFO: Manifest validity check: true for antiban-handler
+[2026-08-14 01:18:53.796] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:18:53.796] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\antiban-handler-orion.jar (exists: true, size: 335212)
+[2026-08-14 01:18:53.797] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/antiban-handler-orion.jar
+[2026-08-14 01:18:53.797] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:18:53.797] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:18:53.798] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:18:53.798] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:18:53.798] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:18:53.799] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:18:53.799] PrivBotPluginManager: INFO: Loading plugins from manifest: antiban-handler (found 1 plugin classes)
+[2026-08-14 01:18:53.800] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:18:53.800] PrivBotPluginManager: INFO: Class details: anhaa.AntiBanHandlerPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:18:53.851] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:18:53.852] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:18:53.860] PrivBotPluginManager: INFO: Orion: Successfully instantiated: anhaa.AntiBanHandlerPlugin
+[2026-08-14 01:18:53.861] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:18:53.862] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from antiban-handler
+[2026-08-14 01:18:53.862] PrivBotPluginManager: INFO:   - Plugin class: anhaa.AntiBanHandlerPlugin
+[2026-08-14 01:18:53.862] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:18:53.867] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for antiban-handler
+[2026-08-14 01:18:53.868] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for antiban-handler lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@58fe7e68
+[2026-08-14 01:18:53.869] PrivBotPluginManager: INFO: Started plugin: AntiBanHandlerPlugin
+[2026-08-14 01:18:53.879] PrivBotPluginManager: INFO: OFF_BY_DEFAULT final pass: GauntletPlugin -> false
+[2026-08-14 01:18:53.879] PrivBotPluginManager: INFO: OFF_BY_DEFAULT final pass: VetionKillerPlugin -> false
+2026-08-14T01:18:56.621641300 - Downloaded 28 plugins from https://downloads.privbot.dev/plugin-hub/
+2026-08-14T01:19:14.425341800 - PrivBot starting...
+2026-08-14T01:19:14.461915400 - Detected Direct JAR Launch mode.
+2026-08-14T01:19:14.465933500 - Launching net.runelite.client.RuneLite directly...
+2026-08-14T01:19:14.555650900 - Found ClassLoader via alternative method: jdk.internal.loader.ClassLoaders$AppClassLoader
+[Proxy] No PROXY configured (env or last-proxy.txt). Launching without proxy.
+[ClientHijack] Injection thread started SpawnPK=false Impact=false
+[2026-08-14 01:19:17.617] PrivBotPluginManager: INFO: PrivBotPluginManager codeSource=file:/C:/Users/adrian/AppData/Local/PrivBot/PrivBot.jar
+[2026-08-14 01:19:18.518] PrivBotPluginManager: INFO: Orion server detected via launcher property - enabling Orion plugin path
+[2026-08-14 01:19:18.519] PrivBotPluginManager: INFO: Downloading manifest from: https://downloads.privbot.dev/plugin-hub/
+2026-08-14T01:19:19.703076800 - Downloaded 28 plugins from https://downloads.privbot.dev/plugin-hub/
+[2026-08-14 01:19:19.708] PrivBotPluginManager: INFO: Downloaded 28 manifest(s) from hub
+[2026-08-14 01:19:19.709] PrivBotPluginManager: INFO: Installed plugin IDs: [privbot-tools, antiban-handler, gauntlet, vetion-killer]
+[2026-08-14 01:19:19.712] PrivBotPluginManager: INFO: Found manifest for installed plugin: privbot-tools
+[2026-08-14 01:19:19.715] PrivBotPluginManager: INFO: Found manifest for installed plugin: antiban-handler
+[2026-08-14 01:19:19.715] PrivBotPluginManager: INFO: Found manifest for installed plugin: gauntlet
+[2026-08-14 01:19:19.719] PrivBotPluginManager: INFO: Found manifest for installed plugin: vetion-killer
+[2026-08-14 01:19:19.724] PrivBotPluginManager: INFO: Total external plugins to process: 5, need download: 0
+[2026-08-14 01:19:19.726] PrivBotPluginManager: INFO: About to load and start 5 plugin manifest(s)
+[2026-08-14 01:19:19.727] PrivBotPluginManager: INFO: loadAndStartPlugins called with 5 external plugins, 0 already loaded
+[2026-08-14 01:19:19.922] PrivBotPluginManager: INFO: Primed embedded JavaFX toolkit before external plugin instantiation.
+[2026-08-14 01:19:19.926] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for shared-lib
+[2026-08-14 01:19:19.931] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for shared-lib lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@7038402
+[2026-08-14 01:19:19.933] PrivBotPluginManager: INFO: shared-lib loaded as parent ClassLoader: file:/C:/Users/adrian/.orion/privbot-plugins/shared-lib-orion.jar
+[2026-08-14 01:19:19.934] PrivBotPluginManager: INFO: Will add 5 new plugin manifest(s), will remove 0 plugin(s)
+[2026-08-14 01:19:19.935] PrivBotPluginManager: INFO: Processing manifest: privbot-tools (display: privbot-tools)
+[2026-08-14 01:19:19.937] PrivBotPluginManager: INFO: Manifest validity check: true for privbot-tools
+[2026-08-14 01:19:19.938] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:19:19.943] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\privbot-tools-orion.jar (exists: true, size: 2383367)
+[2026-08-14 01:19:19.945] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/privbot-tools-orion.jar
+[2026-08-14 01:19:19.945] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:19:19.947] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:19:19.947] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:19:19.948] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:19:19.949] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:19:19.950] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:19:19.956] PrivBotPluginManager: INFO: Loading plugins from manifest: privbot-tools (found 1 plugin classes)
+[2026-08-14 01:19:19.957] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:19:19.961] PrivBotPluginManager: INFO: Class details: prtoa.PrivBotToolsPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:19:20.018] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:19:20.018] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:19:20.049] PrivBotPluginManager: INFO: Orion: Successfully instantiated: prtoa.PrivBotToolsPlugin
+[2026-08-14 01:19:20.054] PrivBotPluginManager: WARN: Orion: Recovered 1 plugin(s) from lastDirectInstantiatePlugins thread-local snapshot
+[2026-08-14 01:19:20.054] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:19:20.055] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from privbot-tools
+[2026-08-14 01:19:20.055] PrivBotPluginManager: INFO:   - Plugin class: prtoa.PrivBotToolsPlugin
+[2026-08-14 01:19:20.056] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for privbot-tools
+[2026-08-14 01:19:20.057] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for privbot-tools lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@3873f6ba
+[2026-08-14 01:19:20.058] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:19:20.063] PrivBotPluginManager: INFO: Started plugin: PrivBotToolsPlugin
+[2026-08-14 01:19:20.063] PrivBotPluginManager: INFO: Processing manifest: antiban-handler (display: antiban-handler)
+[2026-08-14 01:19:20.064] PrivBotPluginManager: INFO: Manifest validity check: true for antiban-handler
+[2026-08-14 01:19:20.064] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:19:20.064] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\antiban-handler-orion.jar (exists: true, size: 335212)
+[2026-08-14 01:19:20.065] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/antiban-handler-orion.jar
+[2026-08-14 01:19:20.066] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:19:20.066] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:19:20.066] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:19:20.067] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:19:20.067] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:19:20.067] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:19:20.069] PrivBotPluginManager: INFO: Loading plugins from manifest: antiban-handler (found 1 plugin classes)
+[2026-08-14 01:19:20.069] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:19:20.069] PrivBotPluginManager: INFO: Class details: anhaa.AntiBanHandlerPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:19:20.172] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:19:20.172] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:19:20.188] PrivBotPluginManager: INFO: Orion: Successfully instantiated: anhaa.AntiBanHandlerPlugin
+[2026-08-14 01:19:20.188] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:19:20.189] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from antiban-handler
+[2026-08-14 01:19:20.189] PrivBotPluginManager: INFO:   - Plugin class: anhaa.AntiBanHandlerPlugin
+[2026-08-14 01:19:20.190] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:19:20.213] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for antiban-handler
+[2026-08-14 01:19:20.213] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for antiban-handler lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@341b9c56
+[2026-08-14 01:19:20.214] PrivBotPluginManager: INFO: Started plugin: AntiBanHandlerPlugin
+[2026-08-14 01:19:20.215] PrivBotPluginManager: INFO: Processing manifest: gauntlet (display: gauntlet)
+[2026-08-14 01:19:20.217] PrivBotPluginManager: INFO: Manifest validity check: true for gauntlet
+[2026-08-14 01:19:20.217] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:19:20.217] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\gauntlet-orion.jar (exists: true, size: 1725849)
+[2026-08-14 01:19:20.218] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/gauntlet-orion.jar
+[2026-08-14 01:19:20.218] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:19:20.218] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:19:20.218] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:19:20.219] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:19:20.219] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:19:20.220] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:19:20.222] PrivBotPluginManager: INFO: Loading plugins from manifest: gauntlet (found 1 plugin classes)
+[2026-08-14 01:19:20.222] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:19:20.222] PrivBotPluginManager: INFO: Class details: gaa.gaa.GauntletPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:19:20.237] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:19:20.237] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:19:20.264] PrivBotPluginManager: INFO: Orion: Successfully instantiated: gaa.gaa.GauntletPlugin
+[2026-08-14 01:19:20.265] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:19:20.265] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from gauntlet
+[2026-08-14 01:19:20.266] PrivBotPluginManager: INFO:   - Plugin class: gaa.gaa.GauntletPlugin
+[2026-08-14 01:19:20.266] PrivBotPluginManager: INFO: Plugin GauntletPlugin set to disabled by default (shows in sidebar, user can enable)
+[2026-08-14 01:19:20.267] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:19:20.281] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for gauntlet
+[2026-08-14 01:19:20.281] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for gauntlet lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@ec0917e
+[2026-08-14 01:19:20.284] PrivBotPluginManager: INFO: Started plugin: GauntletPlugin
+[2026-08-14 01:19:20.284] PrivBotPluginManager: INFO: Processing manifest: shared-lib (display: shared-lib)
+[2026-08-14 01:19:20.284] PrivBotPluginManager: INFO: Skipping shared-lib plugin load (library-only).
+[2026-08-14 01:19:20.285] PrivBotPluginManager: INFO: Processing manifest: vetion-killer (display: vetion-killer)
+[2026-08-14 01:19:20.287] PrivBotPluginManager: INFO: Manifest validity check: true for vetion-killer
+[2026-08-14 01:19:20.287] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:19:20.288] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\vetion-killer-orion.jar (exists: true, size: 1930412)
+[2026-08-14 01:19:20.288] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/vetion-killer-orion.jar
+[2026-08-14 01:19:20.288] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:19:20.289] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:19:20.289] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:19:20.289] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:19:20.290] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:19:20.290] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:19:20.292] PrivBotPluginManager: INFO: Loading plugins from manifest: vetion-killer (found 1 plugin classes)
+[2026-08-14 01:19:20.292] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:19:20.293] PrivBotPluginManager: INFO: Class details: vekia.VetionKillerPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:19:20.327] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:19:20.328] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:19:20.338] PrivBotPluginManager: INFO: Orion: Successfully instantiated: vekia.VetionKillerPlugin
+[2026-08-14 01:19:20.338] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:19:20.339] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from vetion-killer
+[2026-08-14 01:19:20.339] PrivBotPluginManager: INFO:   - Plugin class: vekia.VetionKillerPlugin
+[2026-08-14 01:19:20.340] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for vetion-killer
+[2026-08-14 01:19:20.340] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for vetion-killer lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@74bc6ba5
+[2026-08-14 01:19:20.341] PrivBotPluginManager: INFO: Plugin VetionKillerPlugin set to disabled by default (shows in sidebar, user can enable)
+[2026-08-14 01:19:20.341] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:19:20.347] PrivBotPluginManager: INFO: Started plugin: VetionKillerPlugin
+[2026-08-14 01:19:20.409] PrivBotPluginManager: INFO: OFF_BY_DEFAULT final pass: VetionKillerPlugin -> false
+[2026-08-14 01:19:20.409] PrivBotPluginManager: INFO: OFF_BY_DEFAULT final pass: GauntletPlugin -> false
+2026-08-14T01:19:48.081604200 - Downloaded 28 plugins from https://downloads.privbot.dev/plugin-hub/
+2026-08-14T01:21:23.827663800 - Downloaded 28 plugins from https://downloads.privbot.dev/plugin-hub/
+2026-08-14T01:52:50.255700400 - Downloaded 28 plugins from https://downloads.privbot.dev/plugin-hub/
+[2026-08-14 01:52:55.021] PrivBotPluginManager: INFO: Downloading manifest from: https://downloads.privbot.dev/plugin-hub/
+2026-08-14T01:52:55.420399900 - Downloaded 28 plugins from https://downloads.privbot.dev/plugin-hub/
+[2026-08-14 01:52:55.420] PrivBotPluginManager: INFO: Downloaded 28 manifest(s) from hub
+[2026-08-14 01:52:55.421] PrivBotPluginManager: INFO: Installed plugin IDs: [privbot-tools, antiban-handler, gauntlet, vetion-killer, afk-trainer]
+[2026-08-14 01:52:55.423] PrivBotPluginManager: INFO: Found manifest for installed plugin: privbot-tools
+[2026-08-14 01:52:55.425] PrivBotPluginManager: INFO: Found manifest for installed plugin: antiban-handler
+[2026-08-14 01:52:55.426] PrivBotPluginManager: INFO: Found manifest for installed plugin: gauntlet
+[2026-08-14 01:52:55.427] PrivBotPluginManager: INFO: Found manifest for installed plugin: vetion-killer
+[2026-08-14 01:52:55.429] PrivBotPluginManager: INFO: Found manifest for installed plugin: afk-trainer
+[2026-08-14 01:52:55.429] PrivBotPluginManager: INFO: Manifest for afk-trainer is not valid, will download
+[2026-08-14 01:52:55.430] PrivBotPluginManager: INFO: Total external plugins to process: 6, need download: 1
+[2026-08-14 01:52:55.430] PrivBotPluginManager: INFO: Downloading afk-trainer from https://downloads.privbot.dev/plugin-hub/afk-trainer-orion.jar
+[2026-08-14 01:52:56.346] PrivBotPluginManager: INFO: Downloaded afk-trainer (hash: aa0760a4713732cec0c5d891b5ea68d23dcb207df8fd015c8d1deae06e6f9053)
+[2026-08-14 01:52:56.346] PrivBotPluginManager: INFO: About to load and start 6 plugin manifest(s)
+[2026-08-14 01:52:56.346] PrivBotPluginManager: INFO: loadAndStartPlugins called with 6 external plugins, 3 already loaded
+[2026-08-14 01:52:56.347] PrivBotPluginManager: INFO: Will add 3 new plugin manifest(s), will remove 0 plugin(s)
+[2026-08-14 01:52:56.347] PrivBotPluginManager: INFO: Processing manifest: privbot-tools (display: privbot-tools)
+[2026-08-14 01:52:56.349] PrivBotPluginManager: INFO: Manifest validity check: true for privbot-tools
+[2026-08-14 01:52:56.350] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:52:56.350] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\privbot-tools-orion.jar (exists: true, size: 2383367)
+[2026-08-14 01:52:56.350] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/privbot-tools-orion.jar
+[2026-08-14 01:52:56.351] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:52:56.351] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:52:56.351] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:52:56.351] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:52:56.352] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:52:56.352] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:52:56.353] PrivBotPluginManager: INFO: Loading plugins from manifest: privbot-tools (found 1 plugin classes)
+[2026-08-14 01:52:56.354] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:52:56.354] PrivBotPluginManager: INFO: Class details: prtoa.PrivBotToolsPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:52:56.357] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:52:56.358] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:52:56.375] PrivBotPluginManager: INFO: Orion: Successfully instantiated: prtoa.PrivBotToolsPlugin
+[2026-08-14 01:52:56.375] PrivBotPluginManager: WARN: Orion: Recovered 1 plugin(s) from lastDirectInstantiatePlugins thread-local snapshot
+[2026-08-14 01:52:56.375] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:52:56.376] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from privbot-tools
+[2026-08-14 01:52:56.376] PrivBotPluginManager: INFO:   - Plugin class: prtoa.PrivBotToolsPlugin
+[2026-08-14 01:52:56.376] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for privbot-tools
+[2026-08-14 01:52:56.377] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for privbot-tools lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@1019e7cc
+[2026-08-14 01:52:56.378] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:52:56.380] PrivBotPluginManager: INFO: Started plugin: PrivBotToolsPlugin
+[2026-08-14 01:52:56.380] PrivBotPluginManager: INFO: Processing manifest: shared-lib (display: shared-lib)
+[2026-08-14 01:52:56.380] PrivBotPluginManager: INFO: Skipping shared-lib plugin load (library-only).
+[2026-08-14 01:52:56.381] PrivBotPluginManager: INFO: Processing manifest: afk-trainer (display: afk-trainer)
+[2026-08-14 01:52:56.385] PrivBotPluginManager: INFO: Manifest validity check: true for afk-trainer
+[2026-08-14 01:52:56.385] PrivBotPluginManager: INFO: Manifest is valid, proceeding to load plugins
+[2026-08-14 01:52:56.385] PrivBotPluginManager: INFO: Creating PrivBotPluginClassLoader for: C:\Users\adrian\.orion\privbot-plugins\afk-trainer-orion.jar (exists: true, size: 3075735)
+[2026-08-14 01:52:56.386] PrivBotPluginManager: INFO: JAR URL: file:/C:/Users/adrian/.orion/privbot-plugins/afk-trainer-orion.jar
+[2026-08-14 01:52:56.386] PrivBotPluginManager: INFO: Found Orion-compatible client jar in classpath: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:52:56.386] PrivBotPluginManager: INFO: Found injected-client.jar in common location: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:52:56.387] PrivBotPluginManager: INFO: Orion detected: Adding client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/repository2/client.jar
+[2026-08-14 01:52:56.387] PrivBotPluginManager: INFO: Orion detected: Adding injected-client.jar to ClassLoader URLs: file:/C:/Users/adrian/.orion/cache/injected-client.jar
+[2026-08-14 01:52:56.387] PrivBotPluginManager: INFO: ClassLoader created successfully with 3 URL(s)
+[2026-08-14 01:52:56.388] PrivBotPluginManager: INFO: Looking for META-INF/extensions.idx, found: null
+[2026-08-14 01:52:56.389] PrivBotPluginManager: INFO: Loading plugins from manifest: afk-trainer (found 1 plugin classes)
+[2026-08-14 01:52:56.389] PrivBotPluginManager: INFO: Calling pluginManager.loadPlugins() with 1 classes
+[2026-08-14 01:52:56.389] PrivBotPluginManager: INFO: Class details: aftra.aftra.AFKTrainerPlugin (ClassLoader: net.rl.ext.loader.plugin.PrivBotPluginClassLoader)
+[2026-08-14 01:52:56.447] PrivBotPluginManager: INFO: Orion: Using direct instantiation to bypass ALLOWED_PLUGINS filter
+[2026-08-14 01:52:56.447] PrivBotPluginManager: INFO: Orion: instantiatePluginsDirect(marker=v2) clazzes=1
+[2026-08-14 01:52:56.458] PrivBotPluginManager: INFO: Orion: Successfully instantiated: aftra.aftra.AFKTrainerPlugin
+[2026-08-14 01:52:56.458] PrivBotPluginManager: INFO: Orion: Direct instantiation returned: 1 plugins
+[2026-08-14 01:52:56.459] PrivBotPluginManager: INFO: Loaded 1 plugin(s) from afk-trainer
+[2026-08-14 01:52:56.459] PrivBotPluginManager: INFO:   - Plugin class: aftra.aftra.AFKTrainerPlugin
+[2026-08-14 01:52:56.460] PrivBotPluginManager: PrivBotPluginClassLoader: initializing Lookup for afk-trainer
+[2026-08-14 01:52:56.461] PrivBotPluginManager: PrivBotPluginClassLoader: lookup installed for afk-trainer lookupClass=net.runelite.client.util.ReflectUtil$PrivateLookupHelper modes=31 lookupClassLoader=net.rl.ext.loader.plugin.PrivBotPluginClassLoader@7c73b12d
+[2026-08-14 01:52:56.466] PrivBotPluginManager: INFO: Orion detected - using reflection start for hub plugins
+[2026-08-14 01:52:56.502] PrivBotPluginManager: INFO: Started plugin: AFKTrainerPlugin
+[2026-08-14 01:52:56.514] PrivBotPluginManager: INFO: OFF_BY_DEFAULT final pass: VetionKillerPlugin -> false
+[2026-08-14 01:52:56.514] PrivBotPluginManager: INFO: OFF_BY_DEFAULT final pass: GauntletPlugin -> false

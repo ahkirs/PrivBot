@@ -1,0 +1,14 @@
+<launch4jConfig>
+  <dontWrapJar>true</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>PrivBotLauncher.jar</jar>
+  <outfile>PrivBot.exe</outfile>
+  <errTitle>PrivBot</errTitle>
+  <chdir>.</chdir>
+  <icon>PrivBot.ico</icon>
+  <jre>
+    <path>runtime-11</path>
+    <bundledJre64Bit>true</bundledJre64Bit>
+    <minVersion>11</minVersion>
+  </jre>
+</launch4jConfig>

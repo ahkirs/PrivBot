@@ -1,0 +1,9 @@
+{
+  "serverName": "OSPS",
+  "displayName": "OldSchoolPS",
+  "clientType": "runelite",
+  "baseApiVersion": "1.10.9.4",
+  "codebaseUrl": "http://live.oldschoolps.com/",
+  "cacheDir": "oldschoolps",
+  "notes": "RuneLite-based RSPS. Uses standard RuneLite API — no custom obfuscation mappings required."
+}

@@ -1,0 +1,26 @@
+{
+  "server": "impact",
+  "green": 0,
+  "total": 1,
+  "capabilities": [
+    {
+      "id": "harness.liveness",
+      "label": "Game-thread dispatch",
+      "status": "BLOCKED",
+      "reason": "GameThread.ensure timed out — harness cannot read game state on this build",
+      "resolutionAttempted": false,
+      "unresolvedLogicals": [],
+      "committedMappings": [],
+      "revertedMappings": []
+    }
+  ],
+  "digestTotal": 193,
+  "digestUnresolved": ["Widget.children", "Widget.dynamicChildren", "Widget.staticChildren", "Widget.nestedChildren", "Widget.childIds", "Widget.childXOffsets", "Widget.childYOffsets", "Widget.scrollHeight", "Widget.scrollX", "Widget.scrollY", "Widget.width", "Widget.relativeX", "Widget.spriteId", "Widget.animationId", "Widget.opacity", "Client.widget", "Client.widgetRoots", "Client.openInterfaceId", "Client.walkableInterfaceId", "Client.inventoryOverlayInterfaceId", "Client.chatboxInterfaceId", "Client.tabRootWidgetIds", "Scene.tiles", "Tile.gameObjects", "Tile.wallObject", "Tile.decorativeObject", "Tile.groundObject", "Tile.groundItems", "Tile.worldLocation", "Tile.localLocation", "TileObject.id", "TileObject.worldLocation", "TileObject.localLocation", "GameObject.sceneMinLocation", "GameObject.sceneMaxLocation", "ObjectComposition.impostorIds", "ObjectComposition.varbitId", "ObjectComposition.varpId", "Client.scene", "Client.objectDefinition", "NPC.name", "NPC.worldLocation", "NPC.dead", "NPC.interacting", "NPC.composition", "NPC.transformedComposition", "NPCComposition.combatLevel", "NPCComposition.standAnimation", "NPCComposition.walkAnimation", "Client.cachedNPCs", "Client.npcIndices", "Player.worldLocation", "Player.poseAnimation", "Player.idlePoseAnimation", "Player.skullIcon", "Actor.interacting", "Client.localPlayerIndex", "Client.localPlayerId", "Client.itemContainer", "ItemContainer.items", "ItemContainer.stackSizes", "ItemContainer.count", "Item.id", "Item.quantity", "ItemComposition.note", "ItemComposition.noteTemplate", "Client.itemDefinition", "Client.itemContainer", "ItemContainer.items", "Item.id", "Item.quantity", "ItemComposition.equipmentSlot", "EquipmentInventorySlot.HEAD", "EquipmentInventorySlot.WEAPON", "EquipmentInventorySlot.SHIELD", "EquipmentInventorySlot.BODY", "EquipmentInventorySlot.LEGS", "Widget.children", "Client.itemContainer", "Client.widget", "Client.invokeMenuAction", "Client.menuEntries", "MenuEntry.option", "MenuEntry.target", "MenuEntry.identifier", "MenuEntry.type", "MenuEntry.param0", "MenuEntry.param1", "Client.varpValue", "Client.varbitValue", "Client.boostedSkillLevel", "Client.realSkillLevel", "Client.skillExperience", "Client.weight", "Client.gameCycle", "Client.baseY", "Client.graphicsObjects", "Client.projectiles", "GraphicsObject.location", "GraphicsObject.animationId", "GraphicsObject.z", "Widget.children", "Widget.dynamicChildren", "Client.widget", "Actor.interacting", "Client.varpValue", "Client.varbitValue", "Client.widget", "Client.boostedSkillLevel", "Client.realSkillLevel", "Widget.spriteId", "Tile.groundItems", "Tile.worldLocation", "Tile.localLocation", "TileItem.id", "TileItem.quantity", "Client.scene"],
+  "digestCandidatesOnly": ["Player.id", "Player.animation", "Projectile.x", "Projectile.y", "Projectile.z"],
+  "sweep": {
+    "ran": true,
+    "attempted": 0,
+    "timedOut": false,
+    "committed": []
+  }
+}

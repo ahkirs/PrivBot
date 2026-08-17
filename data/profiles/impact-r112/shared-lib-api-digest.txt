@@ -1,0 +1,384 @@
+SHARED-LIB PLUGIN API -- full digest (14 domains)
+Source of truth: plugins/shared-lib/src/main/java/privbot/{hooks,wrappers,query}/**
+
+SHARED-LIB PLUGIN API -- domain: widget [priority: CRITICAL]
+Classes (net.runelite.api.* + privbot.wrappers.Priv*):
+  Widget, Client
+Fields/methods the plugins read:
+  - Widget.id
+  - Widget.parentId
+  - Widget.type
+  - Widget.contentType
+  - Widget.text
+  - Widget.name
+  - Widget.actions
+  - Widget.itemId
+  - Widget.itemQuantity
+  - Widget.isHidden
+  - Widget.hidden
+  - Widget.children
+  - Widget.dynamicChildren
+  - Widget.staticChildren
+  - Widget.nestedChildren
+  - Widget.childIds
+  - Widget.childXOffsets
+  - Widget.childYOffsets
+  - Widget.scrollHeight
+  - Widget.scrollX
+  - Widget.scrollY
+  - Widget.width
+  - Widget.height
+  - Widget.relativeX
+  - Widget.relativeY
+  - Widget.spriteId
+  - Widget.modelId
+  - Widget.animationId
+  - Widget.opacity
+  - Client.getWidget(int)
+  - Client.getWidget(int,int)
+  - Client.getWidgetRoots()
+  - Client.openInterfaceId
+  - Client.walkableInterfaceId
+  - Client.inventoryOverlayInterfaceId
+  - Client.chatboxInterfaceId
+  - Client.tabRootWidgetIds
+Evidence (shared-lib source):
+  * Widgets.java:54-306 -- click/read widget by id, walk children
+  * Dialogue.java:71-808 -- 800-line dynamic widget tree walk
+  * Bank.java:37-410 -- hardcoded widget IDs 786433/786474/786476
+  * Trade.java:19-116 -- trade-window children
+  * WidgetQuery.java -- fluent widget lookup
+Notes: Widget tree is THE plugin UI primitive. Bank hardcoded IDs: 786433, 786474, 786476, 786434, 786573, 67960842, 9764864.
+
+SHARED-LIB PLUGIN API -- domain: scene_objects [priority: CRITICAL]
+Classes (net.runelite.api.* + privbot.wrappers.Priv*):
+  Scene, Tile, TileObject, GameObject, WallObject, DecorativeObject, GroundObject, ObjectComposition, Client, PrivObject
+Fields/methods the plugins read:
+  - Scene.getTiles()
+  - Tile.gameObjects
+  - Tile.wallObject
+  - Tile.decorativeObject
+  - Tile.groundObject
+  - Tile.groundItems
+  - Tile.worldLocation
+  - Tile.localLocation
+  - TileObject.id
+  - TileObject.worldLocation
+  - TileObject.localLocation
+  - GameObject.sceneMinLocation
+  - GameObject.sceneMaxLocation
+  - ObjectComposition.name
+  - ObjectComposition.actions
+  - ObjectComposition.impostorIds
+  - ObjectComposition.varbitId
+  - ObjectComposition.varpId
+  - Client.getScene()
+  - Client.getObjectDefinition(int)
+Evidence (shared-lib source):
+  * SceneTileObjects.java -- Scene.getTiles() three-plane walk
+  * GameObjects.java -- query/interact with world objects
+  * PrivObject.java:99-301 -- impostor resolution via varbit/varp
+  * ObjectQuery.java -- fluent object lookup
+Notes: Impostor resolution (varbitId/varpId -> impostorIds[]) is required for object name/action lookup when the base composition is a stub.
+
+SHARED-LIB PLUGIN API -- domain: npc [priority: CRITICAL]
+Classes (net.runelite.api.* + privbot.wrappers.Priv*):
+  NPC, NPCComposition, Actor, Client, PrivNPC
+Fields/methods the plugins read:
+  - NPC.name
+  - NPC.id
+  - NPC.index
+  - NPC.worldLocation
+  - NPC.isDead
+  - NPC.interacting
+  - NPC.composition
+  - NPC.transformedComposition
+  - NPCComposition.actions
+  - NPCComposition.name
+  - NPCComposition.combatLevel
+  - NPCComposition.standAnimation
+  - NPCComposition.walkAnimation
+  - Actor.animation
+  - Actor.poseAnimation
+  - Actor.interactingIndex
+  - Actor.healthRatio
+  - Actor.healthScale
+  - Actor.graphic
+  - Actor.overheadText
+  - Client.getNpcs()
+  - Client.getCachedNPCs()
+  - Client.getNpcIndices()
+Menu opcodes this domain dispatches or observes:
+  - NPC_FIRST_OPTION
+  - NPC_SECOND_OPTION
+  - NPC_THIRD_OPTION
+  - NPC_FOURTH_OPTION
+  - NPC_FIFTH_OPTION
+  - EXAMINE_NPC
+  - WIDGET_TARGET_ON_NPC
+Evidence (shared-lib source):
+  * NPCs.java -- NPC lookup, interaction, filtering
+  * NPCQuery.java -- fluent NPC lookup by name/id/region
+  * PrivNPC.java:16-235 -- wrappers for NPC + composition
+Notes: Transformed composition (varbit-dependent) is required whenever an NPC has -1 in its base composition but a real name per-varbit.
+
+SHARED-LIB PLUGIN API -- domain: player [priority: CRITICAL]
+Classes (net.runelite.api.* + privbot.wrappers.Priv*):
+  Player, Actor, Client, PrivPlayer
+Fields/methods the plugins read:
+  - Player.name
+  - Player.id
+  - Player.combatLevel
+  - Player.worldLocation
+  - Player.animation
+  - Player.poseAnimation
+  - Player.idlePoseAnimation
+  - Player.overheadIcon
+  - Player.skullIcon
+  - Actor.interacting
+  - Actor.healthRatio
+  - Actor.graphic
+  - Actor.overheadText
+  - Client.getPlayers()
+  - Client.getLocalPlayer()
+  - Client.getLocalPlayerIndex()
+  - Client.getLocalPlayerId()
+Menu opcodes this domain dispatches or observes:
+  - PLAYER_FIRST_OPTION
+  - WIDGET_TARGET_ON_PLAYER
+Evidence (shared-lib source):
+  * PlayersHook.java -- player lookup and filtering
+  * PrivPlayer.java -- player wrapper
+  * User.java -- local-player state queries
+Notes: Local player is a STATIC field on Client; remote players are an array.
+
+SHARED-LIB PLUGIN API -- domain: inventory [priority: CRITICAL]
+Classes (net.runelite.api.* + privbot.wrappers.Priv*):
+  Client, ItemContainer, Item, ItemComposition, InventoryID, PrivItem
+Fields/methods the plugins read:
+  - Client.getItemContainer(InventoryID)
+  - Client.getItemContainer(int)
+  - ItemContainer.items
+  - ItemContainer.stackSizes
+  - ItemContainer.getItems()
+  - ItemContainer.getCount(int)
+  - Item.id
+  - Item.quantity
+  - ItemComposition.name
+  - ItemComposition.inventoryActions
+  - ItemComposition.note
+  - ItemComposition.noteTemplate
+  - ItemComposition.isStackable
+  - Client.getItemDefinition(int)
+Menu opcodes this domain dispatches or observes:
+  - ITEM_FIRST_OPTION
+  - ITEM_SECOND_OPTION
+  - ITEM_THIRD_OPTION
+  - ITEM_FOURTH_OPTION
+  - ITEM_FIFTH_OPTION
+  - ITEM_USE
+  - EXAMINE_ITEM
+Evidence (shared-lib source):
+  * Inventory.java -- consume/click/drop inventory items
+  * InventoryFoodQueries.java -- food identification
+  * ItemQuery.java -- fluent item lookup
+  * PrivItem.java -- item wrapper
+Notes: InventoryID.INVENTORY = 93 is the key used by all plugins. Noted items use note/noteTemplate -- name lookup follows template.
+
+SHARED-LIB PLUGIN API -- domain: equipment [priority: CRITICAL]
+Classes (net.runelite.api.* + privbot.wrappers.Priv*):
+  Client, ItemContainer, Item, ItemComposition, InventoryID, EquipmentInventorySlot
+Fields/methods the plugins read:
+  - Client.getItemContainer(InventoryID.EQUIPMENT)
+  - ItemContainer.items
+  - Item.id
+  - Item.quantity
+  - ItemComposition.name
+  - ItemComposition.equipmentSlot
+  - EquipmentInventorySlot.HEAD
+  - EquipmentInventorySlot.WEAPON
+  - EquipmentInventorySlot.SHIELD
+  - EquipmentInventorySlot.BODY
+  - EquipmentInventorySlot.LEGS
+Evidence (shared-lib source):
+  * Equipment.java -- equipped-item queries and swap
+  * PrivItem.java -- shared item wrapper
+Notes: InventoryID.EQUIPMENT = 94. Same ItemContainer class as inventory.
+
+SHARED-LIB PLUGIN API -- domain: bank [priority: HIGH]
+Classes (net.runelite.api.* + privbot.wrappers.Priv*):
+  Widget, Client, ItemContainer, InventoryID
+Fields/methods the plugins read:
+  - Widget.id
+  - Widget.actions
+  - Widget.children
+  - Widget.itemId
+  - Widget.itemQuantity
+  - Client.getItemContainer(InventoryID.BANK)
+  - Client.getWidget(int)
+Menu opcodes this domain dispatches or observes:
+  - CC_OP
+  - CC_OP_LOW_PRIORITY
+  - WIDGET_CONTINUE
+  - WIDGET_TARGET_ON_WIDGET
+Evidence (shared-lib source):
+  * Bank.java:37-410 -- hardcoded widgets 786433/786474/786476
+Notes: Bank uses both widget-click opcodes (CC_OP) and ItemContainer (InventoryID.BANK = 95). Both paths are load-bearing.
+
+SHARED-LIB PLUGIN API -- domain: menu_action [priority: CRITICAL]
+Classes (net.runelite.api.* + privbot.wrappers.Priv*):
+  Client, MenuAction, MenuEntry
+Fields/methods the plugins read:
+  - Client.invokeMenuAction(...)
+  - Client.setMenuEntries(MenuEntry[])
+  - Client.getMenuEntries()
+  - MenuEntry.option
+  - MenuEntry.target
+  - MenuEntry.identifier
+  - MenuEntry.type
+  - MenuEntry.param0
+  - MenuEntry.param1
+Menu opcodes this domain dispatches or observes:
+  - CC_OP
+  - CC_OP_LOW_PRIORITY
+  - WIDGET_CONTINUE
+  - WIDGET_TARGET
+  - WIDGET_TARGET_ON_NPC
+  - WIDGET_TARGET_ON_PLAYER
+  - WIDGET_TARGET_ON_GAME_OBJECT
+  - WIDGET_TARGET_ON_WIDGET
+  - NPC_SECOND_OPTION
+  - NPC_FIRST_OPTION
+Evidence (shared-lib source):
+  * Widgets.java:191-306 -- CC_OP dispatch
+  * Dialogue.java:269-365 -- WIDGET_CONTINUE
+  * Magic.java:50-127 -- WIDGET_TARGET_ON_* spell casts
+  * Bank.java:177-257 -- bank interactions
+Notes: Only these opcodes are dispatched by shared-lib. Others (GROUND_ITEM_*, ITEM_USE_ITEM, etc.) come from plugin-local MenuAction.getId() reads, not writes.
+
+SHARED-LIB PLUGIN API -- domain: vars_skills [priority: CRITICAL]
+Classes (net.runelite.api.* + privbot.wrappers.Priv*):
+  Client, Skill, VarPlayer, Varbits
+Fields/methods the plugins read:
+  - Client.getVarpValue(int)
+  - Client.getVarbitValue(int)
+  - Client.getVarps()
+  - Client.getBoostedSkillLevel(Skill)
+  - Client.getRealSkillLevel(Skill)
+  - Client.getSkillExperience(Skill)
+  - Client.getEnergy()
+  - Client.getWeight()
+  - Client.getTickCount()
+  - Client.getGameCycle()
+  - Client.getGameState()
+  - Client.getBaseX()
+  - Client.getBaseY()
+  - Client.getPlane()
+Evidence (shared-lib source):
+  * Vars.java -- varp/varbit read API
+  * User.java:72-127 -- skill + energy queries
+  * Game.java -- tick/game-state queries
+Notes: getVarbitValue resolves varbit-offset+mask against varps internally. The SkillDataStore class name maps to three parallel int[] arrays.
+
+SHARED-LIB PLUGIN API -- domain: graphics_projectile [priority: HIGH]
+Classes (net.runelite.api.* + privbot.wrappers.Priv*):
+  Client, GraphicsObject, Projectile
+Fields/methods the plugins read:
+  - Client.getGraphicsObjects()
+  - Client.getProjectiles()
+  - GraphicsObject.id
+  - GraphicsObject.location
+  - GraphicsObject.startCycle
+  - GraphicsObject.animationId
+  - GraphicsObject.z
+  - Projectile.id
+  - Projectile.targetIndex
+  - Projectile.startCycle
+  - Projectile.endCycle
+  - Projectile.x
+  - Projectile.y
+  - Projectile.z
+  - Projectile.animationId
+Evidence (shared-lib source):
+  * GraphicsObjects.java -- spotanim/gfx tracking
+  * GraphicsObjectQuery.java -- fluent gfx lookup
+Notes: GraphicsObject is the 'spotanim' list -- used for AoE detection (e.g. Vorkath zombified spawns, Jad prayer flicks).
+
+SHARED-LIB PLUGIN API -- domain: dialogue [priority: HIGH]
+Classes (net.runelite.api.* + privbot.wrappers.Priv*):
+  Widget, Client
+Fields/methods the plugins read:
+  - Widget.id
+  - Widget.text
+  - Widget.actions
+  - Widget.children
+  - Widget.dynamicChildren
+  - Widget.isHidden
+  - Client.getWidget(int)
+Menu opcodes this domain dispatches or observes:
+  - WIDGET_CONTINUE
+Evidence (shared-lib source):
+  * Dialogue.java:567-808 -- dialog-tree walker
+  * Dialogue.java:71-800 -- known dialogue widget groups {219, 231, 217, 11, 548, 820}
+Notes: Dialogue detection relies on walking widget groups and matching text/actions. WIDGET_CONTINUE is the only opcode it dispatches.
+
+SHARED-LIB PLUGIN API -- domain: combat [priority: HIGH]
+Classes (net.runelite.api.* + privbot.wrappers.Priv*):
+  Actor, NPC, Player, Client
+Fields/methods the plugins read:
+  - Actor.healthRatio
+  - Actor.healthScale
+  - Actor.interacting
+  - Actor.interactingIndex
+  - Actor.animation
+  - Actor.graphic
+  - Client.getLocalPlayer()
+  - Client.getVarpValue(300)  // special-attack energy
+Evidence (shared-lib source):
+  * Combat.java:14-36 -- isInCombat / opponent HP / special-attack%
+  * PrivPlayer.java / PrivNPC.java -- target resolution
+Notes: Combat state is derived from Actor.interacting + healthRatio; special attack percent is varp 300 / 10.
+
+SHARED-LIB PLUGIN API -- domain: prayer [priority: HIGH]
+Classes (net.runelite.api.* + privbot.wrappers.Priv*):
+  Widget, Client, Varbits
+Fields/methods the plugins read:
+  - Client.getVarbitValue(int)  // per-prayer varbit
+  - Client.getWidget(int)
+  - Client.getBoostedSkillLevel(Skill.PRAYER)
+  - Client.getRealSkillLevel(Skill.PRAYER)
+  - Widget.id
+  - Widget.spriteId
+  - Widget.actions
+  - Widget.isHidden
+Menu opcodes this domain dispatches or observes:
+  - CC_OP
+Evidence (shared-lib source):
+  * Prayer.java:17-108 -- isPrayerActive / getPrayerWidgetId
+Notes: Each prayer is backed by a varbit; widget id is the click target.
+
+SHARED-LIB PLUGIN API -- domain: ground_item [priority: HIGH]
+Classes (net.runelite.api.* + privbot.wrappers.Priv*):
+  Tile, TileItem, Client, ItemComposition, PrivGroundItem
+Fields/methods the plugins read:
+  - Tile.groundItems
+  - Tile.worldLocation
+  - Tile.localLocation
+  - TileItem.id
+  - TileItem.quantity
+  - ItemComposition.name
+  - ItemComposition.groundActions
+  - Client.getScene()
+Menu opcodes this domain dispatches or observes:
+  - GROUND_ITEM_FIRST_OPTION
+  - GROUND_ITEM_SECOND_OPTION
+  - GROUND_ITEM_THIRD_OPTION
+  - GROUND_ITEM_FOURTH_OPTION
+  - GROUND_ITEM_FIFTH_OPTION
+  - EXAMINE_ITEM_GROUND
+Evidence (shared-lib source):
+  * GroundItems.java -- ground-item walk via Scene.getTiles()
+  * GroundItemQuery.java -- fluent lookup by id/name
+  * PrivGroundItem.java -- ground-item wrapper
+Notes: Ground items hang off Tile.groundItems. Walked via Scene.getTiles() with a three-plane loop.
+

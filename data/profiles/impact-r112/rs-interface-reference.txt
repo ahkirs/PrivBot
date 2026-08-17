@@ -1,0 +1,190 @@
+RSClient (extends RSGameApplet):
+  getGameCycle()?int, getEmail()?String, getPassword()?String, getGameState()?RSGameState, 
+  getDaysSinceLogin()?int, getLocalPlayer()?RSPlayer, getPlayers()?RSPlayer[], getNpcs()?RSNPC[], 
+  getAppearance()?int[], getBaseX()?int, getBaseY()?int, getPlane()?int, getRegionX()?int, 
+  getRegionY()?int, getPlayerEnergy()?int, getPlayerWeight()?int, getPacketOpcode()?int, getPacketSize()?int, 
+  getLocalPlayerId()?int, getLocalPlayerIndex()?int, getOpenInterfaceId()?int, getCameraPositionX()?int, 
+  getCameraPositionY()?int, getCameraPositionZ()?int, getCameraOffsetX()?int, getCameraOffsetY()?int, 
+  getCameraScale()?int, getCameraVerticalRotation()?int, getCameraHorizontalRotation()?int, 
+  getInventoryOverlayInterfaceID()?int, getCurrentTabId()?int, getInputDialogState()?int, getDestinationX()?int, 
+  getDestinationY()?int, getChatboxInterfaceId()?int, getWalkableInterfaceId()?int, getTileHeights()?int[][][], 
+  getTileSettings()?byte[][][], getExperiences()?int[], getLevels()?int[], getMaxLevels()?int[], 
+  getNPCIndices()?int[], getPlayerIndices()?int[], getNpcCount()?int, getPlayerCount()?int, 
+  getWidgets()?RSWidget[], getViewportCenterX()?int, getViewportCenterY()?int, getViewportWidth()?int, 
+  getViewportHeight()?int, getScene()?RSScene, getCanvasWidth()?int, getCanvasHeight()?int, 
+  isFixedViewportActive()?boolean, getCurrentViewportMode()?RSViewportMode, getEffectiveViewportWidth()?int, 
+  getEffectiveViewportHeight()?int, getCurrentLayoutKind()?int, getOriginOffsetX()?int, getOriginOffsetY()?int, 
+  getFixedOffsetViewportMode()?RSViewportMode, getFixedViewportMode()?RSViewportMode, getResizableViewportMode()?RSViewportMode, 
+  getGroundItemGrid()?RSGroundItemGrid, getProjectiles()?RSNodeDeque, getGraphicsObjects()?RSNodeDeque, 
+  getInterfaceSettings()?int[], getCurrentCollisionMap()?RSCollisionMap[], getSpecWidgetGroups()?int[][], 
+  getBaseSpecCostPercent()?int, getSpecCostMultiplier()?double, getSpecEnergyFraction()?double, 
+  getSpecEnergyPercentInt()?int, isSpecToggleEnabled()?boolean, getActiveSpecWidgetIds()?int[], 
+  getSpecToggleButtonWidgetId()?int, getActiveSpecToggleButtonWidgetId()?int, isLegacySpecMode()?boolean, 
+  isLoggedIn()?boolean, getOutBuffer()?RSBuffer, getSecondaries()?int[], getTertiaries()?int[], 
+  getOpcodes()?int[], getPrimaries()?int[], getExtraMenus()?long[], getLOGIN_LOAD()?RSGameState, 
+  getMAP_LOAD()?RSGameState, getNORMAL()?RSGameState
+
+RSActor (extends RSAnimable):
+  getWaypointX()?int[], getWaypointY()?int[], getInteractingEntity()?int, getStepsDelayed()?int, 
+  getDegreesToTurn()?int, getWalkAnimationId()?int, getRunAnimationId()?int, getOverheadTextMessage()?String, 
+  getHeight()?int, getTurnDirection()?int, getHitArray()?int[], getHitMarkTypes()?int[], getHitsLoopCycle()?int[], 
+  getCurrentAnimationId()?int, getWaypointCount()?int, getAnimation()?int, getTargetAngle()?int, 
+  getGraphicEndCycle()?int, getGraphicHeight()?int, getCurrentAnimationFrame()?int, getLoopCycleStatus()?int, 
+  getLastUpdateTick()?int, getStandAnimationId()?int, getX()?int, getY()?int, getDirection()?int, 
+  getTickStart()?int, getTickEnd()?int, getCurrentRotation()?int, getHealth()?int, getMaxHealth()?int, 
+  getPlayerEffectsManager()?RSPlayerEffectsManager
+
+RSAnimable (extends RSCacheable):
+  getHeight()?int
+
+RSBoundaryObject:
+  getX()?int, getY()?int, getZ()?int, getOrientationA()?int, getOrientationB()?int, getRenderable1()?RSAnimable, 
+  getRenderable2()?RSAnimable, getTag()?long
+
+RSBuffer:
+  getOffset()?int
+
+RSCacheable (extends RSLinkable):
+  getNext()?RSCacheable, getPrevious()?RSCacheable, getPrevious()?RSLinkable, getNext()?RSLinkable
+
+RSCollisionMap:
+  getClippingData()?int[][]
+
+RSDynamicObject (extends RSAnimable):
+  getObjectId()?int, getObjectType()?int, getOrientation()?int, getTileX()?int, getTileY()?int, 
+  getPlane()?int, getImpostorIds()?int[], getTransformVarId()?int, getSequence()?Object, getSequenceFrame()?int, 
+  getLastCycle()?int
+
+RSEntityDefinition:
+  getStandingAnimation()?int, getWalkingAnimation()?int, getTurn180Animation()?int, getTurn90CWAnimation()?int, 
+  getName()?String, getTurn90CCWAnimation()?int, getCombatLevel()?byte, getHeadIconPK()?byte[], 
+  getDegreesToTurn()?int, getTileSpacesOccupied()?int, getRunAnimation()?int, isInteractable()?boolean, 
+  getBrightness()?int, getHeightScale()?int, isMinimapVisible()?boolean, getWidthScale()?int, 
+  getContrast()?int, isClickable()?boolean, isPet()?boolean, getActions()?String[], getOriginalModelColors()?int[], 
+  getOriginalTextureColors()?short[], getModels()?int[], getReplacementColors()?short[], getChatHeadModels()?int[], 
+  getVarbitId()?int, getParams()?Object, getRespawnDirection()?byte, getHeadIconPrayer()?int, 
+  getCategory()?Object, getSize()?Object, getCursor()?Object
+
+RSFloorDecoration:
+  getX()?int, getY()?int, getZ()?int, getRenderable()?RSAnimable, getTag()?long
+
+RSGameApplet:
+  getMouseX()?int, getMouseY()?int, getHoldTime()?int, getMoves()?int
+
+RSGameCanvasRenderer:
+  getCanvas()?Canvas, getFrame()?Frame, getDpiInterpolationMode()?int
+
+RSGameObject:
+  getPlane()?int, getX()?int, getY()?int, getZ()?int, getRenderable()?RSAnimable, getOrientation()?int, 
+  getStartTileX()?int, getEndTileX()?int, getStartTileY()?int, getEndTileY()?int, getDrawPriority()?int, 
+  getDrawCycle()?int, getTag()?long
+
+RSGraphicsObject (extends RSGraphicsObjectBase):
+  getGraphicsId()?int, getStartCycle()?int, getEndCycle()?int, getSpotAnimDef()?Object, getAnimationId()?int, 
+  getFrame()?int, getFrameCycle()?int
+
+RSGraphicsObjectBase (extends RSAnimable):
+  getXFine()?int, getYFine()?int, getPlane()?int, isFinished()?boolean
+
+RSGroundItemGraphics (extends RSGraphicsObjectBase):
+  getTileItem()?Object, isActive()?boolean, getFrame()?int, getFrameCycle()?int, getResolvedId()?int
+
+RSGroundItemGrid:
+  getPlanes()?int, getSizeX()?int, getSizeY()?int, getGrid()?RSNodeDeque[][][]
+
+RSInventory:
+  getStackSizes()?int[], getItemIds()?int[]
+
+RSItem (extends RSItemDefinition):
+  getPrice()?long, getItems()?RSItem[], isInitialized()?boolean
+
+RSItemDefinition:
+  getId()?int, getInventoryModelId()?int, getName()?String, isStackable()?boolean, getBankNoteDescription()?String, 
+  getNoteId()?int, getNoteTemplateId()?int, getZoom2D()?short, getRotationX()?short, getRotationY()?short, 
+  getRotationZ()?short, getScaleX()?short, getScaleY()?short, getScaleZ()?short, getGroundActions()?String[], 
+  getInventoryActions()?String[], getColorReplacements()?short[][], getStackVariants()?short[][], 
+  getLightIntensity()?short, getAmbient()?short, getTeamId()?byte, getEquipmentSlot()?byte, 
+  getShadowDecay()?byte
+
+RSLinkable (extends RSProvider):
+  getId()?long, getNext()?RSLinkable, getPrevious()?RSLinkable
+
+RSModel (extends RSAnimable):
+  getVerticesCount()?int, getVerticesX()?int[], getVerticesY()?int[], getVerticesZ()?int[], 
+  getFacesCount()?int, getFaceIndices1()?int[], getFaceIndices2()?int[], getFaceIndices3()?int[], 
+  getFaceColorA()?int[], getFaceColorB()?int[], getFaceColorC()?int[], getFacePriorities()?byte[], 
+  getFaceAlphas()?byte[], getFaceTextures()?short[], getDefaultPriority()?byte, getTexTriangleCount()?int, 
+  getTexTriangleX()?int[], getTexTriangleY()?int[], getTexTriangleZ()?int[]
+
+RSNPC (extends RSActor):
+  getNPCDefinition()?RSNPCDefinition, getPrayerIcon()?int, getCombatLevel()?int, getBaseHeight()?int, 
+  getNpcId()?int, isVisible()?boolean, getHealth()?int, getMaxHealth()?int, getBaseHealth()?int, 
+  getBaseMaxHealth()?int
+
+RSNodeDeque:
+  getSentinel()?RSLinkable, getIter()?RSLinkable
+
+RSObjectDefinition:
+  getObjectId()?int, isMembers()?boolean, getAmbientSoundId()?byte, getOffsetX()?int, getName()?String, 
+  getScaleZ()?int, getLightness()?int, getMapSceneId()?int, getOffsetZ()?int, getMapIconId()?int, 
+  getRetextureToReplace()?short[], getScaleX()?int, getAnimationId()?int, isFlipHorizontal()?boolean, 
+  isBlocksProjectile()?boolean, getAmbientSoundRadius()?int, getAmbientSoundIds()?int[], getSizeX()?int, 
+  getSizeY()?int, getClipType()?int, isRotated()?boolean, isPriorityObject()?boolean, getWallOrDoor()?byte, 
+  getDecorDisplacement()?int, isAdjustToTerrain()?boolean, getScaleY()?int, getModelIds()?int[], 
+  getBrightness()?int, getObjectTypes()?int[], getAccessBlock()?byte, isSupportsItems()?boolean, 
+  getVarbitId()?int, getOffsetY()?int, getRetextureToFind()?short[], getActions()?String[]
+
+RSPlayer (extends RSActor):
+  getTeam()?int, getGender()?int, getName()?String, getCombatLevel()?int, getSkill()?int, getHeadIcon()?int, 
+  getPrayerIcon()?int, getLocalX()?int, getLocalY()?int, getHeight()?int
+
+RSPlayerEffect:
+  getEffectId()?int, getEffectFlags()?int, getExpirationTick()?int
+
+RSPlayerEffectsManager:
+  getActiveEffects()?RSPlayerEffect[]
+
+RSProjectile (extends RSAnimable):
+  getDelay()?int, getEndCycle()?int, getTargetId()?int, getPlane()?int, isMoving()?boolean, 
+  getCurrentX()?double, getCurrentY()?double, getCurrentZ()?double, getStartX()?int, getStartY()?int, 
+  getAnimationId()?int
+
+RSScene:
+  getSceneTiles()?RSTile[][][], getTempGameObjects()?RSGameObject[]
+
+RSTile:
+  getX()?int, getY()?int, getPlane()?int, getGameObjectsCount()?int, getBoundaryObject()?RSBoundaryObject, 
+  getWallDecoration()?RSWallDecoration, getFloorDecoration()?RSFloorDecoration, getGameObjets()?RSGameObject[]
+
+RSTileItem (extends RSAnimable):
+  getItemId()?int, getQuantity()?int, getMeta()?int, getTotalPrice()?long
+
+RSViewportMode:
+  getBaseOffsetX()?int, getBaseOffsetY()?int, getReferenceWidth()?int, getReferenceHeight()?int, 
+  getScalingStrategy()?int
+
+RSViewportProfile:
+  getOriginOffsetX()?int, getOriginOffsetY()?int, getCurrentLayoutKind()?int, getCurrentViewportMode()?RSViewportMode
+
+RSWallDecoration:
+  getX()?int, getY()?int, getZ()?int, getOrientation()?int, getFlags()?int, getRenderable()?RSAnimable, 
+  getTag()?long
+
+RSWidget:
+  getInventory()?RSInventory, getId()?int, isHidden()?boolean, isVisible()?boolean, getDragThreshold()?int, 
+  isClickThrough()?boolean, isTextured()?boolean, isDraggable()?boolean, getDragParentId()?int, 
+  getDragChildId()?int, getSpriteId()?int, getSpritePaddingX()?int, getOutlineColor()?int, 
+  getContentType()?short, getTextColor()?int, getWidth()?int, getActionText()?String, isCentered()?boolean, 
+  isShadowed()?boolean, isFilled()?boolean, getButtonType()?int, getInventoryActions()?String[], 
+  getScripts()?int[][], isSpriteTiled()?boolean, getSecondaryText()?String, getModelId()?int, 
+  getX()?int, getShadowColor()?int, getModelType()?int, getModelZoom()?int, getParentId()?int, 
+  getHoverColor()?int, getChildIds()?int[], getChildXOffsets()?int[], getY()?int, getActions()?int[], 
+  getItemDragDelay()?int, getText()?String, getOpacity()?short, getModelRotationX()?int, getModelRotationY()?int, 
+  getModelRotationZ()?int, getAnimationId()?int, getButtonWidth()?int, getType()?short, isFlipped()?boolean, 
+  getHeight()?int, isButton()?boolean, getButtonHeight()?int, getSpritePaddingY()?int, getButtonCenterX()?int, 
+  getChildYOffsets()?int[], isButtonActive()?boolean, isItemDrag()?boolean, getButtonOpacity()?int, 
+  getButtonTextColor()?int, getButtonCenterY()?int, getButtonParams()?int[]
+
+RSWorldPosition:
+  getX()?int, getY()?int, isValid()?boolean
+

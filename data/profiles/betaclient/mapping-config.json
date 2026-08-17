@@ -1,0 +1,6 @@
+{
+  "structuralGuesses": {
+    "clientClass": "net/runelite/client/plugins/toa/features/het/solver/HetSolution",
+    "mainLoopClass": "rs117/hd/data/materials/Material"
+  }
+}
